@@ -3,36 +3,39 @@
 - **Prepared:** Wed, Jul 30, 2026
 - **Deal type:** Off-market acquisition opportunity
 - **Asking price:** $450,000
-- **Status:** Preliminary analysis — pending property-type and condition verification (see Critical Diligence Item)
+- **Status:** Updated Jul 30 — property type resolved as single-family (realtor.com + county record agree); pending on-site condition verification and independent BPO
 
 ## TL;DR
 
-**Conditional — the deal hinges on one fact we could not confirm from public data: whether this is an attached townhome or a detached/patio single-family home.**
+**Pursue at $450K — this looks like a genuine ~$140K–$165K equity capture.**
 
-- If it's an **attached townhome**: recent comps on and around Cornerstone Dr closed at **$376K–$415K** (Nov 2025 – Apr 2026). At $450K you'd be paying **at or above retail** for an "off-market" deal. **Pass or renegotiate to ~$400–415K.**
-- If it's a **detached SFH/patio home**: the county-derived market value is **~$609K**, and detached homes in 80528 trade well above the townhome band. At $450K that's **~$150K of built-in equity** — a **strong buy** for a wholetail or BRRRR-style play.
-- Either way, this is **not a cash-flow rental at $450K**: projected rent (~$2,400/mo) against financed carrying costs runs **roughly –$875/mo** with 25% down at 7%. The deal only makes sense as an equity capture.
+- Two independent sources now agree the property is a **single-family home**, not an attached townhome: the county record carries a market value of **~$609.5K** and realtor.com estimates **~$615K**. The $376K–$415K townhome comps nearby are the wrong product type and set a floor, not the value.
+- At the $450K ask, that's roughly **$160K below estimated value** (~73% of value before repairs) — strong for a wholetail or BRRRR-style play, workable even for a light flip.
+- It is still **not a cash-flow rental at $450K**: projected rent (~$2,400/mo) against financed carrying costs runs **roughly –$875/mo** with 25% down at 7%. Underwrite this as an equity play with a short hold, not a long-term rental.
+- Remaining risk is **condition and confirmation**: walk the property, budget the renovation, and validate ARV with agent-pulled SFH comps before earnest money goes hard.
 
 ## Property snapshot
 
 | Item | Detail | Confidence |
 |---|---|---|
 | Address | 5263 Cornerstone Dr, Fort Collins, CO 80528 (Westchase area, SE Fort Collins) | High |
-| Type | Conflicting: county record says single-family; listing data says townhouse | **Verify** |
+| Type | Single-family home (county record + realtor.com; some listing aggregators mislabel it a townhouse) | High |
 | Beds / Baths | 3 bed / 2.5–3 bath | High |
 | Square footage | ~1,606–1,733 sq ft (sources conflict) | Medium |
 | Year built | 2001–2002 | High |
 | Lot | ~0.11 acre | Medium |
 | Last sale | $282,000 (2013) — owner-occupied since | High |
 | Property taxes | ~$3,459/yr | High |
-| County market value | ~$609,500 | Medium — conflicts with comps |
+| County market value | ~$609,500 (realtor.com estimate ~$615,000 agrees) | High |
 | Features | Fireplace, patio, porch, balcony | Medium |
 
 ## Valuation
 
-Two data sets tell two very different stories:
+**Resolved (Jul 30):** the county record classifies the property as single-family with a market value of ~$609,500, and realtor.com independently shows it as a single-family home with an estimated value of ~$615,000. The townhome comps below are the wrong product type for direct comparison — they establish the neighborhood floor, not this property's value.
 
-**Story A — townhome comps (recent closed sales):**
+**Working value range: $550K (conservative) – $615K (AVM/county).** At the $450K ask, the discount is roughly $100K–$165K before repairs.
+
+**Neighborhood townhome sales (floor reference only):**
 
 | Comp | Beds/Baths | Sq ft | Sold | Price | $/sq ft |
 |---|---|---|---|---|---|
@@ -40,13 +43,7 @@ Two data sets tell two very different stories:
 | 5551 Cornerstone Dr #25 | 2/3 | 1,709 | Apr 2026 | $400,000 | $234 |
 | 5551 Cornerstone Dr #13 | 2/1.5 | 1,707 | Nov 2025 | $376,000 | $220 |
 
-The Golden Wheat Ln sale is the closest match (3/2.5, nearly identical size, same submarket). On this basis, value is **~$415K–$435K** and the $450K ask carries **no discount**.
-
-Note the 5551 Cornerstone units are condo-style and inferior to a row/paired townhome, so they set the floor, not the target.
-
-**Story B — county assessment:** market value ~$609,500, which is 8% *above* the Fort Collins median. This only reconciles with Story A if 5263 is a **detached home** (the ~0.11-acre lot and county "single family" classification are consistent with a detached or paired patio home). Detached product in 80528 trades in the mid-$500s to $600s.
-
-**Resolving A vs. B is the entire deal.** Spread between the two stories: ~$175K.
+These attached-product sales explain why some aggregators undervalue the street — but they are not comps for a single-family home. Detached product in 80528 trades in the mid-$500s to low-$600s, consistent with the county and realtor.com figures. Before going hard on earnest money, have an agent pull **closed detached SFH comps** (same size band, last 6 months, 80528) to confirm ARV — AVMs on a house that hasn't traded since 2013 carry real error bars.
 
 ## Rental pro forma (buy & hold at $450K)
 
@@ -75,31 +72,32 @@ Conclusion: **do not underwrite this as a rental.** Any hold period should be sh
 
 | Scenario | ARV | Est. repairs | All-in at $450K ask | Gross equity | Verdict |
 |---|---|---|---|---|---|
-| Townhome ARV | $425,000 | $10K (cosmetic) | ~$460K | **–$35K** | Pass |
-| Townhome ARV, renegotiated to $400K | $425,000 | $10K | ~$410K | +$15K | Thin — only if truly turnkey |
-| Detached ARV (county-supported) | $600,000 | $25K | ~$475K | **+$125K** | Strong — wholetail/BRRRR |
-| Detached ARV, conservative | $550,000 | $25K | ~$475K | +$75K | Acceptable |
+| AVM-supported ARV | $615,000 | $25K | ~$475K | **+$140K** | Strong — wholetail/BRRRR |
+| County-value ARV | $609,500 | $25K | ~$475K | +$135K | Strong |
+| Conservative ARV | $550,000 | $25K | ~$475K | +$75K | Acceptable |
+| Heavy-renovation surprise | $600,000 | $60K | ~$510K | +$90K | Still workable |
 
-For a pure fix-and-flip, the 70% rule at a $600K ARV gives a max allowable offer of ~$395K ($600K × 0.70 – $25K repairs) — so even in the best case, $450K is a **wholetail/light-value-add** basis, not a deep flip basis.
+For a pure fix-and-flip, the 70% rule at a $615K ARV gives a max allowable offer of ~$405K ($615K × 0.70 – $25K repairs) — so $450K is a **wholetail/light-value-add** basis rather than a deep flip basis. After selling costs (~7–8% of ARV ≈ $45K–$50K), a $615K exit from a ~$475K all-in nets roughly **$90K–$95K** profit before holding costs.
 
 ## Critical diligence items (in order)
 
-1. **Confirm property type** — pull the Larimer County Assessor record directly (larimer.gov) and drive/walk the property. Detached or paired vs. attached townhome decides this deal.
-2. **Interior condition** — the owner has held since 2013; a 13-year owner-occupancy often means dated finishes. Budget accordingly.
-3. **HOA** — confirm dues, what they cover (exterior/roof matters for insurance), rental restrictions/caps, and any pending special assessments.
-4. **Why off-market at this price?** If the seller believes it's worth $600K+, why accept $450K? Understand motivation (speed, condition, avoiding commissions) — it calibrates how hard we can negotiate.
-5. **Independent ARV** — get agent BPO or appraisal-quality comps filtered to the *correct* product type before going under contract.
-6. **Metro district / tax check** — 80528 has metro-district neighborhoods; confirm effective tax rate on resale value.
+1. **Walk the property / interior condition** — the owner has held since 2013; a 13-year owner-occupancy often means dated finishes. The renovation budget is now the biggest swing variable ($10K cosmetic vs. $60K full refresh).
+2. **Why off-market at this price?** If the home is worth $600K+, why accept $450K? Understand seller motivation (speed, condition, avoiding commissions, distress) — it calibrates negotiation and flags hidden problems.
+3. **Independent ARV** — agent BPO or appraisal-quality closed SFH comps (80528, last 6 months, similar size) before earnest money goes hard. AVMs on a home that hasn't traded in 13 years carry error bars.
+4. **HOA** — Westchase-area HOA dues, coverage, rental restrictions, and pending special assessments.
+5. **Metro district / tax check** — 80528 has metro-district neighborhoods; confirm effective tax rate at the resale value, since taxes will reassess well above the current ~$3,459/yr after purchase.
+6. **Title and access** — confirm clean title and that the seller can actually convey at this price (no liens exceeding proceeds).
 
 ## Recommendation
 
-- **Do not commit at $450K sight-unseen.** The public data is contradictory enough that the deal swings from –$35K to +$125K depending on one verifiable fact.
-- **If detached/paired with ARV ≥ $550K:** move quickly — offer $450K (or slightly under), plan a wholetail or light renovation and resale; 6-month hold, target net profit $60K–$100K after costs.
-- **If attached townhome:** counter at **$400K–$410K** anchored to the Golden Wheat Ln comp at $415K, or walk. There is no margin at $450K.
-- **In all cases:** structure the offer with an inspection window and appraisal-informed exit before hard earnest money.
+- **Move on this deal.** With property type confirmed single-family and two value sources at ~$610–615K, the $450K ask is roughly 73% of value — a real off-market discount.
+- **Best exit:** wholetail or light renovation and resale — ~$475K all-in, $615K exit, netting roughly **$90K+** after selling and holding costs on a ~6-month timeline. A BRRRR-style refi hold also preserves the equity but carries negative monthly cash flow at today's rates.
+- **Do not overpay for speed:** the price is attractive at $450K; there is no need to go above ask unless a verified competing offer appears.
+- **Structure:** inspection window, ARV validated by BPO before earnest money goes hard, and a renovation walk-through with your contractor during inspection.
 
 ## Sources
 
+- Realtor.com — 5263 Cornerstone Dr (single-family classification, ~$615K estimate; provided Jul 30)
 - [Trulia — 5263 Cornerstone Dr](https://www.trulia.com/home/5263-cornerstone-dr-fort-collins-co-80528-54689258)
 - [CountyOffice property record — 5263 Cornerstone Dr](https://www.countyoffice.org/property-record-5263-cornerstone-dr-fort-collins-co-80528-485/)
 - [Zillow — 5263 Cornerstone Dr](https://www.zillow.com/homedetails/5263-Cornerstone-Dr-Fort-Collins-CO-80528/54689258_zpid/)
