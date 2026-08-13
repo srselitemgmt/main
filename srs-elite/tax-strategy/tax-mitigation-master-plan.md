@@ -117,9 +117,9 @@ Backdoor Roth contributions are only clean if there is **no pre-tax balance in a
 
 → **Roll any existing traditional/SEP IRA balances into the current 401(k)** before doing backdoor contributions. Do this first, in that order. It is a one-time cleanup that unlocks $17,200/yr of Roth space for the rest of the working years.
 
-### 1d. Start the five-year Roth clock — this week
+### 1d. The five-year Roth clock — Ryan's is running; confirm Stacy's
 
-If either spouse lacks a Roth IRA opened 5+ tax years ago, open and fund one now. Cost: essentially nothing. Value: removes a five-year constraint from every future decision. See [[retirement-tax-rules-primer#2. Roth withdrawals are tax-free if requirements are met|the two five-year clocks]].
+**Ryan already maxes a backdoor Roth annually** (confirmed 2026-08-13; Form 8606 filed via Incite Tax, 1099-R for the 2026 conversion arrives Jan 2027), so his account clock is running and his annual Roth channel is live. Confirm **Stacy has her own** — contribution limits and five-year clocks are per-person, and her Roth-leaning strategy (1a) presumes the account exists. See [[retirement-tax-rules-primer#2. Roth withdrawals are tax-free if requirements are met|the two five-year clocks]].
 
 ### 1e. Stand up the real estate engine — REPS first
 
@@ -300,7 +300,7 @@ These change the numbers materially. Ordered by leverage.
 2. **Stacy's business structure and income** — Schedule C vs. S-corp, and how much net SE income she has. Drives the solo 401(k) capacity, the QBI deduction, whether her catch-up can stay pre-tax, and the SE-tax math. Model all four together (1a).
 3. **Does Ryan's 401(k) allow after-tax contributions plus in-plan Roth conversion?** Determines whether the mega backdoor Roth is available. Get the plan document.
 4. **Does Ryan's plan offer Roth catch-up?** If not, $8,000/year of his catch-up is forfeited outright from 2026.
-5. **Any existing traditional/SEP/SIMPLE IRA balances?** Determines whether backdoor Roth is clean or needs the 1c cleanup first — and whether there is a bank of pre-REPS suspended losses affecting the aggregation-election timing.
+5. **Any existing traditional/SEP/SIMPLE IRA balances?** Now sharper: Ryan's backdoor conversions are already running annually, so if any pre-tax IRA balance exists at 12/31, those conversions have been **partly taxable under the pro-rata rule** — verify the 8606 basis history with Zach Fox rather than assuming clean. Also determines the pre-REPS suspended-loss / aggregation-election timing question.
 6. **Any non-qualified deferred compensation?** If yes, the payout election must be 10+ years to escape former-state tax under §114. Time-sensitive.
 7. **Current state, and target state and move year.** Determines PTET availability, HSA state treatment, audit-aggressiveness, and when the conversion window can open.
 8. **Current balances by bucket, per spouse** (pre-tax / Roth / taxable / HSA / real estate equity) — Stacy's pre-tax balance is the critical number: it decides whether her four-year window needs the fast lane. See [[roth-conversion-window]].

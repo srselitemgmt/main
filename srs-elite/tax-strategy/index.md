@@ -54,8 +54,9 @@ Full list in [[tax-mitigation-master-plan#Open items to resolve]].
 ## Immediate actions
 
 - [ ] **Execute the REP tracking fix list** — rebuild the 7/11–8/13 gap, purge non-qualifying entries, restart weekly tracking with alerts, Toggl on non-calendar work. See [[stacy-rep-tracking-audit-2026#Fix list (ordered)]]
+- [ ] **Get me the Schwab positions** — Schwab → Accounts → Positions → Export (CSV), drop it in Drive or the repo; I'll build the per-account asset-location and conversion-sizing analysis from it (open item 8)
 - [ ] **Ask benefits about the active HRA** (general-purpose vs. limited) — it may be blocking HSA eligibility right now — and confirm the RHA reimburses Medicare premiums + IRMAA with survivor access
-- [ ] Open and fund a **Roth IRA in each spouse's name** to start the five-year clocks — even $1
+- [x] ~~Open and fund a Roth IRA~~ **Ryan's backdoor Roth is running** — maxed annually, Form 8606 already with the CPA (confirmed via the July Incite Tax thread). Two follow-ups: confirm **Stacy has her own backdoor Roth** (clocks and limits are per-person), and confirm **no pre-tax traditional/SEP/SIMPLE IRA balances exist at 12/31** — with annual conversions running, a stray pre-tax balance makes every conversion partly taxable under the pro-rata rule
 - [ ] **Open Stacy's solo 401(k)** with a provider whose plan supports Roth deferrals, after-tax contributions, and in-plan conversion — must be established before year-end to capture 2026 deferrals
 - [ ] Pull **Ryan's 401(k) plan document**; confirm Roth catch-up, after-tax contributions, in-plan conversion
 - [ ] Roll any **traditional/SEP/SIMPLE IRA balances into a 401(k)** to clear the backdoor-Roth pro-rata problem
