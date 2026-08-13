@@ -6,9 +6,23 @@ updated: 2026-08-13
 
 # Real Estate Professional Status — Stacy
 
-**Summary**: Stacy works full-time in real estate — seller lead generation, acquisitions, and tenant management. That makes **Real Estate Professional Status (REPS) available to this household**, which is a categorically bigger lever than the STR exception. REPS turns **all** rental losses non-passive on the joint return — long-term rentals and MHP lot rent included, not just short-term rentals — so they offset Ryan's W-2 income directly. This note covers how Stacy qualifies, the second step most people miss, what REPS does *not* fix, and the documentation that decides audits.
-**Sources**: IRC §469(c)(7), §469(h)(5), §461(l) · Reg. §1.469-9, §1.469-5T(a)
-**Related**: [[str-cost-segregation-playbook]] · [[tax-mitigation-master-plan]] · [[household-timeline]] · [[mhp-rv-investment-strategy]]
+**Summary**: Stacy works full-time in real estate — seller lead generation, acquisitions, and tenant management — making **Real Estate Professional Status available to this household**, a categorically bigger lever than the STR exception: REPS turns **all** rental losses non-passive on the joint return, so they offset Ryan's W-2 income directly. This has been an active project since at least April: a tracking system, election template, and decision framework already exist (merged below). **Current 2026 status: 564.54 hours logged through 7/10, tracking pipeline broken since then, and the pace projects short of 750** — see [[stacy-rep-tracking-audit-2026]] for the full audit and fix list.
+**Sources**: IRC §469(c)(7), §469(h)(5), §461(l) · Reg. §1.469-9, §1.469-5T(a) · prior-AI corpus: `decision-tree-nonpassive-path`, `grouping-election-statement`, `CONTEXT-DUMP` (Drive, Apr 2026)
+**CPA**: Zach Fox, Incite Tax — reviews the election, the property list, and the annual REP memo
+**Related**: [[stacy-rep-tracking-audit-2026]] · [[str-cost-segregation-playbook]] · [[tax-mitigation-master-plan]] · [[household-timeline]] · [[mhp-rv-investment-strategy]]
+
+## Current status — 2026 tax year (as of 2026-08-13)
+
+| Metric | Value | State |
+|---|---|---|
+| Hours logged (through 7/10) | **564.54** | log stale since 7/11 |
+| Recoverable from calendar gap 7/11–8/13 | ~21 | pending reconciliation |
+| Questionable entries to purge | **~65** (driver's ed, tax-strategy meetings, aviation stray, undescribed) | pending — see audit F4 |
+| **Defensible base** | **~500–520** | |
+| Needed by 12/31 | 750 | **~230–250 to go ≈ 12/week** |
+| >50% test | not formally tracked | trivially true (no other occupation) — document it |
+
+The gap is closable because her strongest hours — negotiations, tenant management, CRM/lead work — are mostly **not being captured** (they never hit a calendar, and the pipeline only reads calendars). Toggl timers on non-calendar work is the single behavior that fixes both pace and composition. Full findings: [[stacy-rep-tracking-audit-2026]].
 
 > [!warning] REPS is the most litigated position in real estate tax
 > The IRS challenges it routinely and wins most cases **on the time log alone** — not on whether the work was real, but on whether it was documented as it happened. Everything below depends on Stacy keeping a contemporaneous log from day one. Get written CPA sign-off before relying on this.
@@ -122,6 +136,33 @@ REPS cases are won and lost on records. Courts have repeatedly rejected logs rec
 > Hours in a purely **investor** capacity do not count (Reg. §1.469-5T(f)(2)(ii)) — reviewing financial statements, studying market reports, or monitoring performance without day-to-day management involvement. Since Stacy *is* the day-to-day manager, most of her time is fine, but **underwriting and market study should be logged in the context of active acquisition work** on specific deals, not as generic research. Travel time is contested — log it as its own line so it can be removed without collapsing the total.
 
 **Also worth having**: a short written memo each year, prepared with the CPA, stating the basis for the REPS position and the hour totals. It costs almost nothing and converts an audit from a reconstruction exercise into a document review.
+
+## Per-property mapping — current portfolio
+
+From the April decision-tree work, updated to the vault's framework. Which door each property uses:
+
+| Property | Type / avg stay | Nonpassive path | Status |
+|---|---|---|---|
+| **Passionflower Circle** (FL, Disney STR) | ≤7-day STR | STR exception — material participation per property; **excluded from the grouping election** | Dual-path: works with or without REPS |
+| **Mt Pleasant RV Park** (431 Mt Pleasant Rd) | Transient RV, ≤7-day typical | STR exception if active JV role; REPS covers any rental component | Door redundancy — strongest tax asset |
+| **Kalispell co-living** (21 1st Ave W, MT) | >7-day — true rental | **REPS + grouping election required** | Locked to Stacy's annual qualification |
+| **Fort Collins co-living** (420 Starway) | >7-day — true rental | **REPS + grouping election required** | Locked to Stacy's annual qualification |
+| **Country Club View Apartments** (OK, LP interest) | LTR syndication | **None — trapped passive.** REPS does not cover a passive LP position with no material participation | Losses carry forward; release on full disposition |
+
+Two structural notes carried over from the prior work:
+- **Risk concentration**: every co-living/LTR property's tax outcome depends on one annually-retested fact — Stacy's REPS. STRs and transient RV parks qualify property-by-property without her. Tilting new acquisitions toward ≤7-day assets reduces the single-point-of-failure risk.
+- **Stacy is managing member on all held-property SPEs** (per the Dan Gunther JV structure, which also allocates 100% of tax benefits to Ryan & Stacy). Keep it that way — it is what makes her hours attributable to each property's operations, and the grouping election must list every SPE with EINs.
+
+## Filing infrastructure (already built, Apr 2026)
+
+| Artifact | Where | State |
+|---|---|---|
+| **§1.469-9(g) grouping election statement** — ready-to-file template with property/EIN schedule, watch-outs (STRs excluded; binding; per-Stacy not per-couple) | Drive: `grouping-election-statement.md` | Template complete; needs property list + Zach Fox review; files with the first REPS-claimed return |
+| **Nonpassive decision tree** — per-property flowchart (STR loophole vs. REPS vs. trapped) | Drive: `decision-tree-nonpassive-path.md` | Sound; superseded in part by this vault |
+| **Hours log + reconciliation system** | Drive xlsx + local sync | **Broken — see [[stacy-rep-tracking-audit-2026]]** |
+| NIIT note | — | REPS rentals with 500+ hours also qualify for the **NIIT safe harbor** — rental income escapes the 3.8% tax. One more reason to clear 500 on the grouped activity, not just scrape 750 overall. |
+
+One rule from the prior work worth preserving verbatim: **W-2 employee hours don't count toward REPS unless she owns >5% of the employer.** Her eXp agent work is independent-contractor commission work, so it counts — but if she ever takes a W-2 role at a brokerage, that changes.
 
 ## Interaction with Stacy's own income
 

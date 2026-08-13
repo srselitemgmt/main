@@ -19,7 +19,7 @@ updated: 2026-08-13
 | HSA catch-up (55) | 8/2031 | **2026 ✅** |
 | 59½ — penalty-free IRA | 2/3/2036 | 8/17/2030 |
 | Super catch-up (ages 60–63) | **2036–2039** | **2031–2034** |
-| **65 — Medicare** | **8/3/2041** | **2/17/2036** ⚠️ |
+| **65 — Medicare** | **8/3/2041** | ~~2/17/2036~~ **declines — stays on Ryan's plan to 8/2041** ✅ |
 | **Retirement** | **8/3/2041** (mandatory) | her choice — REPS argues for continuing |
 | Full retirement age (67) | 8/2043 | 2/2038 |
 | **70 — max Social Security** | **8/3/2046** | **2/17/2041** |
@@ -32,16 +32,15 @@ Both were born after 1959, so **RMD age is 75 for both** — no 73.
 
 ### 1. Stacy hits Medicare in Feb 2036 — 5½ years before Ryan retires
 
-Her 2036 premiums are priced off **2034 MAGI**, which will be a peak W-2 year. Left alone, that means roughly **five years of top-tier IRMAA for Stacy** while Ryan is still working — on the order of **$40–50K** of surcharges, with no work-stoppage event available to appeal because Ryan is still employed.
+Her 2036 premiums would be priced off **2034 MAGI**, a peak W-2 year — roughly **five years of top-tier IRMAA (~$40–50K)** with no work-stoppage appeal available, since Ryan is still employed.
 
-> [!tip] There may be a way out — decide this in 2035
-> If Ryan's employer plan is a **group health plan with 20+ employees** (an airline certainly qualifies) and it is an HDHP, Stacy can **decline Medicare entirely at 65** and stay on Ryan's coverage as an active-employee spouse. Medicare Secondary Payer rules give her a **Special Enrollment Period** when that coverage ends at Ryan's retirement, with no late-enrollment penalty.
+> [!success] DECIDED (2026-08-13): Stacy stays on Ryan's employer coverage until his retirement, 8/3/2041
+> Ryan has confirmed the plan: she does not enroll in Medicare at 65. Under Medicare Secondary Payer rules, active-employee group coverage (20+ employees — an airline qualifies) lets her **decline Medicare with no late-enrollment penalty**, with a **Special Enrollment Period** when the coverage ends at Ryan's retirement. This avoids the ~$40–50K IRMAA exposure entirely and preserves family HDHP/HSA contributions.
 >
-> Two conditions make this work, and they hold until Feb 2041:
-> - She must decline **Part A as well as Part B** to stay HSA-eligible — and Part A can only be declined if she is **not yet claiming Social Security** (claiming triggers automatic Part A enrollment). She doesn't claim until 70 in Feb 2041, so the window is clean.
-> - Ryan must still be actively employed. He is, until Aug 2041.
->
-> **Upside**: avoids ~5 years of IRMAA *and* preserves family HDHP/HSA contributions. **Action**: price employer coverage against Medicare-plus-IRMAA in 2035, and confirm the plan is creditable coverage. This is one of the highest-value single decisions on the timeline.
+> Standing conditions to keep true until 8/2041:
+> - **Ryan remains actively employed** (he is, until mandatory retirement) and the plan remains creditable coverage — confirm creditable status with benefits once, now.
+> - **Part A auto-enrollment arrives with her Social Security claim at 70 (2/2041)** — and can reach back up to 6 months retroactively. Part A alongside employer coverage is fine (secondary payer, no penalty), but it ends HSA eligibility: **stop her HSA catch-up contributions by mid-2040**, and plan the family HSA around it.
+> - At Ryan's retirement (8/2041): her SEP enrollment in Part B/D runs alongside his initial enrollment — one household Medicare transition, one [[rha-retiree-health-account|RHA]] paying the premiums.
 
 ### 2. Ryan's retirement is mid-year — 2041 is not a clean year
 
@@ -71,8 +70,8 @@ Conversions are **per-person** — each spouse converts from their own IRA. Stac
 | Phase | Years | Ryan | Stacy | Mission |
 |---|---|---|---|---|
 | **1 — Accumulate & Defer** | 2026–2030 | 50–54 | 55–59 | Max deferrals. Build the portfolio under REPS. Start Roth clocks. |
-| **2 — Build & Position** | 2031–2035 | 55–59 | 60–64 | Stacy's super catch-up (2031–34). Relocate and document domicile. Decide Stacy's Medicare question. |
-| **3 — Pre-retirement** | 2036–2041 | 60–65 | 65–70 | Ryan's super catch-up (2036–39). Stacy on Medicare or employer plan. Fund the conversion reserve. Ryan retires 8/2041. |
+| **2 — Build & Position** | 2031–2035 | 55–59 | 60–64 | Stacy's super catch-up (2031–34). Relocate and document domicile. |
+| **3 — Pre-retirement** | 2036–2041 | 60–65 | 65–70 | Ryan's super catch-up (2036–39). Stacy on Ryan's employer coverage (decided). Fund the conversion reserve. Ryan retires 8/2041. |
 | **4 — Stacy's Window** | **2042–2045** | 66–69 | 71–74 | **Convert Stacy's balances hard.** Shelter with cost seg. Ryan delays SS. |
 | **5 — Ryan's Window** | 2046–2050 | 70–74 | 75–79 | Stacy's RMDs + QCDs. Ryan claims SS at 70. Convert Ryan's balances. |
 | **6 — RMD Era** | 2051+ | 75+ | 80+ | Both on RMDs. QCDs. Preserve step-up. |
@@ -83,11 +82,12 @@ Conversions are **per-person** — each spouse converts from their own IRA. Stac
 |---|---|
 | **2030** | Stacy 59½ (8/2030) — penalty-free access opens |
 | **2031** | Stacy's super catch-up begins; Ryan's HSA catch-up begins |
-| **2034** | **Sets Stacy's 2036 IRMAA.** If she takes Medicare at 65, this is the lookback year — MAGI reduction here pays twice |
-| **2035** | **Decide Stacy's Medicare vs. employer-coverage question.** Stop her HSA contributions by 8/2035 if she will enroll |
-| **2036** | Stacy Medicare (2/2036). Ryan 59½ (2/2036) and super catch-up begins |
+| **2034** | ~~Sets Stacy's 2036 IRMAA~~ — moot: she stays on Ryan's employer coverage (decided 2026-08-13) |
+| **2035** | ~~Medicare decision~~ **Decided**: no enrollment; confirm creditable coverage with benefits. Her HSA contributions continue |
+| **2036** | ~~Stacy Medicare~~ (declined — on employer coverage). Ryan 59½ (2/2036) and super catch-up begins |
 | **2039** | Last year of Ryan's super catch-up |
-| **2041** | **The hinge year.** Stacy claims SS (2/2041) · Ryan's HSA contributions stop by 2/2041 · **Ryan retires 8/3/2041** · Ryan Medicare + **file SSA-44** · Stacy QCD-eligible (8/2041) |
+| **2040** | **Stop Stacy's HSA catch-up by mid-2040** — her 2/2041 SS claim brings retroactive Part A |
+| **2041** | **The hinge year.** Stacy claims SS (2/2041, Part A auto-starts) · Ryan's HSA contributions stop by 2/2041 · **Ryan retires 8/3/2041** · both enroll: Ryan initial, Stacy SEP · **file SSA-44** · [[rha-retiree-health-account|RHA]] starts paying premiums · Stacy QCD-eligible (8/2041) |
 | **2042** | **First clean conversion year.** Stacy's window opens — only four years |
 | **2045** | **Stacy's last conversion year before RMDs** |
 | **2046** | Stacy's RMDs begin. Ryan claims SS at 70 (8/2046) |

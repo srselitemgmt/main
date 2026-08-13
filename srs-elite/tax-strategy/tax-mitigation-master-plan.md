@@ -60,7 +60,7 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 | Phase | Years | Ryan | Stacy | Mission |
 |---|---|---|---|---|
 | **1 — Accumulate & Defer** | 2026–2030 | 50–54 | 55–59 | Max every deferral. Build the portfolio under REPS. Start Roth clocks. |
-| **2 — Build & Position** | 2031–2035 | 55–59 | 60–64 | Stacy's super catch-up (2031–34). Relocate and document domicile. **Decide Stacy's Medicare question by 2035.** |
+| **2 — Build & Position** | 2031–2035 | 55–59 | 60–64 | Stacy's super catch-up (2031–34). Relocate and document domicile. |
 | **3 — Pre-retirement** | 2036–2041 | 60–65 | 65–70 | Ryan's super catch-up (2036–39). Fund the conversion reserve. Clean up IRAs. Ryan retires 8/3/2041; Stacy claims SS 2/2041. |
 | **4 — Stacy's Window** | **2042–2045** | 66–69 | 71–74 | **Convert Stacy's balances hard**, sheltered by cost-seg losses. Ryan delays SS. Medicare + SSA-44 for Ryan. |
 | **5 — Ryan's Window** | 2046–2050 | 70–74 | 75–79 | Stacy's RMDs begin + her QCDs. Ryan claims SS 8/2046, converts his balances. |
@@ -184,13 +184,13 @@ Do not treat this as a lifestyle decision with a tax side effect. It is worth mo
 
 The catch-up limit rises to **$11,250** for ages 60–63, then drops back at 64. **Stacy's window is 2031–2034; Ryan's is 2036–2039.** Four years each — take all of it. (Ryan's stays Roth per the mandate; Stacy's may be pre-tax, see 1a.)
 
-### 2b-bis. Decide Stacy's Medicare question — deadline 2035
+### 2b-bis. Stacy's Medicare question — DECIDED (2026-08-13)
 
-Stacy reaches Medicare age in **February 2036**, 5½ years before Ryan retires — priced off peak-W-2 2034 MAGI, that is roughly five years of top-tier IRMAA with no appeal available. The likely answer is **decline Medicare and stay on Ryan's employer coverage** (20+ employee group plans make this penalty-free, with a Special Enrollment Period at his retirement). Conditions, the Part A/HSA trap, and the analysis to run in 2035 are in [[household-timeline#1. Stacy hits Medicare in Feb 2036 — 5½ years before Ryan retires]]. If she will enroll instead, her HSA contributions stop by 8/2035 and 2034 MAGI becomes a managed number.
+Stacy **stays on Ryan's employer coverage until his retirement (8/3/2041)** and skips Medicare enrollment at 65 — avoiding ~$40–50K of peak-W-2-priced IRMAA, penalty-free under Medicare Secondary Payer rules, with a Special Enrollment Period at his retirement. Standing conditions (creditable coverage; her HSA catch-up stops mid-2040 ahead of the retroactive Part A that comes with her 2/2041 SS claim) are in [[household-timeline#1. Stacy hits Medicare in Feb 2036 — 5½ years before Ryan retires]]. Retirement-era premiums for both spouses are paid tax-free from the [[rha-retiree-health-account|RHA]].
 
 ### 2c. Fund the conversion-tax reserve
 
-The 2042–2050 conversion program requires paying roughly **$85K/year all-in** (federal tax plus IRMAA surcharge), from **outside** the IRA, for nine years — call it **$800K–$900K of taxable-account liquidity** in today's dollars, with a buffer. Materially more if Stacy's compressed window forces the fast lane — and materially **less** to the extent cost-seg losses shelter the conversions (see [[roth-conversion-window#Sheltering conversions with real estate losses]]).
+The 2042–2050 conversion program requires paying roughly **$85K/year all-in** (federal tax plus IRMAA surcharge), from **outside** the IRA, for nine years — call it **$800K–$900K of taxable-account liquidity** in today's dollars, with a buffer. Materially more if Stacy's compressed window forces the fast lane — and materially **less** to the extent cost-seg losses shelter the conversions (see [[roth-conversion-window#Sheltering conversions with real estate losses]]) and the [[rha-retiree-health-account|RHA]] absorbs the premium/IRMAA component (~$100–150K of the reserve, if the plan reimburses IRMAA — verify).
 
 Two requirements on that money:
 - **Low embedded capital gains**, so raising cash doesn't itself create a taxable event competing for bracket space. Direct the last few years of taxable savings into this reserve deliberately rather than letting it accumulate in highly appreciated positions.
@@ -221,7 +221,7 @@ Separating from service in or after the year you turn 55 allows penalty-free wit
 **Mission: Ryan's final working years. Maximize the last deferrals, land the 2041 hinge year cleanly.**
 
 - **Ryan's super catch-up, 2036–2039** — $11,250/yr, Roth.
-- **Stacy on Medicare or employer coverage** per the 2035 decision.
+- **Stacy on Ryan's employer coverage** (decided 2026-08-13) — confirm creditable status; her HSA catch-up stops mid-2040.
 - **Fund the conversion-tax reserve** (2c) to target by 2041.
 - **2041 is the hinge year** — Stacy claims SS (2/2041), Ryan's HSA contributions stop by 2/2041 (6 months before Medicare), Ryan retires 8/3/2041, enrolls in Medicare, **files SSA-44** citing work stoppage, and Stacy becomes QCD-eligible (8/2041). It is a partial W-2 year — **not** a conversion year.
 - **Consolidate 401(k)s → IRAs** after the last backdoor Roth contributions (2d), positioning for conversions and QCDs.
@@ -304,9 +304,9 @@ These change the numbers materially. Ordered by leverage.
 6. **Any non-qualified deferred compensation?** If yes, the payout election must be 10+ years to escape former-state tax under §114. Time-sensitive.
 7. **Current state, and target state and move year.** Determines PTET availability, HSA state treatment, audit-aggressiveness, and when the conversion window can open.
 8. **Current balances by bucket, per spouse** (pre-tax / Roth / taxable / HSA / real estate equity) — Stacy's pre-tax balance is the critical number: it decides whether her four-year window needs the fast lane. See [[roth-conversion-window]].
-9. **Is Ryan's employer health plan a 20+ employee group plan, and is it creditable coverage?** Determines whether Stacy can skip Medicare 2036–2041 penalty-free — a ~$40–50K question. Answer needed by 2035; cheap to confirm now.
+9. **Confirm Ryan's plan is creditable coverage** (the 20+ employee test is safely met) — the one remaining condition on the decided Stacy-stays-on-employer-coverage plan. Also confirm the [[rha-retiree-health-account|RHA]] plan terms: IRMAA reimbursement, survivor access, and the active-HRA/HSA-eligibility question.
 10. **Charitable intent, annual and lifetime.** Determines whether DAF bunching in the working years and the QCD program from 2041/2047 are worth building around.
 
-**Resolved**: ~~Which spouse can qualify for REPS~~ → **Stacy, on current facts** (2026-08-13). ~~Exact birth years~~ → **Ryan 8/3/1976, Stacy 2/17/1971**; RMD age 75 for both; all phase years pinned in [[household-timeline]] (2026-08-13).
+**Resolved**: ~~Which spouse can qualify for REPS~~ → **Stacy, on current facts**; tracking system exists but needs repair — see [[stacy-rep-tracking-audit-2026]] (2026-08-13). ~~Exact birth years~~ → **Ryan 8/3/1976, Stacy 2/17/1971**; RMD 75 for both; phase years pinned in [[household-timeline]] (2026-08-13). ~~Stacy's Medicare 2036–2041~~ → **stays on Ryan's employer coverage to 8/2041** (2026-08-13). ~~Is a REP hour log running?~~ → yes since 2025, currently **stale + pace-short**; fix list in the audit (2026-08-13).
 
 **Related**: [[household-timeline]] · [[reps-real-estate-professional-status]] · [[roth-conversion-window]] · [[str-cost-segregation-playbook]] · [[key-figures-2026]] · [[retirement-tax-rules-primer]] · [[mhp-rv-investment-strategy]]

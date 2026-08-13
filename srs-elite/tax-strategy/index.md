@@ -19,6 +19,8 @@ updated: 2026-08-13
 | [[reps-real-estate-professional-status]] | Stacy's REPS: the two tests, the aggregation election, documentation, what it does and doesn't fix. | Before this year's log setup, and annually |
 | [[roth-conversion-window]] | 2042–2050 conversion sizing — Stacy's four-year window first, IRMAA-vs-bracket math, execution. | Phase 4–5 planning, and every October from 2042 |
 | [[str-cost-segregation-playbook]] | The deduction engine: cost seg, bonus depreciation, the four loss limitations, the STR fallback door. | Before any acquisition |
+| [[stacy-rep-tracking-audit-2026]] | **Deep-dive audit of the REP hour tracking system** — what's broken, what's at risk, the fix list. | **Now — active findings** |
+| [[rha-retiree-health-account]] | Ryan's RHA ($260,893 → $350K+ by end 2027) — retirement healthcare pre-funding and the HSA-eligibility question. | Benefits questions this month |
 | [[key-figures-2026]] | Every dollar figure the plan depends on. | **Refresh each November** |
 | [[retirement-tax-rules-primer]] | The captured "8 retirement tax rules" post, corrected and extended. | Background reference |
 
@@ -35,7 +37,7 @@ updated: 2026-08-13
 
 Detail in [[household-timeline]]:
 
-1. **Stacy reaches Medicare in 2/2036 — 5½ years before Ryan retires** — priced off peak W-2 income with no appeal. Likely answer: stay on Ryan's employer coverage until 2041. **Decide by 2035.**
+1. **Stacy reaches Medicare in 2/2036 — 5½ years before Ryan retires** — ✅ **Decided (2026-08-13): she stays on Ryan's employer coverage until his 8/2041 retirement**, penalty-free, with the [[rha-retiree-health-account|RHA]] funding both spouses' premiums after that.
 2. **2041 is a partial year** (Ryan retires 8/3/2041) — first clean conversion year is 2042.
 3. **Stacy's conversion window is four years; Ryan's is nine.** Her balances convert first; her new savings go Roth now to shrink the problem.
 
@@ -43,22 +45,22 @@ Detail in [[household-timeline]]:
 
 Full list in [[tax-mitigation-master-plan#Open items to resolve]].
 
-1. **Is Stacy's contemporaneous time log running for 2026?** REPS is won or lost on the log. If it isn't running, start it this week and decide with the CPA whether 2026 is claimable.
+1. ~~Is a time log running?~~ **Yes — since 2025, but broken since 7/10 and pace-short.** The controlling document is now [[stacy-rep-tracking-audit-2026]]: rebuild the 5-week gap, purge ~65 non-qualifying hours, restart tracking with pace alerts, and hit ~12 hrs/week of *operational* hours through year-end.
 2. **Stacy's business structure and net income** — sizes her solo 401(k) (a second $72K limit), QBI, and the S-corp question.
 3. **Ryan's 401(k) plan document** — mega backdoor Roth availability, Roth catch-up support.
 4. **Balances by bucket, per spouse** — Stacy's pre-tax balance decides whether her four-year window needs the fast lane.
-5. **Ryan's employer health plan** — 20+ employee group plan with creditable coverage? Determines Stacy's Medicare escape, a ~$40–50K question.
+5. **Benefits questions** — confirm creditable coverage (for Stacy's decided Medicare deferral) and the [[rha-retiree-health-account|RHA]] terms: IRMAA reimbursement, survivor access, and whether the active HRA affects HSA eligibility.
 
 ## Immediate actions
 
-- [ ] **Start Stacy's REPS time log this week** — contemporaneous, dated, specific; hers and Ryan's hours both. The load-bearing document of the whole plan — see [[reps-real-estate-professional-status#Documentation — the thing that actually decides audits]]
+- [ ] **Execute the REP tracking fix list** — rebuild the 7/11–8/13 gap, purge non-qualifying entries, restart weekly tracking with alerts, Toggl on non-calendar work. See [[stacy-rep-tracking-audit-2026#Fix list (ordered)]]
+- [ ] **Ask benefits about the active HRA** (general-purpose vs. limited) — it may be blocking HSA eligibility right now — and confirm the RHA reimburses Medicare premiums + IRMAA with survivor access
 - [ ] Open and fund a **Roth IRA in each spouse's name** to start the five-year clocks — even $1
 - [ ] **Open Stacy's solo 401(k)** with a provider whose plan supports Roth deferrals, after-tax contributions, and in-plan conversion — must be established before year-end to capture 2026 deferrals
 - [ ] Pull **Ryan's 401(k) plan document**; confirm Roth catch-up, after-tax contributions, in-plan conversion
 - [ ] Roll any **traditional/SEP/SIMPLE IRA balances into a 401(k)** to clear the backdoor-Roth pro-rata problem
 - [ ] Verify **Ryan's payroll deferrals** are set to max $24,500 + $8,000 Roth catch-up this year
 - [ ] Confirm the **HSA is invested**, not in cash; add Stacy's **$1,000 catch-up in her own HSA account**; start a receipt archive
-- [ ] Ask HR whether **Ryan's health plan is a 20+ employee group plan** (for Stacy's 2036 Medicare decision — cheap to confirm now)
 - [ ] Book the CPA session (Zach Fox): REPS position + log methodology, the **§1.469-9(g) aggregation election**, Stacy's entity/solo-401(k) design, and the remaining [[tax-mitigation-master-plan#Open items to resolve|open items]]
 
 ## Cross-domain links
