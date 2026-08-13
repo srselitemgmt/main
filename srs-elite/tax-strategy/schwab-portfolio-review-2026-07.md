@@ -8,7 +8,7 @@ updated: 2026-08-13
 
 **Summary**: Ryan's four Schwab accounts total **$1.764M**, of which **99% is pre-tax** and **59% of the main 401(k) sits in individual stocks** — TSLA alone is 17.6% of everything. The backdoor Roth is confirmed **pro-rata clean** (traditional IRA holds 4 cents). The July pay advice recalibrates the plan: income annualizes to **~$800K** (above the $400–750K band assumed), **Colorado confirmed** as the current state, the United PRAP **has an after-tax feature already in use** (mega-backdoor door is real), the **age-50 catch-up isn't running yet** (Ryan became eligible 8/3/2026), and a **general-purpose Health FSA means no HSA eligibility in 2026** — correcting a vault assumption. Biggest strategic finding: the pre-tax trajectory (~$1.75M at 50, plus ~$60–75K/yr employer contributions) projects to **$5–6M+ at retirement — beyond what even the fast conversion lane clears**, which makes shrinking future pre-tax accumulation an active goal, not a preference.
 **Sources**: Schwab statements 7/31/2026 (accts …3026, …6686, …8637, …5315) · United pay advice through 7/29/2026 (advice 8/14/2026)
-**Missing**: Stacy's accounts (none of these are hers), any non-Schwab taxable brokerage
+**Stacy**: has **no retirement accounts** (confirmed 2026-08-13) — see the household implications in [[roth-conversion-window]] and the master plan. **Still missing**: any non-Schwab taxable brokerage.
 **Related**: [[tax-mitigation-master-plan]] · [[roth-conversion-window]] · [[rha-retiree-health-account]] · [[key-figures-2026]]
 
 ## Accounts (all Ryan's, 7/31/2026)
@@ -16,13 +16,15 @@ updated: 2026-08-13
 | Account | Value | Bucket | Notes |
 |---|---|---|---|
 | **United PRAP 401(k) PCRA** #…3026 | **$1,660,915** | Pre-tax (presumed ⚠️) | Employer deposits $67,507 YTD; $70,068 transferred out YTD |
-| **PCRA** #…6686 (opened 2026) | **$85,038** | **⚠️ Unknown source — see the $70K question** | $82,669 deposits YTD |
+| **PCRA** #…6686 (opened 2026) | **$85,038** | **After-tax sleeve** ✅ (confirmed 8/13) | $82,669 deposits YTD; sweep to Roth |
 | **Roth Contributory IRA** #…8637 | **$17,674** | Roth | $15,600 YTD conversions in ($7,000 for 2025 + $8,600 for 2026) ✓ |
 | **Traditional IRA** #…5315 | **$0.04** | Conduit | $15,600 in, $15,600 out — **pro-rata clean** ✅ |
 | **Total** | **$1,763,627** | **~99% pre-tax / 1% Roth** | |
 
-> [!question] The $70K question — what is account #…6686?
-> $70,068 left the main 401(k) PCRA this year and #6686 opened with $82,669 of deposits. PCRA sub-accounts usually map to **money sources** (pre-tax / Roth / after-tax). If that transfer was an **in-plan Roth conversion**, it was a ~$70K taxable event at a 35–37% marginal rate — roughly **$25–27K of tax** in exactly the years the plan says *never* convert. If it's an **after-tax source account** (receiving the after-tax deferrals visible on the pay stub), it's the mega backdoor working as intended. **Ryan: which is it?** The answer belongs on the 2026 return either way.
+> [!success] ANSWERED (2026-08-13): #…6686 is an **after-tax money sleeve**
+> No accidental Roth conversion happened — the mega backdoor plumbing is in place. Two follow-ups now matter:
+> 1. **Sweep it to Roth on a schedule.** Only after-tax *basis* converts tax-free; the **earnings accrue pre-tax until converted** — and this sleeve holds QQQI at a 14.4% yield, generating ~$3.8K/yr of earnings that become future ordinary income the longer conversion waits. Ask the plan about in-plan Roth conversion (or in-service rollover to the Roth IRA) and set it to repeat.
+> 2. **At retirement, split-roll**: after-tax basis → Roth IRA, earnings → traditional IRA (§402(c) allocation). Keep the basis records.
 
 ## The backdoor Roth — verified clean ✅
 
@@ -80,7 +82,7 @@ This account is **the corpus the entire 2042–2050 conversion program converts*
 
 ## The strategic finding: the pre-tax pile is on track to outrun the conversion window
 
-$1.75M pre-tax at 50, compounding ~15 years with **~$60–75K/yr of employer contributions that can't be turned off**, lands around **$5–6M+ at Ryan's 2041 retirement** (7% assumption). The [[roth-conversion-window#Which lane|slow lane]] clears ~$3.7M over nine years; even the **fast lane (~$6.4M nominal capacity) barely covers it** — before Stacy's balances claim their 2042–2045 priority.
+$1.75M pre-tax at 50, compounding ~15 years with **~$60–75K/yr of employer contributions that can't be turned off**, lands around **$5–6M+ at Ryan's 2041 retirement** (7% assumption). The [[roth-conversion-window#Which lane|slow lane]] clears ~$3.7M over nine years; even the **fast lane (~$6.4M nominal capacity) barely covers it** — and with Stacy holding no retirement accounts, this balance IS the entire conversion problem.
 
 Consequences, in order:
 
@@ -91,14 +93,14 @@ Consequences, in order:
 
 ## Actions out of this review
 
-- [ ] **Answer the $70K question** — what money source is PCRA #6686? (Roth conversion vs. after-tax sub-account)
+- [x] ~~The $70K question~~ — **after-tax sleeve confirmed.** New action: **set up the recurring after-tax → Roth sweep** before earnings pile up
 - [ ] **Enable the $8,000 Roth catch-up** for the rest of 2026 — outside 415(c), currently unused
 - [ ] **Ask United benefits about the spill election** — PRAP Cash excess → RHA ⚠️
 - [ ] **Sweep after-tax to Roth** (confirm in-plan conversion mechanics) — and set it to auto if the plan allows
 - [ ] **Set the single-name cap and rebalance inside the 401(k)** — tax-free; start with TSLA/GOOGL; clean out QVCAQ
 - [ ] **Identify the $46,335 "Other Assets"** in the 401(k)
 - [ ] **Open-enrollment decision (Nov)**: HDHP+HSA+limited FSA vs. status quo — deliberate, not default
-- [ ] **Send Stacy's account statements** — her pre-tax balance is the number that sizes her four-year window, and none of these accounts are hers
+- [x] ~~Stacy's statements~~ — **answered: she has no retirement accounts at all** (2026-08-13). Plan implications in [[roth-conversion-window]] and [[tax-mitigation-master-plan#1a. Fill the qualified plans — in this order|1a/1d]]: her four-year conversion window dissolves (nothing to convert), and standing up her Roth IRA + solo 401(k) becomes the top household priority
 - [ ] Update income assumptions with Zach Fox: ~$800K gross puts marginal planning at 35→37%, above the SALT torpedo band — cost-seg losses that pull MAGI down *through* $606K→$505K capture 45.5¢/$
 
 **Related**: [[tax-mitigation-master-plan]] · [[roth-conversion-window]] · [[rha-retiree-health-account]] · [[stacy-rep-tracking-audit-2026]] · [[key-figures-2026]]

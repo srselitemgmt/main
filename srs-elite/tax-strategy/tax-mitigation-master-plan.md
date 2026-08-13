@@ -31,7 +31,7 @@ There is one number that determines whether this plan works: **the spread betwee
 Three things make the spread unusually large for us:
 
 1. **The relocation.** Federal law (4 U.S.C. §114) bars our current state from taxing retirement plan distributions once we establish domicile elsewhere. This is not a loophole requiring interpretation; it is a federal preemption statute. Every dollar deferred now escapes state tax **permanently**.
-2. **Ryan's hard stop in 2041 with RMDs at 75.** Both spouses were born after 1959, so RMD age is 75 for both. Ryan's mandatory retirement (8/3/2041) opens a conversion window with no earned income and no forced distributions — **nine clean years for Ryan (2042–2050), but only four for Stacy (2042–2045)** before her RMDs start. That asymmetry drives the sequencing; see [[household-timeline]].
+2. **Ryan's hard stop in 2041 with RMDs at 75.** Mandatory retirement (8/3/2041) opens **nine clean conversion years (2042–2050)** with no earned income and no forced distributions — and since **Stacy has no retirement accounts** (confirmed 2026-08-13), the entire window and all its bracket space belong to Ryan's ~$5–6M projected pre-tax balance. See [[household-timeline]] and [[schwab-portfolio-review-2026-07]].
 3. **The Social Security delays.** Each spouse claims at 70 — Stacy 2/2041, Ryan 8/2046 — maximizing benefits 24% above the age-67 amount and keeping 2042–2045 as light-income years for conversions.
 4. **Stacy's REPS.** Real estate losses that would be suspended for any normal W-2 household are **fully deductible against Ryan's wages** — up to $512K/year — for as long as she keeps qualifying.
 
@@ -62,8 +62,8 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 | **1 — Accumulate & Defer** | 2026–2030 | 50–54 | 55–59 | Max every deferral. Build the portfolio under REPS. Start Roth clocks. |
 | **2 — Build & Position** | 2031–2035 | 55–59 | 60–64 | Stacy's super catch-up (2031–34). Relocate and document domicile. |
 | **3 — Pre-retirement** | 2036–2041 | 60–65 | 65–70 | Ryan's super catch-up (2036–39). Fund the conversion reserve. Clean up IRAs. Ryan retires 8/3/2041; Stacy claims SS 2/2041. |
-| **4 — Stacy's Window** | **2042–2045** | 66–69 | 71–74 | **Convert Stacy's balances hard**, sheltered by cost-seg losses. Ryan delays SS. Medicare + SSA-44 for Ryan. |
-| **5 — Ryan's Window** | 2046–2050 | 70–74 | 75–79 | Stacy's RMDs begin + her QCDs. Ryan claims SS 8/2046, converts his balances. |
+| **4 — The Cheap Years** | **2042–2045** | 66–69 | 71–74 | **Ryan converts at maximum** (only Stacy's SS on the return), sheltered by cost-seg losses. Ryan delays SS. Medicare + SSA-44. |
+| **5 — Ryan's Window, part 2** | 2046–2050 | 70–74 | 75–79 | Ryan claims SS 8/2046 and keeps converting with reduced headroom. |
 | **6 — RMD Era** | 2051+ | 75+ | 80+ | Both on RMDs. QCDs. Roth as the flexible bucket. Preserve step-up. |
 
 ---
@@ -99,7 +99,7 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 | 5 | HSA | via the family limit above | If on the family HDHP. Her catch-up needs its **own HSA account** in her name. |
 
 > [!important] Stacy's contributions lean Roth; Ryan's lean pre-tax
-> Deliberately asymmetric, because of the [[household-timeline#3. Stacy's conversion window is four years, Ryan's is nine|four-year vs. nine-year conversion windows]]. Every pre-tax dollar in Stacy's name must convert in 2042–2045 or feed RMDs from 2046 — so her *new* dollars should skip the round trip and go straight to Roth. Ryan's pre-tax balance has nine years of conversion runway; his deferrals stay pre-tax at 35%+. The exceptions: her employer profit-sharing contribution (pre-tax by design, worth it if the deduction lands against the SALT torpedo) and her catch-up if it can be pre-tax. Model the split with the CPA annually.
+> Stacy has **no retirement accounts today** (confirmed 2026-08-13) — the solo 401(k) and Roth IRA above are her *first*, so there is no legacy pre-tax pile on her side and no reason to create one: **her new dollars go Roth-first**, keeping her 2046 RMD date pointed at an empty (or trivial) account. Ryan's side is the mirror image — his employer flow is pre-tax and unstoppable, so his *voluntary* dollars also go Roth ([[schwab-portfolio-review-2026-07]]). The exceptions worth modeling with the CPA: her employer profit-sharing contribution (pre-tax by design, valuable when the deduction lands against the SALT torpedo) and her catch-up if it can be pre-tax.
 
 **On Ryan's Roth catch-up mandate**: from 2026, because prior-year wages exceed $150,000, his catch-up contributions *must* be Roth. This reads like a tax increase and is actually a gift — $8,000 of Roth space that does not consume the pre-tax limit. **The one real risk: if the plan does not offer a Roth option, the catch-up is forfeited entirely.** Confirm the plan supports Roth catch-up — this is a same-week task.
 
@@ -111,7 +111,9 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 
 **Correction (8/2026): Ryan is not HSA-eligible this year** — the pay stub shows a general-purpose Health Care FSA, and the medical plan may not be an HDHP ([[schwab-portfolio-review-2026-07#Correction to the vault: no HSA in 2026]]). The triple-tax-free HSA playbook (pay medical out of pocket, invest fully, archive receipts, no reimbursement deadline) applies **only if** open enrollment switches to HDHP + HSA + limited-purpose FSA. With the [[rha-retiree-health-account|RHA]] already pre-funding retiree healthcare, either answer is defensible — make it deliberately in November. If HSA path is chosen: contributions stop 6 months before Medicare enrollment, and Colorado does tax HSA... no — Colorado conforms to federal; CA/NJ are the outliers. Moot after relocation.
 
-### 1c. Clear the pro-rata problem now, not later
+### 1c. ~~Clear the pro-rata problem~~ — verified clean (2026-08-13)
+
+**Resolved**: Ryan's only traditional IRA holds $0.04 and Stacy has no IRAs of any kind — the backdoor channel is pro-rata clean for both, permanently, as long as no pre-tax IRA balance is ever created (a 401(k)-to-IRA rollover before the backdoor years end would reintroduce it). Original mechanics kept for reference:
 
 Backdoor Roth contributions are only clean if there is **no pre-tax balance in any traditional, SEP, or SIMPLE IRA** as of December 31 — the pro-rata rule under §408(d)(2) aggregates them all and makes each conversion partly taxable.
 
@@ -119,7 +121,7 @@ Backdoor Roth contributions are only clean if there is **no pre-tax balance in a
 
 ### 1d. The five-year Roth clock — Ryan's is running; confirm Stacy's
 
-**Ryan already maxes a backdoor Roth annually** (confirmed 2026-08-13; Form 8606 filed via Incite Tax, 1099-R for the 2026 conversion arrives Jan 2027), so his account clock is running and his annual Roth channel is live. Confirm **Stacy has her own** — contribution limits and five-year clocks are per-person, and her Roth-leaning strategy (1a) presumes the account exists. See [[retirement-tax-rules-primer#2. Roth withdrawals are tax-free if requirements are met|the two five-year clocks]].
+**Ryan already maxes a backdoor Roth annually** (confirmed 2026-08-13; Form 8606 filed via Incite Tax, pro-rata clean per [[schwab-portfolio-review-2026-07]]), so his clock is running. **Stacy has no Roth IRA — or any retirement account** (confirmed 2026-08-13). Opening hers and running her $8,600 backdoor this year is the cheapest irreversible move left: it starts her five-year clock, is trivially pro-rata-clean (she has no IRA balances of any kind), and begins fixing the fact that 100% of household retirement assets sit in Ryan's name. See [[retirement-tax-rules-primer#2. Roth withdrawals are tax-free if requirements are met|the two five-year clocks]].
 
 ### 1e. Stand up the real estate engine — REPS first
 
@@ -190,7 +192,7 @@ Stacy **stays on Ryan's employer coverage until his retirement (8/3/2041)** and 
 
 ### 2c. Fund the conversion-tax reserve
 
-The 2042–2050 conversion program requires paying roughly **$85K/year all-in** (federal tax plus IRMAA surcharge), from **outside** the IRA, for nine years — call it **$800K–$900K of taxable-account liquidity** in today's dollars, with a buffer. Materially more if Stacy's compressed window forces the fast lane — and materially **less** to the extent cost-seg losses shelter the conversions (see [[roth-conversion-window#Sheltering conversions with real estate losses]]) and the [[rha-retiree-health-account|RHA]] absorbs the premium/IRMAA component (~$100–150K of the reserve, if the plan reimburses IRMAA — verify).
+The 2042–2050 conversion program requires paying roughly **$85K/year all-in** (federal tax plus IRMAA surcharge), from **outside** the IRA, for nine years — call it **$800K–$900K of taxable-account liquidity** in today's dollars, with a buffer. Materially more on the fast lane (the working assumption) — and materially **less** to the extent cost-seg losses shelter the conversions (see [[roth-conversion-window#Sheltering conversions with real estate losses]]) and the [[rha-retiree-health-account|RHA]] absorbs the premium/IRMAA component (~$100–150K of the reserve, if the plan reimburses IRMAA — verify).
 
 Two requirements on that money:
 - **Low embedded capital gains**, so raising cash doesn't itself create a taxable event competing for bracket space. Direct the last few years of taxable savings into this reserve deliberately rather than letting it accumulate in highly appreciated positions.
@@ -230,13 +232,13 @@ Separating from service in or after the year you turn 55 allows penalty-free wit
 
 ## Phase 4 — Stacy's Window (2042–2045)
 
-**Mission: four years. Convert Stacy's traditional balances before her 2046 RMDs, sheltered by real estate losses.**
+**Mission: the cheapest four years — only Stacy's Social Security on the return. Ryan converts at maximum, sheltered by real estate losses.** (First order of business in 2042: clear whatever small pre-tax balance Stacy's solo-401(k) employer contributions built, so her 2046 RMD date lands on an empty account.)
 
 Detailed mechanics, sizing math, and the IRMAA-vs-bracket tradeoff live in **[[roth-conversion-window]]**. The summary:
 
 1. **Live off the taxable account** — return of basis plus dividends, minimal recognized income. Stacy's SS benefit (claimed 2/2041) is the floor income.
 2. **Convert Stacy's traditional → Roth up to the IRMAA tier boundary**: **$410,000 of MAGI** in 2026 terms, *not* the $435,750 that fills the 24% bracket — the last $25,750 carries a 37.5% marginal cost once the IRMAA cliff is included. Ryan converts only with whatever room is left.
-3. **Shelter with cost-seg.** Acquisitions timed into these years generate REPS-enabled losses that absorb conversion income — see [[roth-conversion-window#Sheltering conversions with real estate losses]]. This is what makes a four-year window survivable.
+3. **Shelter with cost-seg.** Acquisitions timed into these years generate REPS-enabled losses that absorb conversion income — see [[roth-conversion-window#Sheltering conversions with real estate losses]]. This is what makes a $5–6M corpus convertible at tolerable rates.
 4. **Ryan delays Social Security** — his benefit grows to 124% of PIA at 8/2046 and maximizes the survivor benefit.
 5. **Convert in-kind, and convert into weakness.** A 20% market decline is a 20%-off sale on conversions — pre-decide this so it gets executed rather than debated.
 6. **Convert the highest-growth assets first** — whatever lands in the Roth compounds tax-free forever.
@@ -303,7 +305,7 @@ These change the numbers materially. Ordered by leverage.
 5. **Any existing traditional/SEP/SIMPLE IRA balances?** Now sharper: Ryan's backdoor conversions are already running annually, so if any pre-tax IRA balance exists at 12/31, those conversions have been **partly taxable under the pro-rata rule** — verify the 8606 basis history with Zach Fox rather than assuming clean. Also determines the pre-REPS suspended-loss / aggregation-election timing question.
 6. **Any non-qualified deferred compensation?** If yes, the payout election must be 10+ years to escape former-state tax under §114. Time-sensitive.
 7. **Current state, and target state and move year.** Determines PTET availability, HSA state treatment, audit-aggressiveness, and when the conversion window can open.
-8. **Stacy's balances by bucket** — Ryan's are now documented (**$1.76M, 99% pre-tax** — [[schwab-portfolio-review-2026-07]]) and his trajectory already puts the household on the **fast conversion lane**; hers remain the missing number that sizes her four-year window.
+8. ~~Balances by bucket~~ **Resolved**: Ryan $1.76M, 99% pre-tax ([[schwab-portfolio-review-2026-07]]) → fast lane; **Stacy $0 — no retirement accounts** (2026-08-13). What remains of this item is her **business net income**, which sizes the solo 401(k) she needs to open.
 9. **Confirm Ryan's plan is creditable coverage** (the 20+ employee test is safely met) — the one remaining condition on the decided Stacy-stays-on-employer-coverage plan. Also confirm the [[rha-retiree-health-account|RHA]] plan terms: IRMAA reimbursement, survivor access, and the active-HRA/HSA-eligibility question.
 10. **Charitable intent, annual and lifetime.** Determines whether DAF bunching in the working years and the QCD program from 2041/2047 are worth building around.
 
