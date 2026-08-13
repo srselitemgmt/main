@@ -1,7 +1,7 @@
 ---
 tags: [tax, reference, annual-refresh]
 aliases: ["2026 Tax Figures", "Tax Reference Numbers"]
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # Key Tax Figures — 2026 (MFJ)
@@ -54,7 +54,7 @@ LTCG and qualified dividends **stack on top of** ordinary income. Ordinary incom
 | HSA — family coverage | $8,750 |
 | HSA catch-up, age 55+ (each spouse) | $1,000 |
 
-**Roth catch-up mandate (new for 2026)**: if prior-year wages from the plan sponsor exceeded **$150,000**, all catch-up contributions *must* be Roth. This applies to us. Treat it as a feature — see [[tax-mitigation-master-plan#Phase 1 — Accumulate & Defer (age 52–59)]].
+**Roth catch-up mandate (new for 2026)**: if prior-year wages from the plan sponsor exceeded **$150,000**, all catch-up contributions *must* be Roth. This applies to us. Treat it as a feature — see [[tax-mitigation-master-plan#Phase 1 — Accumulate & Defer (2026–2030)]].
 
 ## Medicare IRMAA — 2026 premiums (based on 2024 MAGI)
 
@@ -105,7 +105,7 @@ IRMAA is a **cliff, not a phase-in** — one dollar over a boundary triggers the
 | Social Security full retirement age | 67 |
 | Max delayed retirement credits (124% of PIA) | 70 |
 | QCDs allowed | 70½ |
-| **RMDs begin — born 1960 or later** | **75** |
+| **RMDs begin — born 1960 or later** | **75** (Stacy 2046 · Ryan 2051) |
 
 ## Estate
 

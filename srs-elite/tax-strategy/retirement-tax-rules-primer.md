@@ -1,12 +1,12 @@
 ---
 tags: [tax, retirement, primer, captured-content]
 aliases: ["8 Retirement Tax Rules", "Retirement Tax Rules Most People Never Learn"]
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # Retirement Tax Rules Primer — the 8 Rules, Corrected and Extended
 
-**Summary**: Captured from a Good Financial Cents social post ("8 retirement tax rules most people never learn"), then checked against current law and annotated with what each rule actually means *for our situation* — MFJ, early 50s, $400–750K W-2 income, relocating to a no-income-tax state before retiring at 65. All eight are directionally right; several are imprecise in ways that matter at our income level. Each rule maps to a specific action in the [[tax-mitigation-master-plan]].
+**Summary**: Captured from a Good Financial Cents social post ("8 retirement tax rules most people never learn"), then checked against current law and annotated with what each rule actually means *for our situation* — MFJ (Ryan 50, W-2; Stacy 55, real estate professional), $400–750K income, relocating to a no-income-tax state before Ryan's mandatory retirement at 65 in 2041. All eight are directionally right; several are imprecise in ways that matter at our income level. Each rule maps to a specific action in the [[tax-mitigation-master-plan]].
 **Source**: Good Financial Cents (Franklin, TN), captured 2026-08-12 · verified against [[key-figures-2026]]
 **Status**: reference note — do not plan directly from this; plan from the master plan
 
@@ -89,7 +89,7 @@ Knock-on effects the post doesn't mention — a conversion raises the MAGI that 
 
 Also: **pay the conversion tax from taxable funds, not by withholding from the conversion itself.** Withholding shrinks the amount that lands in the Roth, which is the whole point of the exercise.
 
-→ **Action**: hold 10 years of conversion-tax money in the taxable account before retiring. This is a specific pre-retirement funding target — see [[tax-mitigation-master-plan#Phase 2 — Position (age 60–64)]].
+→ **Action**: hold 10 years of conversion-tax money in the taxable account before retiring. This is a specific pre-retirement funding target — see [[tax-mitigation-master-plan#Phase 2 — Build & Position (2031–2035)]].
 
 ### 7. Some states do not tax retirement income
 
@@ -103,7 +103,7 @@ The missing piece: **4 U.S.C. §114** (the Pension Source Tax Act) **prohibits a
 - Equity compensation attributable to services performed there
 - Business/partnership income sourced there
 
-→ **Action**: this is the largest single lever in the whole plan and it is entirely in our control. Details in [[tax-mitigation-master-plan#Phase 2 — Position (age 60–64)]]. Two specific consequences: **structure any deferred comp payout over 10+ years**, and **buy investment real estate in no-tax states** — which the existing [[mhp-rv-investment-strategy]] targeting already does.
+→ **Action**: this is the largest single lever in the whole plan and it is entirely in our control. Details in [[tax-mitigation-master-plan#Phase 2 — Build & Position (2031–2035)]]. Two specific consequences: **structure any deferred comp payout over 10+ years**, and **buy investment real estate in no-tax states** — which the existing [[mhp-rv-investment-strategy]] targeting already does.
 
 ### 8. RMDs can push retirees into higher brackets
 

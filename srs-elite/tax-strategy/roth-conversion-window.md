@@ -1,27 +1,32 @@
 ---
 tags: [tax, roth, conversions, irmaa, retirement]
 aliases: ["Roth Conversion Window", "Conversion Ladder", "Golden Window"]
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
-# The Roth Conversion Window — Ages 65–75
+# The Roth Conversion Window — 2042–2050
 
-**Summary**: Retiring at 65 with RMDs at 75, in a no-income-tax state, with Social Security delayed to 70, produces a **ten-year window** in which we control our taxable income almost completely. This note sizes the conversion program: **stop at the IRMAA tier boundary, not the top of the tax bracket** — in 2026 terms, $410,000 of MAGI, which moves roughly $370K/year into the Roth at an all-in cost of about **23%**. A faster lane exists at ~28% if the pre-tax balance is too large to clear at that speed.
-**Sources**: [[key-figures-2026]] · [[tax-mitigation-master-plan]]
-**All figures in 2026 dollars.** Brackets and IRMAA tiers index with inflation, so real comparisons hold; nominal amounts in 2039 will be materially larger.
+**Summary**: Ryan's mandatory retirement (8/3/2041), RMDs at 75 for both spouses, the no-tax-state relocation, and delayed Social Security produce a conversion window running **2042–2050** — but it is really **two windows of very different lengths**: Stacy gets **four clean years (2042–2045)** before her RMDs start in 2046; Ryan gets **nine (2042–2050)**. Sizing: **stop at the IRMAA tier boundary, not the top of the tax bracket** — in 2026 terms, $410,000 of MAGI, moving roughly $370K/year into Roth at an all-in cost of about **23%**. Sequencing: **Stacy's balances convert first**, sheltered where possible by REPS-enabled real estate losses.
+**Sources**: [[key-figures-2026]] · [[household-timeline]] · [[tax-mitigation-master-plan]]
+**All figures in 2026 dollars.** Brackets and IRMAA tiers index with inflation, so real comparisons hold; nominal amounts in 2042 will be materially larger.
 
-## Why the window exists
-
-Four things line up at 65:
+## Why the window exists — and why it's really two windows
 
 | Factor | Effect |
 |---|---|
-| Retirement at 65 | Earned income → zero |
-| RMD age 75 (born 1960+) | No forced distributions for 10 years |
-| Social Security delayed to 70 | Ages 65–70 have almost no other income *and* benefits grow to 124% of PIA |
+| Ryan's mandatory retirement 8/3/2041 | Earned income → zero; **2041 is a partial year, so 2042 is the first clean conversion year** |
+| RMD age 75 for both (born 1960+) | Stacy's RMDs begin **2046**; Ryan's begin **2051** |
+| Social Security: Stacy claims at 70 (2/2041), Ryan at 70 (8/2046) | Stacy's benefit runs through her whole window; Ryan's years 2042–2045 are nearly income-free |
 | Relocation complete | Conversions cost **federal tax only** (4 U.S.C. §114) |
 
-Ages **65–70 are the cheapest five years**; 70–75 are still good but Social Security consumes bracket space.
+| | Clean years | Constraint |
+|---|---|---|
+| **Stacy** | **2042–2045 — four** | RMDs at 75 in 2046; her SS benefit occupies bracket space the whole time |
+| **Ryan** | 2042–2050 — nine | SS from 8/2046 shrinks room in the last four |
+
+Conversions are **per-person** — each spouse converts from their own IRA, but the tax is computed on the **joint** return, so both draw on the same bracket space. **That is the sequencing problem**: whatever of Stacy's pre-tax balance isn't converted by end of 2045 becomes RMDs that consume the joint bracket space Ryan needs for 2046–2050.
+
+**Priority order: Stacy's traditional balances convert first, 2042–2045. Ryan waits.** He has the runway; she does not.
 
 ## The sizing decision
 
@@ -78,7 +83,7 @@ Ten years → **~$7.1M converted for ~$2.0M of tax.**
 
 ### Which lane
 
-**Decision rule**: use the slow lane if the pre-tax balance at 65 can be substantially cleared in ten years at ~$370K/year — roughly a **$3.5M or smaller** pre-tax balance. Above that, a residual will still be sitting there at 75, growing into RMDs and a widow's-penalty problem, and the fast lane's extra 5.4 points buys the ability to actually finish.
+**Decision rule**: use the slow lane if the combined pre-tax balance at 2042 can be substantially cleared at ~$370K/year within each spouse's window — as a rough gauge, **$3.5M or smaller combined, with Stacy's share small enough to clear in her four years**. Above that, a residual will still be sitting there at RMD age, growing into a widow's-penalty problem, and the fast lane's extra 5.4 points buys the ability to actually finish. **Stacy's compressed window is the more likely reason to need the fast lane in 2042–2045**, even if the combined balance looks manageable.
 
 The comparison that decides it is not "23.0% vs. 28.4%." It is **either of those against the rate the surviving spouse pays alone at 85** — filing single, on RMDs from an unconverted balance, with single-filer IRMAA thresholds at half the joint levels. That is 32–35% federal plus top-tier IRMAA. **Both lanes win. The fast lane wins by more if the balance is large.**
 
@@ -86,20 +91,21 @@ The comparison that decides it is not "23.0% vs. 28.4%." It is **either of those
 
 ## The two-year IRMAA lag
 
-IRMAA in any year is set by MAGI **two years earlier**. Mapping it out (ages, born 1974):
+IRMAA in any year is set by MAGI **two years earlier**, and once Ryan retires it applies to both spouses' premiums:
 
-| Premium year | Age | Priced off MAGI from | Which is |
-|---|---|---|---|
-| 2039 | 65 | 2037 (age 63) | Full W-2 → **top tier** |
-| 2040 | 66 | 2038 (age 64) | Full W-2 → **top tier** |
-| 2041 | 67 | 2039 (age 65) | First conversion year |
-| … | … | … | … |
-| 2050–2051 | 76–77 | 2048–2049 | Final conversion years |
+| Premium year | Priced off MAGI from | Which is |
+|---|---|---|
+| **2036–2041 (Stacy only)** | 2034–2039 | **Peak W-2 years → top tier** — see the [[household-timeline#1. Stacy hits Medicare in Feb 2036 — 5½ years before Ryan retires|employer-coverage escape]] |
+| 2041–2042 (Ryan) | 2039–2040 | Final full W-2 years → **top tier** |
+| 2043 | 2041 | Ryan's partial-W-2 retirement year |
+| 2044–2051 | 2042–2049 | Conversion years → tier 3 by design |
+| 2052 | 2050 | Ryan's last conversion year |
 
-Two consequences:
+Three consequences:
 
-1. **The first two Medicare years are priced off our final two working years** — top-tier IRMAA, roughly $18,700/year for the couple, regardless of what we do at 65. **File Form SSA-44** citing work stoppage; SSA will use a current-year estimate instead. The catch: relief requires actual income to be low, so a year with a $370K conversion won't qualify for much. Decide deliberately whether the first year or two is a low-income "IRMAA relief" year or a full conversion year — **usually the conversion wins**, because bracket arbitrage over a 20+ year horizon dominates a one-year premium surcharge.
-2. **The last two conversion years' IRMAA lands at ages 76–77**, after the program ends. Budget for it; don't be surprised by it.
+1. **Stacy's 2036–2041 Medicare years are the expensive ones**, priced off peak W-2 income with no work-stoppage appeal available (Ryan is still employed). The best answer is probably for her to **stay on Ryan's employer coverage and skip Medicare enrollment entirely until he retires** — the conditions and the HSA/Part A trap are in [[household-timeline]]. Decide in 2035.
+2. **Ryan's first Medicare premiums (from 8/2041) are priced off 2039–2040 W-2 income** — top tier. **File Form SSA-44** citing work stoppage. The catch: relief requires actual income to be low, so 2042 with a $370K conversion won't qualify for much. **The conversion still wins** — bracket arbitrage over a 20+ year horizon dominates a one-year premium surcharge.
+3. **The last conversion years' IRMAA lands in 2050–2052**, after the program ends. Budget for it; don't be surprised by it.
 
 ## Why we don't harvest capital gains at 0%
 
@@ -119,20 +125,25 @@ So it's one or the other. Conversions win, decisively, and the reason is subtle:
 - **Convert the highest-expected-return assets.** Whatever ends up in the Roth compounds tax-free forever, so put the widest-distribution assets there. See [[tax-mitigation-master-plan#1g. Asset location — free return, no risk]].
 - **Estimated taxes.** A large conversion creates an underpayment exposure. Either make a Q4 estimated payment or rely on the prior-year safe harbor (110% of prior-year tax for high earners). Coordinate with the CPA each October.
 
-## Pairing conversions with passive-loss releases
+## Sheltering conversions with real estate losses
 
-Long-term rentals and MHP/RV parks generate **suspended passive losses** we can't use while working. Those losses are not lost: on a **fully taxable disposition of the entire interest**, §469(g) releases them against **any** income — including non-passive income like a Roth conversion.
+Under [[reps-real-estate-professional-status|Stacy's REPS]], rental losses are **non-passive and current** — they offset any income on the joint return, **including Roth conversion income**, up to the §461(l) cap of $512,000.
 
-→ **Sequence a property disposition into a large conversion year.** The released losses absorb the sale's gain and recapture first, and any excess offsets conversion income — effectively converting at a discount. This is the one case where selling real estate beats holding it for step-up. Detail in [[str-cost-segregation-playbook#Suspended passive losses are not lost]].
+This is the answer to Stacy's compressed window. A cost-seg acquisition placed in service in a 2042–2045 conversion year generates a loss that directly absorbs conversion income: **convert $370K, deduct $300K of bonus depreciation, and the taxable cost of the conversion nearly vanishes** — while MAGI stays under the IRMAA boundary because the loss reduces AGI too.
 
-## Annual checklist, ages 65–75
+→ **Hold acquisition capacity in reserve for 2042–2045.** A park or STR purchase that could close in 2040 may be worth more closed in 2043, timed against Stacy's conversions. This has to be balanced against using losses at the 45.5% SALT-torpedo rate during peak W-2 years — the CPA models this trade in the October projections. REPS must still hold in those years (Stacy will be 71–74 and managing the portfolio still counts — the tests don't care about age, only hours).
 
-- [ ] **October**: project the year's non-conversion income (dividends, interest, rental, Social Security once claimed)
+**The older passive-loss-release play** — pairing a fully taxable disposition with a conversion year so §469(g) releases suspended losses — still works for any pre-REPS suspended losses, but note the aggregation-election interaction in [[str-cost-segregation-playbook#Suspended passive losses from pre-REPS years]]: once rentals are aggregated, a single-property sale is not a disposition of "the activity."
+
+## Annual checklist, 2042–2050
+
+- [ ] **October**: project the year's non-conversion income (dividends, interest, net rental, Stacy's SS; Stacy's RMDs from 2046; Ryan's SS from 8/2046)
 - [ ] Subtract from the IRMAA ceiling → that year's conversion capacity
+- [ ] **Through 2045: the capacity goes to Stacy's IRA first.** Ryan converts only what remains
 - [ ] Confirm the current-year IRMAA tier boundaries from [[key-figures-2026]] (they index annually)
-- [ ] Check whether a property disposition or released passive losses change the capacity
+- [ ] Check whether a planned cost-seg acquisition or REPS-enabled loss expands the year's effective capacity
 - [ ] **December**: execute the conversion in kind, before 12/31
 - [ ] Confirm withholding/estimated payments cover it, paid from taxable funds
 - [ ] Verify the resulting MAGI landed **below** the intended IRMAA boundary — recheck after year-end 1099s arrive, since an unexpected capital gain distribution can push you over a cliff you thought you'd cleared
 
-**Related**: [[tax-mitigation-master-plan]] · [[key-figures-2026]] · [[retirement-tax-rules-primer]] · [[str-cost-segregation-playbook]]
+**Related**: [[household-timeline]] · [[tax-mitigation-master-plan]] · [[reps-real-estate-professional-status]] · [[key-figures-2026]] · [[str-cost-segregation-playbook]]

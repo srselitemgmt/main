@@ -1,30 +1,34 @@
 ---
 tags: [tax, real-estate, str, cost-segregation, passive-losses, depreciation]
 aliases: ["STR Playbook", "Cost Segregation Playbook", "STR Loophole"]
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # STR + Cost Segregation Playbook — Offsetting W-2 Income With Real Estate
 
-**Summary**: Long-term rental losses are useless to us — they're passive, and every escape hatch is closed to a full-time W-2 earner. **Short-term rentals are different**: with an average stay of 7 days or less, they are *not* rental activities under the §469 regulations, so with material participation their losses are **non-passive and offset W-2 income directly**. Combined with cost segregation and permanent 100% bonus depreciation, one acquisition can generate a $250–350K first-year deduction at a 35–45% effective rate. The whole strategy rests on two things: **self-managing** and **contemporaneous time logs**.
+**Summary**: Cost segregation plus permanent 100% bonus depreciation turns a single acquisition into a $250–350K first-year deduction against ordinary income at a 35–45% effective rate. Getting that deduction past §469 requires one of two doors, and **we have both**: [[reps-real-estate-professional-status|Stacy's Real Estate Professional Status]] opens *every* rental — long-term rentals and MHP lot rent included — and the short-term rental exception covers anything with ≤7-day average stays independently. With REPS live, §469 stops being the binding constraint and **§461(l)'s $512,000 excess business loss cap becomes the real ceiling**. The strategy rests on **contemporaneous time logs** and **recourse-structured seller debt**.
 **Sources**: IRC §469, §465, §461(l), §280A, §168 · Temp. Reg. §1.469-1T(e)(3)(ii)(A), §1.469-5T(a) · OBBBA (P.L. 119-21)
 **Related**: [[tax-mitigation-master-plan]] · [[mhp-rv-investment-strategy]] · [[key-figures-2026]]
 
 > [!warning] The most audit-exposed part of the plan
 > Material participation and at-risk positions are decided on facts and documentation, not on strategy. **The IRS wins most material-participation cases on recordkeeping alone.** Everything here needs CPA sign-off before the first cost-seg year. Nothing in this note is a substitute for a proper cost segregation study by a qualified firm.
 
-## The problem: §469 makes rentals useless to us
+## The §469 problem, and our two doors through it
 
-Under §469(c)(2), **rental activity is passive per se** — regardless of how much work you do. Passive losses can only offset passive income; the excess is suspended indefinitely. There are exactly three ways out, and two are closed to us:
+Under §469(c)(2), **rental activity is passive per se** — regardless of how much work you do. Passive losses can only offset passive income; the excess is suspended indefinitely. There are three ways out:
 
 | Exit | Requirement | Available to us? |
 |---|---|---|
 | **§469(i) special allowance** | Up to $25,000 of rental losses, phased out $100K–$150K MAGI | ❌ **No** — we are far above $150K |
-| **Real Estate Professional Status** | 750+ hours in real property trades **and** more than half of *all* personal service time | ❌ **Not for the W-2 spouse** — a full-time job makes the "more than half" test arithmetically impossible |
-| **STR exception** | Average period of customer use ≤ 7 days + material participation | ✅ **Yes — this is the play** |
+| **Real Estate Professional Status** | One spouse alone: 750+ hours in real property trades **and** more than half of *all* their personal service time | ✅ **Yes — Stacy qualifies.** Opens **every** rental |
+| **STR exception** | Average period of customer use ≤ 7 days + material participation | ✅ Yes — independent of REPS, covers non-rental activities |
 
-> [!tip] The REPS exception worth checking
-> REPS is tested **per spouse**, but the benefit flows to the **joint return**. If one spouse does not work full-time and can genuinely log 750+ hours with real estate as their primary occupation, **all** rental losses become non-passive — including long-term rentals and MHP/RV parks, which the STR exception cannot reach. This is the single highest-leverage open question in the entire plan. See [[tax-mitigation-master-plan#Open items to resolve]] item 1.
+**REPS is the bigger door and should be the primary position.** Stacy works full-time in real estate — seller leads, acquisitions, tenant management — which satisfies both §469(c)(7)(B) tests on her own hours. That makes **all** rental losses non-passive on the joint return, including the long-term rentals and MHP lot rent that the STR exception can never reach. Full mechanics, the mandatory second step, and the documentation requirements are in **[[reps-real-estate-professional-status]]**.
+
+**The STR exception still matters** for two reasons: STRs are *not* rental activities, so they sit outside the §1.469-9(g) rental aggregation and are tested on their own; and it is the fallback if REPS ever fails in a given year. REPS is re-tested annually — a year where Stacy works less is a year the long-term rental losses go back to being suspended, while ≤7-day STRs keep working regardless. **Holding both positions is genuine redundancy, not duplication.**
+
+> [!important] What changes now that REPS is live
+> §469 is no longer what limits us. **§461(l)'s $512,000 excess business loss cap is** — see [[#4. Excess business loss — §461(l)]]. The acquisition calendar should be sized to that number, not to what §469 will let through.
 
 ## The STR exception, precisely
 
@@ -54,7 +58,10 @@ Two provisions that help:
 
 Test #3 compares your hours to **any other individual** — including a paid property manager, a cleaner, and a co-host. If a full-service manager logs 150 hours and you log 120, **you fail**, and every dollar of loss becomes suspended.
 
-→ This is why **self-managing is a requirement, not a preference.** Your stated intent to run STR management yourself is precisely what makes the strategy function. If you later hire help, structure it as **task-specific vendors** (a cleaner per turnover, a handyman per call) rather than a manager with a broad ongoing role — and **track their hours too**, so you can prove you exceeded each of them.
+→ **On the STR group, self-managing remains a requirement, not a preference** — the ≤7-day properties sit outside the rental aggregation and have to clear material participation on their own. If you hire help there, structure it as **task-specific vendors** (a cleaner per turnover, a handyman per call) rather than a manager with a broad ongoing role, and **track their hours too** so you can prove you exceeded each of them.
+
+> [!tip] REPS relaxes this for the long-term rentals
+> On the aggregated rental activity, Stacy and Ryan's hours combine under §469(h)(5) against the **500-hour test**, where no comparison to any other individual is required. That means **third-party property management is survivable on the long-term rentals and parks** in a way it is not on the STRs — useful as the portfolio scales past what two people can personally run.
 
 ### Time logs — the thing that actually decides audits
 
@@ -139,15 +146,17 @@ You are at risk for cash contributed, **recourse** debt you're personally liable
 **Subject-to deals are murkier** — the loan stays in the seller's name, so whether the buyer is treated as having the debt at all is fact-dependent. Flag every sub-to deal for CPA review **before** counting on year-1 losses.
 
 ### 3. Passive activity loss — §469
-The gate this whole note is about. Cleared by the STR exception + material participation.
+Cleared two ways: **[[reps-real-estate-professional-status|Stacy's REPS]] + the §1.469-9(g) aggregation election** for all rentals, and the **STR exception + material participation** for ≤7-day properties. Re-tested every year.
 
 ### 4. Excess business loss — §461(l)
+
+**This is now our binding constraint.** With §469 cleared by REPS, nothing stops the losses until here.
 
 Net business losses above **$512,000 (MFJ, 2026)** cannot offset non-business income in the current year; the excess becomes an **NOL carryforward** (usable against 80% of future taxable income).
 
 Note this threshold **dropped** from $626,000 in 2025 — OBBBA made the limitation permanent and reverted the thresholds to their original TCJA levels.
 
-→ **Don't stack multiple large cost-seg acquisitions into one year.** Two $1.2M properties would generate ~$570K of loss and breach the cap. **Spread acquisitions across tax years** to keep each year's loss under the threshold and fully current-year deductible.
+→ **Size the acquisition calendar to $512,000 of net loss per year** — roughly **$1.7–2.0M of purchase price annually** at typical reclass rates, depending on furnishing and land allocation. Stacking three large acquisitions into one year doesn't produce a bigger deduction; it pushes the excess into a carryforward and wastes the 45.5% SALT-torpedo rate available this year. **Spreading acquisitions across years is now a tax decision, not just a capital one.**
 
 ## Other rules that bind
 
@@ -177,40 +186,41 @@ Recapture at ordinary rates can exceed the 35% at which the deduction was origin
 
 **Two clean exits:**
 - **§1031 exchange** — defers everything into the replacement property. STRs qualify as business/investment property.
-- **Die owning it** — the basis step-up **eliminates all accumulated depreciation recapture permanently.** This is what turns the deferral into a genuine permanent benefit, and it's why [[tax-mitigation-master-plan#Phase 5 — RMD Era (age 75+)]] says preserve step-up rather than sell.
+- **Die owning it** — the basis step-up **eliminates all accumulated depreciation recapture permanently.** This is what turns the deferral into a genuine permanent benefit, and it's why [[tax-mitigation-master-plan#Phase 6 — RMD Era (2051+)]] says preserve step-up rather than sell.
 
 **Rule: 1031 until death.** Plan acquisitions as permanent holds.
 
-## Suspended passive losses are not lost
+## Suspended passive losses from pre-REPS years
 
-Long-term rentals and MHP/RV lot-rent parks will accumulate suspended passive losses we can't currently use. Three ways they eventually pay off:
+Any losses suspended before REPS was in place — or in a year REPS fails — are not lost. Three ways they pay off:
 
 1. **Offset passive income** from other properties as the portfolio matures
 2. **Release on full disposition** — §469(g): a fully taxable disposition of the entire interest releases *all* suspended losses from that activity against **any** income, including non-passive
-3. **The $25,000 allowance returns** if MAGI ever drops below $150,000 — unlikely, since conversion years will run MAGI near $410K
+3. **The $25,000 allowance returns** if MAGI ever drops below $150,000 — unlikely at our income
 
-→ **Point 2 is a planning opportunity**: sequence a property disposition into a large Roth conversion year. Released losses absorb the sale's gain and recapture first, then offset conversion income — effectively converting at a discount. See [[roth-conversion-window#Pairing conversions with passive-loss releases]].
+> [!warning] The aggregation election interacts with point 2
+> Once the §1.469-9(g) election groups all rentals into one activity, selling a single property is no longer a disposition of "the activity," so it does **not** release that property's suspended losses. If there is a meaningful bank of pre-REPS suspended losses, **sequence the election and any planned disposition with the CPA** — see [[reps-real-estate-professional-status#The trade-off in the aggregation election]].
 
 ## Connecting to the MHP/RV strategy
 
-The existing [[mhp-rv-investment-strategy]] targets mom-and-pop MHP and RV parks on seller terms. Two tax observations that materially change how those deals should be structured:
+The existing [[mhp-rv-investment-strategy]] targets mom-and-pop MHP and RV parks on seller terms. **Stacy's REPS changes the conclusion here — MHP parks are now viable during the working years, not just after retirement.**
 
-**1. MHP lot rent is a long-term rental — passive, suspended.** Cost segregation on a park is *excellent* (roads, pads, site utilities, and utility infrastructure are largely **15-year land improvements** eligible for 100% bonus), but with a full-time W-2 job those losses are **suspended, not current.** They are still valuable — they shelter the park's own income for years and release on disposition — but they will not offset W-2 income.
+**1. MHP lot rent is a long-term rental — and REPS is the only thing that reaches it.** Cost segregation on a park is *excellent*: roads, pads, site utilities, and utility infrastructure are largely **15-year land improvements** eligible for 100% bonus depreciation, which makes parks one of the most cost-seg-favorable asset classes in existence. The STR exception can never reach lot rent. **REPS can** — which means park losses now offset Ryan's W-2 income currently.
 
-**2. RV parks can qualify for STR treatment.** An RV park renting sites nightly and weekly has an **average period of customer use well under 7 days** — which puts it squarely inside the §1.469-1T(e)(3)(ii)(A) exception. With material participation, **an RV park's cost-seg losses are non-passive and offset W-2 income.**
+**2. RV parks qualify under both doors.** An RV park renting sites nightly and weekly has an **average period of customer use well under 7 days**, putting it inside the §1.469-1T(e)(3)(ii)(A) exception independently of REPS. That redundancy is worth something: an RV park keeps working in a year Stacy's REPS fails.
 
-That reframes the acquisition priority in the existing strategy:
+Revised acquisition priority:
 
 | Asset | Cost seg quality | Loss usable against W-2? |
 |---|---|---|
-| MHP, lot rent only | Excellent (15-yr heavy) | ❌ Suspended |
-| **RV park, transient sites** | **Excellent (15-yr heavy)** | ✅ **Yes, with material participation** |
-| Residential STR | Very good | ✅ Yes, with material participation |
-| Long-term residential rental | Moderate | ❌ Suspended |
+| **MHP, lot rent only** | **Excellent (15-yr heavy)** | ✅ **Yes — via REPS** (was ❌ before) |
+| **RV park, transient sites** | **Excellent (15-yr heavy)** | ✅ **Yes — via REPS *or* STR exception** |
+| Residential STR | Very good | ✅ Yes — via either door |
+| Long-term residential rental | Moderate | ✅ Yes — via REPS |
 
-→ **While still working, prioritize RV parks and STRs over pure MHP lot-rent deals.** Shift toward MHPs after retirement, when there is no W-2 income to shelter and the passive treatment stops mattering. And note that **transient RV sites are more likely to trigger SE tax** if substantial services are provided — a real trade-off to model, not ignore.
+→ **The "wait until retirement for MHPs" constraint is gone.** Buy the best deal on its own merits; the tax treatment no longer discriminates between asset types. Two residual preferences: **RV parks carry door redundancy** (REPS-independent), and **transient RV sites are more likely to trigger SE tax** if substantial services are provided — model that, don't ignore it.
 
-Combined with the at-risk problem above, the practical rule for terms deals: **RV park + recourse-guaranteed seller note + self-managed + cost seg study = a six-figure W-2 offset. Nonrecourse seller carry = no year-one benefit at all.**
+The practical rule for terms deals is now: **cost-seg study + recourse-guaranteed seller note + Stacy's REPS documented + annual loss under $512K = a six-figure W-2 offset. Nonrecourse seller carry = no year-one benefit at all**, regardless of REPS.
 
 ## State selection
 
@@ -220,17 +230,25 @@ Real property income and gain are **always taxable by the state where the proper
 
 ## Pre-acquisition checklist
 
+**Every acquisition:**
 - [ ] Property in a no-tax or low-tax state
-- [ ] Booking policy caps stay length → annual average **≤ 7 days**, verified quarterly
-- [ ] **We self-manage** — no manager who could out-hour us; vendors are task-specific
-- [ ] Time log started **on day one**, tracking our hours and every vendor's hours
+- [ ] Which door is this property using — **REPS** (rental, in the aggregation) or the **STR exception** (≤7-day, standalone)? Decide before closing, not at filing
+- [ ] Time log started **on day one**, tracking Stacy's hours, Ryan's hours, and every vendor's hours
 - [ ] Cost segregation study engaged with a qualified firm **before** filing, ideally before closing
 - [ ] Seller financing, if any, is **recourse / personally guaranteed** (§465)
-- [ ] Projected loss keeps total business losses under the **§461(l)** cap for the year
+- [ ] Projected loss keeps total business losses under the **§461(l) $512K cap** for the year
 - [ ] **Placed in service by 12/31** — this is what controls the deduction year, not the closing date
-- [ ] Personal use planned at **zero**
-- [ ] Services kept below "hotel-like" to avoid SE tax
 - [ ] Exit assumed to be **1031 or death**, never a plain taxable sale
 - [ ] CPA has reviewed the material participation and at-risk positions **in writing**
 
-**Related**: [[tax-mitigation-master-plan]] · [[roth-conversion-window]] · [[key-figures-2026]] · [[mhp-rv-investment-strategy]] · [[retirement-tax-rules-primer]]
+**Additionally, if it's going through the STR door:**
+- [ ] Booking policy caps stay length → annual average **≤ 7 days**, verified quarterly
+- [ ] **We self-manage** — no manager who could out-hour us; vendors are task-specific
+- [ ] Personal use planned at **zero** (§280A)
+- [ ] Services kept below "hotel-like" to avoid SE tax
+
+**Additionally, if it's going through the REPS door:**
+- [ ] Included in the **§1.469-9(g) aggregation election**, consistent with prior years
+- [ ] Stacy's year-to-date hours on pace for 750 and the >50% ratio — see [[reps-real-estate-professional-status#Annual REPS checklist]]
+
+**Related**: [[reps-real-estate-professional-status]] · [[tax-mitigation-master-plan]] · [[roth-conversion-window]] · [[household-timeline]] · [[key-figures-2026]] · [[mhp-rv-investment-strategy]]
