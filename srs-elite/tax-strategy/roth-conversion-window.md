@@ -83,7 +83,9 @@ Ten years → **~$7.1M converted for ~$2.0M of tax.**
 
 ### Which lane
 
-**Decision rule**: use the slow lane if the combined pre-tax balance at 2042 can be substantially cleared at ~$370K/year within each spouse's window — as a rough gauge, **$3.5M or smaller combined, with Stacy's share small enough to clear in her four years**. Above that, a residual will still be sitting there at RMD age, growing into a widow's-penalty problem, and the fast lane's extra 5.4 points buys the ability to actually finish. **Stacy's compressed window is the more likely reason to need the fast lane in 2042–2045**, even if the combined balance looks manageable.
+**Decision rule**: use the slow lane if the combined pre-tax balance at 2042 can be substantially cleared at ~$370K/year within each spouse's window — as a rough gauge, **$3.5M or smaller combined, with Stacy's share small enough to clear in her four years**. Above that, a residual will still be sitting there at RMD age, growing into a widow's-penalty problem, and the fast lane's extra 5.4 points buys the ability to actually finish.
+
+**Update (8/2026): the fast lane is now the working assumption.** Ryan's pre-tax balance alone is ~$1.75M at age 50 with ~$60–75K/yr of employer contributions he cannot turn off — projecting to **$5–6M+ by 2041**, beyond even the fast lane's ~$6.4M nominal nine-year capacity before Stacy's balances claim their 2042–2045 priority ([[schwab-portfolio-review-2026-07]]). Consequences: cap every voluntary pre-tax dollar now (catch-up and after-tax go Roth), lean hard on REPS-sheltered conversions, and accept that QCDs and the RMD-era plan absorb a residual.
 
 The comparison that decides it is not "23.0% vs. 28.4%." It is **either of those against the rate the surviving spouse pays alone at 85** — filing single, on RMDs from an unconverted balance, with single-filer IRMAA thresholds at half the joint levels. That is 32–35% federal plus top-tier IRMAA. **Both lanes win. The fast lane wins by more if the balance is large.**
 

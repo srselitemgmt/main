@@ -7,7 +7,7 @@ updated: 2026-08-13
 # Tax Mitigation Master Plan — W-2 Years Through Age 65+
 
 **Summary**: A phased plan to minimize lifetime (not annual) tax across the W-2 accumulation years and retirement. The engine is a single arbitrage: **defer income now at ~35–45% and recognize it later at ~24% federal-only**, funded by a relocation to a no-income-tax state before retirement. Real estate is the deduction engine — and because **[[reps-real-estate-professional-status|Stacy qualifies as a real estate professional]]**, *every* rental's cost-seg losses offset Ryan's W-2 income, not just short-term rentals. Everything else is sequencing, and the sequencing is driven by the couple's **5½-year age gap** — see [[household-timeline]].
-**Profile**: MFJ · Ryan b. 8/3/1976 (50), W-2, **mandatory retirement 8/3/2041** · Stacy b. 2/17/1971 (55), **full-time real estate professional** · household income $400–750K · currently in an income-tax state, relocating to a no-tax state before retirement
+**Profile**: MFJ · Ryan b. 8/3/1976 (50), United Airlines Flight Evaluator (B737), W-2 **~$800K gross** (verified from pay advice 8/2026), **mandatory retirement 8/3/2041** · Stacy b. 2/17/1971 (55), **full-time real estate professional** · **Colorado** (Erie), relocating to a no-tax state before retirement · balances: [[schwab-portfolio-review-2026-07]]
 **Sources**: [[key-figures-2026]] · [[household-timeline]] · [[reps-real-estate-professional-status]] · [[str-cost-segregation-playbook]] · [[roth-conversion-window]]
 **Status**: framework for review with CPA — see [[#Open items to resolve]]
 
@@ -74,17 +74,19 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 
 ### 1a. Fill the qualified plans — in this order
 
-**Ryan (W-2):**
+**Ryan (W-2)** — the July 2026 pay advice revealed how the United PRAP actually fills: the **~16% employer direct contribution (≈$57.6K/yr at the comp limit) consumes most of the $72,000 §415(c) limit**, and excess spills to taxable "PRAP Cash." The priority order, adjusted to that reality ([[schwab-portfolio-review-2026-07]]):
 
 | Priority | Vehicle | Amount (2026) | Why here |
 |---|---|---|---|
-| 1 | 401(k) elective deferral, **pre-tax** | $24,500 | Deducted at 35% + state. Highest-value dollar available. |
-| 2 | Employer match / profit sharing | plan-dependent | Free money; counts toward the $72,000 §415(c) limit. |
-| 3 | **HSA, family, invested not spent** | $8,750 (+$1,000 catch-up from 2031) | The only triple-tax-free account. See 1b. |
-| 4 | 401(k) catch-up — **must be Roth** | $8,000 | See note below. |
-| 5 | **Backdoor Roth IRA** | $8,600 | Roth space at any income. |
-| 6 | **Mega backdoor Roth** — after-tax 401(k) + in-plan conversion | up to the §415(c) gap | The largest Roth channel available. Plan-dependent. |
-| 7 | Taxable brokerage | remainder | Step-up eligible; funds the conversion-tax reserve. |
+| 1 | Employer direct contribution | ~$57,600 (automatic) | Fills most of §415(c) on its own. |
+| 2 | **Age-50 catch-up — Roth, outside §415(c)** | $8,000 | **Eligible since 8/3/2026; NOT yet running — turn on now.** Spillover can't crowd it out. |
+| 3 | **Backdoor Roth IRA** | $8,600 | ✅ Running and pro-rata clean. |
+| 4 | Elective deferrals into the remaining §415(c) gap — **after-tax preferred, swept to Roth** | ~$14K | The plan has the after-tax feature (confirmed on the stub). Sweep to Roth promptly. |
+| 5 | **Spill election → RHA instead of PRAP Cash** ⚠️ verify | ~$10K+/yr | Cash spill is taxed ~45%; RHA spill is never taxed. |
+| 6 | Taxable brokerage | remainder | Step-up eligible; funds the conversion-tax reserve. |
+
+> [!important] Deliberately capping the pre-tax pile
+> Ryan's pre-tax balance (~$1.75M at 50, with employer flow he can't turn off) projects **beyond what the 2042–2050 conversion window can clear** — see [[schwab-portfolio-review-2026-07#The strategic finding: the pre-tax pile is on track to outrun the conversion window]]. Every *voluntary* dollar therefore goes Roth/after-tax/RHA, never pre-tax. The old "defer at 35%" logic still governs Stacy's employer-side profit sharing and the real estate deductions — but Ryan's marginal deferral choice has flipped.
 
 **Stacy (self-employed real estate professional)** — her commission/management income opens a **solo 401(k)**, a separate $72,000 §415(c) limit the household is otherwise leaving on the table:
 
@@ -105,11 +107,9 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 
 **On an S-corp election for Stacy**: it could cut SE tax but shrinks the solo-401(k) earnings base, changes the QBI math (agents/brokers are *not* a specified service business, so her income is QBI-eligible), and would give her FICA wages that could trigger the Roth catch-up mandate. **Model all four effects together; don't assume.**
 
-### 1b. Treat the HSA as a retirement account, not a health account
+### 1b. HSA — suspended for 2026; decide at open enrollment
 
-Pay current medical costs out of pocket. Invest the HSA fully in equities. Keep every receipt indefinitely — there is no deadline on reimbursement, so a documented $200K of unreimbursed expenses becomes a tax-free withdrawal at any point in the future.
-
-Two constraints: HSA contributions must **stop 6 months before Medicare enrollment**, and a handful of states tax HSA contributions at the state level (confirm for the current state, irrelevant after relocating).
+**Correction (8/2026): Ryan is not HSA-eligible this year** — the pay stub shows a general-purpose Health Care FSA, and the medical plan may not be an HDHP ([[schwab-portfolio-review-2026-07#Correction to the vault: no HSA in 2026]]). The triple-tax-free HSA playbook (pay medical out of pocket, invest fully, archive receipts, no reimbursement deadline) applies **only if** open enrollment switches to HDHP + HSA + limited-purpose FSA. With the [[rha-retiree-health-account|RHA]] already pre-funding retiree healthcare, either answer is defensible — make it deliberately in November. If HSA path is chosen: contributions stop 6 months before Medicare enrollment, and Colorado does tax HSA... no — Colorado conforms to federal; CA/NJ are the outliers. Moot after relocation.
 
 ### 1c. Clear the pro-rata problem now, not later
 
@@ -298,12 +298,12 @@ These change the numbers materially. Ordered by leverage.
 
 1. **Is Stacy's time log running, and does her work history support REPS for 2026?** She qualifies on the facts — the question is documentation. If a contemporaneous log wasn't kept this year, decide with the CPA whether 2026 is claimable or whether the position starts clean in 2027. See [[reps-real-estate-professional-status]].
 2. **Stacy's business structure and income** — Schedule C vs. S-corp, and how much net SE income she has. Drives the solo 401(k) capacity, the QBI deduction, whether her catch-up can stay pre-tax, and the SE-tax math. Model all four together (1a).
-3. **Does Ryan's 401(k) allow after-tax contributions plus in-plan Roth conversion?** Determines whether the mega backdoor Roth is available. Get the plan document.
+3. ~~Does the plan allow after-tax contributions?~~ **Yes — after-tax deferrals confirmed on the pay stub.** Remaining: the **conversion mechanic** (in-plan Roth conversion vs. in-service rollover) and the **$70K/#6686 question** in [[schwab-portfolio-review-2026-07]].
 4. **Does Ryan's plan offer Roth catch-up?** If not, $8,000/year of his catch-up is forfeited outright from 2026.
 5. **Any existing traditional/SEP/SIMPLE IRA balances?** Now sharper: Ryan's backdoor conversions are already running annually, so if any pre-tax IRA balance exists at 12/31, those conversions have been **partly taxable under the pro-rata rule** — verify the 8606 basis history with Zach Fox rather than assuming clean. Also determines the pre-REPS suspended-loss / aggregation-election timing question.
 6. **Any non-qualified deferred compensation?** If yes, the payout election must be 10+ years to escape former-state tax under §114. Time-sensitive.
 7. **Current state, and target state and move year.** Determines PTET availability, HSA state treatment, audit-aggressiveness, and when the conversion window can open.
-8. **Current balances by bucket, per spouse** (pre-tax / Roth / taxable / HSA / real estate equity) — Stacy's pre-tax balance is the critical number: it decides whether her four-year window needs the fast lane. See [[roth-conversion-window]].
+8. **Stacy's balances by bucket** — Ryan's are now documented (**$1.76M, 99% pre-tax** — [[schwab-portfolio-review-2026-07]]) and his trajectory already puts the household on the **fast conversion lane**; hers remain the missing number that sizes her four-year window.
 9. **Confirm Ryan's plan is creditable coverage** (the 20+ employee test is safely met) — the one remaining condition on the decided Stacy-stays-on-employer-coverage plan. Also confirm the [[rha-retiree-health-account|RHA]] plan terms: IRMAA reimbursement, survivor access, and the active-HRA/HSA-eligibility question.
 10. **Charitable intent, annual and lifetime.** Determines whether DAF bunching in the working years and the QCD program from 2041/2047 are worth building around.
 

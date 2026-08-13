@@ -21,6 +21,7 @@ updated: 2026-08-13
 | [[str-cost-segregation-playbook]] | The deduction engine: cost seg, bonus depreciation, the four loss limitations, the STR fallback door. | Before any acquisition |
 | [[stacy-rep-tracking-audit-2026]] | **Deep-dive audit of the REP hour tracking system** — what's broken, what's at risk, the fix list. | **Now — active findings** |
 | [[rha-retiree-health-account]] | Ryan's RHA ($260,893 → $350K+ by end 2027) — retirement healthcare pre-funding and the HSA-eligibility question. | Benefits questions this month |
+| [[schwab-portfolio-review-2026-07]] | Ryan's Schwab accounts + United pay decoded — balances, concentration, PRAP mechanics, action list. | **Now — 9 actions** |
 | [[key-figures-2026]] | Every dollar figure the plan depends on. | **Refresh each November** |
 | [[retirement-tax-rules-primer]] | The captured "8 retirement tax rules" post, corrected and extended. | Background reference |
 
@@ -54,14 +55,14 @@ Full list in [[tax-mitigation-master-plan#Open items to resolve]].
 ## Immediate actions
 
 - [ ] **Execute the REP tracking fix list** — rebuild the 7/11–8/13 gap, purge non-qualifying entries, restart weekly tracking with alerts, Toggl on non-calendar work. See [[stacy-rep-tracking-audit-2026#Fix list (ordered)]]
-- [ ] **Get me the Schwab positions** — Schwab → Accounts → Positions → Export (CSV), drop it in Drive or the repo; I'll build the per-account asset-location and conversion-sizing analysis from it (open item 8)
+- [x] ~~Get the Schwab positions~~ **Done for Ryan** → [[schwab-portfolio-review-2026-07]]. Top three actions from it: **turn on the $8,000 Roth catch-up** (eligible since 8/3, unused), **answer the $70K/#6686 source question**, **ask benefits about the PRAP-Cash→RHA spill election**. Still needed: **Stacy's statements**
 - [ ] **Ask benefits about the active HRA** (general-purpose vs. limited) — it may be blocking HSA eligibility right now — and confirm the RHA reimburses Medicare premiums + IRMAA with survivor access
 - [x] ~~Open and fund a Roth IRA~~ **Ryan's backdoor Roth is running** — maxed annually, Form 8606 already with the CPA (confirmed via the July Incite Tax thread). Two follow-ups: confirm **Stacy has her own backdoor Roth** (clocks and limits are per-person), and confirm **no pre-tax traditional/SEP/SIMPLE IRA balances exist at 12/31** — with annual conversions running, a stray pre-tax balance makes every conversion partly taxable under the pro-rata rule
 - [ ] **Open Stacy's solo 401(k)** with a provider whose plan supports Roth deferrals, after-tax contributions, and in-plan conversion — must be established before year-end to capture 2026 deferrals
 - [ ] Pull **Ryan's 401(k) plan document**; confirm Roth catch-up, after-tax contributions, in-plan conversion
 - [ ] Roll any **traditional/SEP/SIMPLE IRA balances into a 401(k)** to clear the backdoor-Roth pro-rata problem
-- [ ] Verify **Ryan's payroll deferrals** are set to max $24,500 + $8,000 Roth catch-up this year
-- [ ] Confirm the **HSA is invested**, not in cash; add Stacy's **$1,000 catch-up in her own HSA account**; start a receipt archive
+- [ ] **Enable Ryan's $8,000 Roth catch-up now** — outside the §415(c) limit that employer contributions fill; currently not running (per the July pay advice)
+- [ ] ~~HSA items~~ **Corrected: Ryan is not HSA-eligible in 2026** (general-purpose health FSA on the stub). Decide HDHP-vs-status-quo deliberately at November open enrollment — see [[schwab-portfolio-review-2026-07#Correction to the vault: no HSA in 2026]]
 - [ ] Book the CPA session (Zach Fox): REPS position + log methodology, the **§1.469-9(g) aggregation election**, Stacy's entity/solo-401(k) design, and the remaining [[tax-mitigation-master-plan#Open items to resolve|open items]]
 
 ## Cross-domain links
