@@ -6,7 +6,7 @@ updated: 2026-08-13
 
 # Household Timeline — Exact Dates
 
-**Summary**: Ryan (b. 8/3/1976) and Stacy (b. 2/17/1971) are **5½ years apart**. Two of the three structural problems that gap created are now settled: Stacy stays on Ryan's employer coverage to 8/2041 (decided), and her "four-year conversion window" **dissolved when it emerged she has no retirement accounts at all** (2026-08-13) — the entire 2042–2050 window is Ryan's. What remains: Ryan's mid-year 2041 retirement makes 2042 the first clean conversion year, and Stacy's missing accounts are themselves the problem to fix — her Roth IRA and solo 401(k) need to exist this year.
+**Summary**: Ryan (b. 8/3/1976) and Stacy (b. 2/17/1971) are **5½ years apart**. Two of the three structural problems that gap created are now settled: Stacy stays on Ryan's employer coverage to 8/2041 (decided), and her "four-year conversion window" **dissolved when it emerged she has no retirement accounts at all** (2026-08-13) — the entire 2042–2050 window is Ryan's. What remains: Ryan's mid-year 2041 retirement makes 2042 the first clean conversion year, and Stacy's missing accounts are themselves the problem to fix — with no earned income, her **spousal backdoor Roth IRA** is the one channel available, and it should be opened this year.
 **Sources**: birthdates supplied 2026-08-13 · [[key-figures-2026]]
 **Related**: [[tax-mitigation-master-plan]] · [[roth-conversion-window]] · [[reps-real-estate-professional-status]]
 
@@ -18,13 +18,13 @@ updated: 2026-08-13
 | Catch-up contributions begin | 2026 ✅ | already ✅ |
 | HSA catch-up (55) | 8/2031 | **2026 ✅** |
 | 59½ — penalty-free IRA | 2/3/2036 | 8/17/2030 |
-| Super catch-up (ages 60–63) | **2036–2039** | **2031–2034** |
+| Super catch-up (ages 60–63) | **2036–2039** | 2031–2034 *(needs a plan — none today)* |
 | **65 — Medicare** | **8/3/2041** | ~~2/17/2036~~ **declines — stays on Ryan's plan to 8/2041** ✅ |
 | **Retirement** | **8/3/2041** (mandatory) | her choice — REPS argues for continuing |
 | Full retirement age (67) | 8/2043 | 2/2038 |
 | **70 — max Social Security** | **8/3/2046** | **2/17/2041** |
 | 70½ — QCDs allowed | 2/3/2047 | **8/17/2041** |
-| **75 — RMDs begin** | **2051** | 2046 — applies only to future solo-401(k) money (she has no accounts today) |
+| **75 — RMDs begin** | **2051** | **none** — Roth-only position has no lifetime RMDs |
 
 Both were born after 1959, so **RMD age is 75 for both** — no 73.
 
@@ -55,8 +55,9 @@ Mandatory retirement on **8/3/2041** means 2041 carries roughly **seven months o
 **Stacy has no retirement accounts.** Nothing of hers exists to convert, and her 2046 RMD date currently applies to nothing. Consequences:
 
 - **The entire 2042–2050 window belongs to Ryan** — nine years, all bracket space (net of Stacy's Social Security from 2/2041), against a pre-tax balance projecting to $5–6M+ ([[schwab-portfolio-review-2026-07]]). The fast lane is the working assumption.
-- **The new problem is that she has nothing.** Household retirement assets are 100% in Ryan's name plus real estate. Fixes, this year: **her Roth IRA + backdoor** ($8,600/yr — trivially pro-rata-clean since she has no IRA balances of any kind) and **her solo 401(k), Roth-first** ($24,500 + $8,000 catch-up as her self-employment income allows).
-- **Keep her future pre-tax exposure tiny.** Her solo 401(k) *employer* profit-sharing contributions are pre-tax by design; whatever small pre-tax balance accumulates by 2041 gets converted first in 2042–2045 (cheap — it will be small) or absorbed as minor RMDs from 2046.
+- **The new problem is that she has nothing.** Household retirement assets are 100% in Ryan's name plus real estate. The fix available this year — and with no earned income, the *only* one — is her **spousal backdoor Roth IRA** ($8,600, §219(c), against Ryan's compensation; trivially pro-rata-clean since she holds no IRAs).
+- **She will have no RMDs at all.** A Roth-only position means no lifetime RMDs — her 2046 date points at nothing. Clean by construction.
+- **A solo 401(k) reopens if she starts earning commissions** — a second $72K §415(c) limit. Watch for it; don't plan on it.
 - **Asset-titling side benefit**: assets in her name diversify creditor exposure and give her direct ownership — relevant for a couple where one spouse runs an active real estate operation.
 
 ## Phase map, with real years
@@ -64,18 +65,19 @@ Mandatory retirement on **8/3/2041** means 2041 carries roughly **seven months o
 | Phase | Years | Ryan | Stacy | Mission |
 |---|---|---|---|---|
 | **1 — Accumulate & Defer** | 2026–2030 | 50–54 | 55–59 | Max deferrals. Build the portfolio under REPS. Start Roth clocks. |
-| **2 — Build & Position** | 2031–2035 | 55–59 | 60–64 | Stacy's super catch-up (2031–34). Relocate and document domicile. |
+| **2 — Build & Position** | 2031–2035 | 55–59 | 60–64 | MBCBP running. Relocate and document domicile. |
 | **3 — Pre-retirement** | 2036–2041 | 60–65 | 65–70 | Ryan's super catch-up (2036–39). Stacy on Ryan's employer coverage (decided). Fund the conversion reserve. Ryan retires 8/2041. |
 | **4 — The Cheap Years** | **2042–2045** | 66–69 | 71–74 | **Ryan converts at maximum** — only Stacy's SS on the return. Shelter with cost seg. Ryan delays SS. |
-| **5 — Ryan's Window, part 2** | 2046–2050 | 70–74 | 75–79 | Ryan claims SS at 70 (8/2046) and keeps converting with reduced headroom. Stacy's QCDs from her (small) accounts if any. |
+| **5 — Ryan's Window, part 2** | 2046–2050 | 70–74 | 75–79 | Ryan claims SS at 70 (8/2046) and keeps converting with reduced headroom. |
 | **6 — RMD Era** | 2051+ | 75+ | 80+ | Both on RMDs. QCDs. Preserve step-up. |
 
 ## Watch-out years
 
 | Year | Why it matters |
 |---|---|
+| **2027–28** | **MBCBP turns on — elect the excess into it, not PRAP Cash.** ~$9K/yr of arbitrage on ~$65K/yr; see [[united-comp-waterfall]] |
 | **2030** | Stacy 59½ (8/2030) — penalty-free access opens |
-| **2031** | Stacy's super catch-up begins; Ryan's HSA catch-up begins |
+| **2031** | Ryan's HSA catch-up begins (if HSA-eligible by then) |
 | **2034** | ~~Sets Stacy's 2036 IRMAA~~ — moot: she stays on Ryan's employer coverage (decided 2026-08-13) |
 | **2035** | ~~Medicare decision~~ **Decided**: no enrollment; confirm creditable coverage with benefits. Her HSA contributions continue |
 | **2036** | ~~Stacy Medicare~~ (declined — on employer coverage). Ryan 59½ (2/2036) and super catch-up begins |
@@ -84,7 +86,7 @@ Mandatory retirement on **8/3/2041** means 2041 carries roughly **seven months o
 | **2041** | **The hinge year.** Stacy claims SS (2/2041, Part A auto-starts) · Ryan's HSA contributions stop by 2/2041 · **Ryan retires 8/3/2041** · both enroll: Ryan initial, Stacy SEP · **file SSA-44** · [[rha-retiree-health-account|RHA]] starts paying premiums · Stacy QCD-eligible (8/2041) |
 | **2042** | **First clean conversion year** — Ryan's cheapest stretch begins (2042–2045: only Stacy's SS on the return) |
 | **2045** | Last year before Ryan's SS shrinks conversion headroom |
-| **2046** | Ryan claims SS at 70 (8/2046). Stacy's RMDs apply only to whatever small solo-401(k) pre-tax balance exists |
+| **2046** | Ryan claims SS at 70 (8/2046). Stacy has no RMDs (Roth-only) |
 | **2047** | Ryan QCD-eligible (2/2047) |
 | **2050** | Ryan's last conversion year |
 | **2051** | Ryan's RMDs begin (first RMD for 2051; may defer to 4/1/2052) |

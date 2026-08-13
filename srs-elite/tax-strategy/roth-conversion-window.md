@@ -20,7 +20,7 @@ updated: 2026-08-13
 | Social Security: Stacy claims at 70 (2/2041), Ryan at 70 (8/2046) | **2042–2045 are the cheapest years** (only Stacy's benefit on the return); Ryan's SS shrinks headroom 2046–2050 |
 | Relocation complete | Conversions cost **federal tax only** (4 U.S.C. §114) |
 
-The one wrinkle to watch: Stacy's solo 401(k) *employer* contributions (pre-tax by design) will build her a small pre-tax balance between now and 2041. **Convert hers first, in 2042** — it will be small and cheap — so her 2046 RMD date lands on an empty account.
+With no earned income, Stacy has no solo 401(k) and her only account will be a Roth IRA — **so she has no lifetime RMDs at all**, and nothing of hers ever competes for bracket space. The entire program is Ryan's.
 
 ## The sizing decision
 
@@ -79,7 +79,7 @@ Ten years → **~$7.1M converted for ~$2.0M of tax.**
 
 **Decision rule**: the slow lane works if the pre-tax balance at 2042 can be substantially cleared at ~$370K/year over nine years — roughly **$3.5M or smaller**. Above that, a residual is still sitting there at 75, growing into RMDs and a widow's-penalty problem, and the fast lane's extra 5.4 points buys the ability to actually finish.
 
-**The fast lane is the working assumption (8/2026).** Ryan's pre-tax balance is ~$1.75M at age 50 with ~$60–75K/yr of employer contributions he cannot turn off — projecting to **$5–6M+ by 2041**, at or beyond even the fast lane's ~$6.4M nominal nine-year capacity ([[schwab-portfolio-review-2026-07]]). Consequences: cap every voluntary pre-tax dollar now (catch-up and after-tax go Roth), lean hard on REPS-sheltered conversions, and accept that QCDs and the RMD-era plan absorb a residual.
+**The fast lane is the working assumption (8/2026).** Ryan's pre-tax balance is ~$1.75M at age 50 with ~$60–75K/yr of employer contributions he cannot turn off — **plus ~$65K/yr of MBCBP money from 2028** ([[united-comp-waterfall]]) — projecting to **$6–7M+ by 2041**, at or beyond even the fast lane's ~$6.4M nominal nine-year capacity ([[schwab-portfolio-review-2026-07]]). Consequences: cap every voluntary pre-tax dollar now (catch-up and after-tax go Roth), lean hard on REPS-sheltered conversions, and accept that QCDs and the RMD-era plan absorb a residual.
 
 The comparison that decides it is not "23.0% vs. 28.4%." It is **either of those against the rate the surviving spouse pays alone at 85** — filing single, on RMDs from an unconverted balance, with single-filer IRMAA thresholds at half the joint levels. That is 32–35% federal plus top-tier IRMAA. **Both lanes win. The fast lane wins by more if the balance is large.**
 
@@ -135,7 +135,7 @@ This is how a $5–6M corpus gets through a nine-year window at tolerable cost. 
 
 - [ ] **October**: project the year's non-conversion income (dividends, interest, net rental, Stacy's SS; Ryan's SS from 8/2046)
 - [ ] Subtract from the IRMAA ceiling → that year's conversion capacity
-- [ ] **2042: clear Stacy's small solo-401(k) pre-tax balance first**, then all remaining capacity is Ryan's
+- [ ] All capacity is Ryan's — Stacy holds no pre-tax money
 - [ ] Confirm the current-year IRMAA tier boundaries from [[key-figures-2026]] (they index annually)
 - [ ] Check whether a planned cost-seg acquisition or REPS-enabled loss expands the year's effective capacity
 - [ ] **December**: execute the conversion in kind, before 12/31

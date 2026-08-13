@@ -74,7 +74,7 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 
 ### 1a. Fill the qualified plans — in this order
 
-**Ryan (W-2)** — the July 2026 pay advice revealed how the United PRAP actually fills: the **~16% employer direct contribution (≈$57.6K/yr at the comp limit) consumes most of the $72,000 §415(c) limit**, and excess spills to taxable "PRAP Cash." The priority order, adjusted to that reality ([[schwab-portfolio-review-2026-07]]):
+**Ryan (W-2)** — United contributes **18% of eligible comp**, filling three buckets in order: PRAP/401(k) to the §415(c) limit → **RHA** until its cap (~$420K YTD gross) → **PRAP Cash, taxable wages**. Full mechanics in **[[united-comp-waterfall]]**. The priority order, adjusted to that reality:
 
 | Priority | Vehicle | Amount (2026) | Why here |
 |---|---|---|---|
@@ -82,24 +82,37 @@ Exact dates and the full year-by-year watch list are in [[household-timeline]].
 | 2 | **Age-50 catch-up — Roth, outside §415(c)** | $8,000 | **Eligible since 8/3/2026; NOT yet running — turn on now.** Spillover can't crowd it out. |
 | 3 | **Backdoor Roth IRA** | $8,600 | ✅ Running and pro-rata clean. |
 | 4 | Elective deferrals into the remaining §415(c) gap — **after-tax preferred, swept to Roth** | ~$14K | The plan has the after-tax feature (confirmed on the stub). Sweep to Roth promptly. |
-| 5 | **Spill election → RHA instead of PRAP Cash** ⚠️ verify | ~$10K+/yr | Cash spill is taxed ~45%; RHA spill is never taxed. |
+| 5 | **MBCBP election (from late 2027/2028)** | ~$65K/yr | Replaces taxable PRAP Cash with pre-tax deferral — **~$9K/yr of arbitrage**. See [[united-comp-waterfall]]. |
 | 6 | Taxable brokerage | remainder | Step-up eligible; funds the conversion-tax reserve. |
 
 > [!important] Deliberately capping the pre-tax pile
 > Ryan's pre-tax balance (~$1.75M at 50, with employer flow he can't turn off) projects **beyond what the 2042–2050 conversion window can clear** — see [[schwab-portfolio-review-2026-07#The strategic finding: the pre-tax pile is on track to outrun the conversion window]]. Every *voluntary* dollar therefore goes Roth/after-tax/RHA, never pre-tax. The old "defer at 35%" logic still governs Stacy's employer-side profit sharing and the real estate deductions — but Ryan's marginal deferral choice has flipped.
 
-**Stacy (self-employed real estate professional)** — her commission/management income opens a **solo 401(k)**, a separate $72,000 §415(c) limit the household is otherwise leaving on the table:
+**Stacy — no earned income at this time (confirmed 2026-08-13).** That closes the solo 401(k) for now (it requires self-employment income) but leaves one channel fully open:
 
 | Priority | Vehicle | Amount (2026) | Why here |
 |---|---|---|---|
-| 1 | Solo 401(k) elective deferral — **lean Roth** | $24,500 | See the lean-Roth note below. |
-| 2 | Solo 401(k) catch-up (55+) | $8,000 | Likely **can be pre-tax** — the Roth mandate keys off prior-year *FICA wages from the sponsor*, which a sole proprietor typically doesn't have. Confirm with CPA. |
-| 3 | Solo 401(k) employer profit sharing | ~20% of net SE earnings | Up to the $72,000 combined limit, capped by her actual net income. |
-| 4 | **Backdoor Roth IRA** | $8,600 | Roth space at any income. |
-| 5 | HSA | via the family limit above | If on the family HDHP. Her catch-up needs its **own HSA account** in her name. |
+| 1 | **Spousal backdoor Roth IRA** | **$8,600** | §219(c) — see below. Trivially pro-rata-clean (she holds no IRAs). **Her only tax-advantaged channel.** |
+
+> [!tip] How a spouse with no income contributes to an IRA — §219(c)
+> An IRA contribution normally requires the contributor's own earned income. **The spousal IRA rule is the exception**: on a joint return, the non-earning spouse may contribute against the *other* spouse's compensation. Three conditions, all satisfied here:
+> 1. **Married filing jointly** ✓
+> 2. **Ryan's earned income ≥ the couple's combined IRA contributions** — his W-2 covers $17,200 many times over ✓
+> 3. **The account is in Stacy's own name.** "Spousal IRA" describes the funding source, not the ownership — there is no such thing as a joint IRA.
+>
+> At this income level the direct-Roth door is closed, so it runs as a **backdoor**: non-deductible traditional contribution → convert to Roth → **her own Form 8606**. Hers is cleaner than Ryan's — she holds no IRAs of any kind, so the pro-rata rule cannot apply.
+>
+> **Limits are per person, not per couple.** Ryan's $8,600 and Stacy's $8,600 are independent — **$17,200/year combined**. Any year Ryan contributed and Stacy didn't, half the household's IRA capacity went unused and is permanently gone.
+>
+> → **Two live windows**: 2026 (deadline 4/15/2027), and possibly **2025 if it was never used for her** — confirm with Zach Fox, because that would recover another $8,000. Set both spouses' backdoor contributions as a single recurring January task from 2027 onward.
+
+> [!note] What her lack of income does and doesn't change
+> - **REPS is unaffected.** §469(c)(7) tests *hours and personal services*, not compensation — managing the household's own rental portfolio is a real property trade or business, and with no other occupation the ">50% of personal services" test is satisfied trivially. See [[reps-real-estate-professional-status]].
+> - **Solo 401(k), QBI, S-corp, and SE-tax questions are all deferred** until she has actual earned income. If she begins earning commissions (she is building toward licensure/production per her hour log), the solo 401(k) reopens as a second $72K §415(c) limit — **revisit then**.
+> - **She will have no RMDs.** With only a Roth IRA in her name, there are no lifetime RMDs at all — her 2046 date points at nothing.
 
 > [!important] Stacy's contributions lean Roth; Ryan's lean pre-tax
-> Stacy has **no retirement accounts today** (confirmed 2026-08-13) — the solo 401(k) and Roth IRA above are her *first*, so there is no legacy pre-tax pile on her side and no reason to create one: **her new dollars go Roth-first**, keeping her 2046 RMD date pointed at an empty (or trivial) account. Ryan's side is the mirror image — his employer flow is pre-tax and unstoppable, so his *voluntary* dollars also go Roth ([[schwab-portfolio-review-2026-07]]). The exceptions worth modeling with the CPA: her employer profit-sharing contribution (pre-tax by design, valuable when the deduction lands against the SALT torpedo) and her catch-up if it can be pre-tax.
+> Stacy has **no retirement accounts and no earned income today** (confirmed 2026-08-13). Her spousal backdoor Roth is her first and only account, which is exactly right: a pure-Roth position means **no lifetime RMDs on her side, ever**. Ryan's side is the mirror image — his employer flow is pre-tax and unstoppable, so his *voluntary* dollars also go Roth ([[schwab-portfolio-review-2026-07]]). Revisit if she starts earning: a solo 401(k) would reopen a second $72K limit, and its employer profit-sharing piece is pre-tax by design.
 
 **On Ryan's Roth catch-up mandate**: from 2026, because prior-year wages exceed $150,000, his catch-up contributions *must* be Roth. This reads like a tax increase and is actually a gift — $8,000 of Roth space that does not consume the pre-tax limit. **The one real risk: if the plan does not offer a Roth option, the catch-up is forfeited entirely.** Confirm the plan supports Roth catch-up — this is a same-week task.
 
@@ -299,7 +312,7 @@ Detailed mechanics, sizing math, and the IRMAA-vs-bracket tradeoff live in **[[r
 These change the numbers materially. Ordered by leverage.
 
 1. **Is Stacy's time log running, and does her work history support REPS for 2026?** She qualifies on the facts — the question is documentation. If a contemporaneous log wasn't kept this year, decide with the CPA whether 2026 is claimable or whether the position starts clean in 2027. See [[reps-real-estate-professional-status]].
-2. **Stacy's business structure and income** — Schedule C vs. S-corp, and how much net SE income she has. Drives the solo 401(k) capacity, the QBI deduction, whether her catch-up can stay pre-tax, and the SE-tax math. Model all four together (1a).
+2. ~~Stacy's business structure and income~~ **Deferred — she has no earned income** (2026-08-13). Her only channel is the **spousal backdoor Roth IRA** ($8,600, §219(c)). Solo 401(k) / QBI / S-corp modeling reopens **only if she begins earning commissions** — watch for her first production as a licensed agent.
 3. ~~Does the plan allow after-tax contributions?~~ **Yes — after-tax deferrals confirmed on the pay stub.** Remaining: the **conversion mechanic** (in-plan Roth conversion vs. in-service rollover) and the **$70K/#6686 question** in [[schwab-portfolio-review-2026-07]].
 4. **Does Ryan's plan offer Roth catch-up?** If not, $8,000/year of his catch-up is forfeited outright from 2026.
 5. **Any existing traditional/SEP/SIMPLE IRA balances?** Now sharper: Ryan's backdoor conversions are already running annually, so if any pre-tax IRA balance exists at 12/31, those conversions have been **partly taxable under the pro-rata rule** — verify the 8606 basis history with Zach Fox rather than assuming clean. Also determines the pre-REPS suspended-loss / aggregation-election timing question.

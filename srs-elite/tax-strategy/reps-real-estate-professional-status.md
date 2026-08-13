@@ -164,17 +164,14 @@ Two structural notes carried over from the prior work:
 
 One rule from the prior work worth preserving verbatim: **W-2 employee hours don't count toward REPS unless she owns >5% of the employer.** Her eXp agent work is independent-contractor commission work, so it counts — but if she ever takes a W-2 role at a brokerage, that changes.
 
-## Interaction with Stacy's own income
+## Stacy has no earned income — and REPS doesn't require any
 
-If Stacy earns commission income as a licensed agent, that is **Schedule C self-employment income**, and it opens a retirement vehicle the household is not currently using:
+Confirmed 2026-08-13. This matters less than it sounds:
 
-- **Solo 401(k)**: her own $24,500 deferral + $8,000 catch-up (she is 55), plus employer profit sharing up to a **$72,000 §415(c) limit — $80,000 with catch-up**. This is a *separate* limit from Ryan's employer plan.
-- Her deferral limit is personal to her, not shared with Ryan's.
-- **Her catch-up may be pre-tax**, unlike Ryan's. The 2026 Roth catch-up mandate keys off prior-year **FICA wages from the plan sponsor**; a sole proprietor with Schedule C earnings and no W-2 wages generally falls outside it. Confirm with the CPA — it is worth real money.
-- **QBI**: real estate agents and brokers are **not** a specified service trade or business, so her commission income is eligible for the 20% §199A deduction, subject to the wage/property limits at our income level.
-- An S-corp election could reduce her SE tax but also reduces the earnings base for the solo 401(k) and interacts with QBI. **Model it; don't assume it.**
-
-→ See [[tax-mitigation-master-plan#1a. Fill the qualified plans — in this order]].
+- **REPS is a test of hours and personal services, not compensation.** §469(c)(7)(B) asks whether >750 hours *and* >50% of her personal services in trades or businesses are in real property trades or businesses she materially participates in. Managing the household's own rental portfolio is squarely a real property trade or business ("rental, operation, management" under §469(c)(7)(C)). With no other occupation, the >50% test is satisfied trivially — **document that fact affirmatively** in the annual memo rather than leaving it implicit.
+- **Her one tax-advantaged channel is a spousal backdoor Roth IRA** — $8,600 for 2026 under §219(c), contributed against Ryan's compensation on the joint return, and trivially pro-rata-clean since she holds no IRAs of any kind. See [[tax-mitigation-master-plan#1a. Fill the qualified plans — in this order]].
+- **A solo 401(k) needs self-employment income and is therefore unavailable today.** Her hour log shows eXp onboarding, MLS/IRES setup, and licensing education — so commission income may begin. **If it does, a second $72,000 §415(c) limit opens up**, and the QBI / S-corp / SE-tax modeling reopens with it. Treat her first production as the trigger to revisit.
+- **No income also means no QBI, no SE tax, and no entity question** to model right now — the plan is simpler than it was.
 
 ## Annual REPS checklist
 

@@ -21,13 +21,14 @@ updated: 2026-08-13
 | [[str-cost-segregation-playbook]] | The deduction engine: cost seg, bonus depreciation, the four loss limitations, the STR fallback door. | Before any acquisition |
 | [[stacy-rep-tracking-audit-2026]] | **Deep-dive audit of the REP hour tracking system** — what's broken, what's at risk, the fix list. | **Now — active findings** |
 | [[rha-retiree-health-account]] | Ryan's RHA ($260,893 → $350K+ by end 2027) — retirement healthcare pre-funding and the HSA-eligibility question. | Benefits questions this month |
-| [[schwab-portfolio-review-2026-07]] | Ryan's Schwab accounts + United pay decoded — balances, concentration, PRAP mechanics, action list. | **Now — 9 actions** |
+| [[schwab-portfolio-review-2026-07]] | Ryan's Schwab accounts + United pay decoded — balances, concentration, action list. | **Now — active** |
+| [[united-comp-waterfall]] | Where the 18% goes: PRAP → RHA → PRAP Cash, and the **MBCBP election (2027–28)** worth ~$9K/yr. | Before open enrollment; 2027 |
 | [[key-figures-2026]] | Every dollar figure the plan depends on. | **Refresh each November** |
 | [[retirement-tax-rules-primer]] | The captured "8 retirement tax rules" post, corrected and extended. | Background reference |
 
 ## The plan in six sentences
 
-1. **Fill every tax-advantaged channel now** — Ryan's employer flow is pre-tax and fixed, so his *voluntary* dollars go Roth (catch-up, backdoor, after-tax sweep), and **Stacy's brand-new accounts are Roth-first**.
+1. **Fill every tax-advantaged channel now** — Ryan's voluntary dollars go Roth (catch-up, backdoor, after-tax sweep); **Stacy gets a spousal backdoor Roth**; and from 2027–28 the **MBCBP** captures ~$65K/yr that is currently taxed as PRAP Cash.
 2. **Run the real estate portfolio through Stacy's REPS** — her full-time real estate work makes *every* rental's cost-seg losses (MHPs and RV parks included) deductible against Ryan's W-2 income, up to the $512K/year excess-business-loss cap.
 3. **Relocate to a no-income-tax state before 2041** — federal law then bars the former state from ever taxing the retirement distributions.
 4. **Convert Ryan's pre-tax balance hard across 2042–2050** — heaviest in 2042–2045 (the cheapest years), on the fast lane, sheltered by cost-seg losses — because his ~$5–6M projected balance is the entire conversion problem.
@@ -40,30 +41,30 @@ Detail in [[household-timeline]]:
 
 1. **Stacy reaches Medicare in 2/2036 — 5½ years before Ryan retires** — ✅ **Decided (2026-08-13): she stays on Ryan's employer coverage until his 8/2041 retirement**, penalty-free, with the [[rha-retiree-health-account|RHA]] funding both spouses' premiums after that.
 2. **2041 is a partial year** (Ryan retires 8/3/2041) — first clean conversion year is 2042.
-3. ~~Stacy's four-year window~~ **Dissolved — she has no retirement accounts (2026-08-13).** The whole 2042–2050 window is Ryan's, against a $5–6M projected balance → fast lane. The new problem: standing up her Roth IRA and solo 401(k) this year.
+3. ~~Stacy's four-year window~~ **Dissolved — she has no retirement accounts and no earned income (2026-08-13).** The whole 2042–2050 window is Ryan's, against a $6–7M projected balance (incl. MBCBP) → fast lane. She will have **no lifetime RMDs** (Roth-only). The one action: her **spousal backdoor Roth** this year.
 
 ## Highest-leverage open questions
 
 Full list in [[tax-mitigation-master-plan#Open items to resolve]].
 
 1. ~~Is a time log running?~~ **Yes — since 2025, but broken since 7/10 and pace-short.** The controlling document is now [[stacy-rep-tracking-audit-2026]]: rebuild the 5-week gap, purge ~65 non-qualifying hours, restart tracking with pace alerts, and hit ~12 hrs/week of *operational* hours through year-end.
-2. **Stacy's business structure and net income** — sizes her solo 401(k) (a second $72K limit), QBI, and the S-corp question.
+2. **Will the MBCBP election be available on schedule?** ~$65K/yr currently taxed as PRAP Cash at ~42% — the largest remaining working-years lever ([[united-comp-waterfall]]).
 3. **Ryan's 401(k) plan document** — mega backdoor Roth availability, Roth catch-up support.
-4. ~~Balances~~ **Documented**: Ryan $1.76M (99% pre-tax → fast lane); **Stacy $0 — no accounts.** Remaining: her business net income, which sizes her solo 401(k).
+4. ~~Balances~~ **Resolved**: Ryan $1.76M (99% pre-tax → fast lane); **Stacy $0, no accounts, no earned income.** Nothing further needed here.
 5. **Benefits questions** — confirm creditable coverage (for Stacy's decided Medicare deferral) and the [[rha-retiree-health-account|RHA]] terms: IRMAA reimbursement, survivor access, and whether the active HRA affects HSA eligibility.
 
 ## Immediate actions
 
 - [ ] **Execute the REP tracking fix list** — rebuild the 7/11–8/13 gap, purge non-qualifying entries, restart weekly tracking with alerts, Toggl on non-calendar work. See [[stacy-rep-tracking-audit-2026#Fix list (ordered)]]
-- [x] ~~Get the Schwab positions~~ **Done** → [[schwab-portfolio-review-2026-07]]. #6686 confirmed as the after-tax sleeve; Stacy confirmed to have no accounts. Top remaining actions from the review: **turn on the $8,000 Roth catch-up**, **set up the recurring after-tax → Roth sweep**, **ask benefits about the PRAP-Cash→RHA spill election**
+- [x] ~~Get the Schwab positions~~ **Done** → [[schwab-portfolio-review-2026-07]]. #6686 confirmed as the after-tax sleeve; Stacy confirmed to have no accounts. Top remaining actions from the review: **turn on the $8,000 Roth catch-up**, **set up the recurring after-tax → Roth sweep**, and **ask whether after-tax contributions increase PRAP Cash** ([[united-comp-waterfall#An open question worth asking benefits]])
 - [ ] **Ask benefits about the active HRA** (general-purpose vs. limited) — it may be blocking HSA eligibility right now — and confirm the RHA reimburses Medicare premiums + IRMAA with survivor access
 - [x] ~~Ryan's Roth channels~~ **Backdoor running and pro-rata clean** (trad IRA holds $0.04; 8606s with the CPA)
-- [ ] **Open Stacy's Roth IRA and run her backdoor this year** — she has no retirement accounts at all (confirmed 2026-08-13). $8,600 for 2026, trivially pro-rata-clean, and it starts her five-year clock — the cheapest irreversible thing left on the board
-- [ ] **Open Stacy's solo 401(k)** with a provider whose plan supports Roth deferrals, after-tax contributions, and in-plan conversion — must be established before year-end to capture 2026 deferrals
+- [ ] **Open Stacy's Roth IRA and run her spousal backdoor this year** — $8,600 for 2026 under §219(c) against Ryan's compensation (no earned income of her own needed), trivially pro-rata-clean, and it starts her five-year clock. **The cheapest irreversible thing left on the board**
+- [ ] **Diarize the MBCBP election window (late 2027/2028)** — confirm timing with ALPA/benefits; elect excess → MBCBP instead of PRAP Cash ([[united-comp-waterfall]])
 - [ ] Pull **Ryan's 401(k) plan document**; confirm Roth catch-up, after-tax contributions, in-plan conversion
 - [ ] **Enable Ryan's $8,000 Roth catch-up now** — outside the §415(c) limit that employer contributions fill; currently not running (per the July pay advice)
 - [ ] ~~HSA items~~ **Corrected: Ryan is not HSA-eligible in 2026** (general-purpose health FSA on the stub). Decide HDHP-vs-status-quo deliberately at November open enrollment — see [[schwab-portfolio-review-2026-07#Correction to the vault: no HSA in 2026]]
-- [ ] Book the CPA session (Zach Fox): REPS position + log methodology, the **§1.469-9(g) aggregation election**, Stacy's entity/solo-401(k) design, and the remaining [[tax-mitigation-master-plan#Open items to resolve|open items]]
+- [ ] Book the CPA session (Zach Fox): REPS position + log methodology, the **§1.469-9(g) aggregation election**, and the remaining [[tax-mitigation-master-plan#Open items to resolve|open items]]
 
 ## Cross-domain links
 
