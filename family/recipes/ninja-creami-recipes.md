@@ -147,6 +147,8 @@ Batch for three pints:
 4. Let the pint sit 5 to 10 minutes, then spin on **Lite Ice Cream**.
 5. Add 1 tbsp milk and **Re-spin**. Repeat once more if still crumbly.
 
+**With pumpkin pie filling instead of purée:** keep the 1/2 cup, drop the sweetener, salt and pumpkin spice (the filling already has them), and cut the vanilla to 1/2 tsp. It spins creamier and sweeter, about 400 calories per pint. Use 1/3 cup filling for closer to 360.
+
 ### Greek yogurt frozen yogurt
 
 Thick, tangy, and about 30 g protein. Needs no stabilizer because the yogurt carries it.
