@@ -1,0 +1,668 @@
+<title>Creami Cookbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a frosty, bright "freezer door" catalogue. Sticky header with filter chips, a grid of pint cards,
+   and a full-height recipe sheet that opens from a card. Each recipe owns a flavor color; the chrome stays cool. */
+:root{
+  --bg:#eef3f6;
+  --surface:#ffffff;
+  --surface-2:#e3eaf0;
+  --fg:#152029;
+  --muted:#5b6b78;
+  --line:#d3dde5;
+  --accent:#1e6f9f;
+  --accent-fg:#ffffff;
+  --ok:#1f7a4d;
+  --danger:#b3362d;
+  --shadow:0 10px 30px rgba(21,32,41,.10);
+  --display:"Bricolage Grotesque","Avenir Next","Helvetica Neue",Arial,sans-serif;
+  --body:"Figtree","Avenir Next","Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"DM Mono","SF Mono",Menlo,Consolas,monospace;
+  --radius:18px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f161c;--surface:#18222b;--surface-2:#223038;--fg:#e9eff3;--muted:#9fb0bd;--line:#2b3942;
+    --accent:#72b9e6;--accent-fg:#0f161c;--ok:#5fcf93;--danger:#f08a80;--shadow:0 10px 30px rgba(0,0,0,.45);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f161c;--surface:#18222b;--surface-2:#223038;--fg:#e9eff3;--muted:#9fb0bd;--line:#2b3942;
+  --accent:#72b9e6;--accent-fg:#0f161c;--ok:#5fcf93;--danger:#f08a80;--shadow:0 10px 30px rgba(0,0,0,.45);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;margin:0}
+button,input,textarea{font:inherit;color:inherit}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.1}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:0 48px}
+
+/* Header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{padding-block:14px 12px;display:flex;flex-direction:column;gap:12px}
+.brand{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand h1{font-size:clamp(1.6rem,4vw,2.3rem);font-weight:800;letter-spacing:-.02em}
+.brand .sub{color:var(--muted);font-size:.95rem;margin:0}
+.brand .count{font-family:var(--mono);font-size:.8rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin-left:auto;white-space:nowrap}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 14px;cursor:pointer;font-weight:500;font-size:.92rem}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip:focus-visible,button:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Intro strip */
+.intro{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;margin-block:22px 10px}
+.intro .lead{font-size:1.05rem;max-width:62ch}
+.intro .lead p{margin:0 0 8px}
+.rules{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.rules h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-family:var(--body);font-weight:600;margin-bottom:8px}
+.rules ol{margin:0;padding-left:18px;font-size:.93rem}
+.rules li{margin:3px 0}
+@media (max-width:720px){.intro{grid-template-columns:1fr}}
+
+/* Grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;margin-top:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;cursor:pointer;text-align:left;padding:0;display:flex;flex-direction:column;min-width:0;transition:transform .15s ease,box-shadow .15s ease}
+.card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.art{aspect-ratio:4/3;width:100%;max-width:100%;position:relative;overflow:hidden;background:var(--tint)}
+.art svg,.art img{width:100%;height:100%;display:block;object-fit:cover}
+.art .badge{position:absolute;top:10px;left:10px;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;background:var(--fg);color:var(--bg);padding:3px 8px;border-radius:999px}
+.art .photo-tag{position:absolute;bottom:10px;right:10px;font-family:var(--mono);font-size:.68rem;background:rgba(0,0,0,.55);color:#fff;padding:2px 8px;border-radius:999px}
+.card .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px}
+.card h3{font-size:1.15rem;font-weight:700}
+.card .blurb{color:var(--muted);font-size:.92rem;margin:0}
+.macros{font-family:var(--mono);font-size:.78rem;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.macros b{color:var(--fg);font-weight:500}
+.empty{color:var(--muted);padding:40px 0;text-align:center}
+
+/* Recipe sheet */
+dialog.sheet{border:0;padding:0;margin:0;width:100%;max-width:100%;height:100%;max-height:100%;background:transparent;color:var(--fg)}
+dialog.sheet::backdrop{background:rgba(10,16,22,.55)}
+.sheet .panel{background:var(--bg);width:min(760px,100%);height:100%;margin-left:auto;overflow-y:auto;overscroll-behavior:contain;box-shadow:var(--shadow);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.sheet .hero{position:relative;background:var(--tint);aspect-ratio:16/10;max-width:100%}
+.sheet .hero svg,.sheet .hero img{width:100%;height:100%;display:block;object-fit:cover}
+.sheet .close{position:absolute;top:12px;right:12px;border:0;background:rgba(21,32,41,.75);color:#fff;width:40px;height:40px;border-radius:999px;cursor:pointer;font-size:1.3rem;line-height:1}
+.sheet .inner{padding:20px 20px 40px;display:flex;flex-direction:column;gap:22px}
+.sheet h2{font-size:clamp(1.6rem,4vw,2.2rem);font-weight:800;letter-spacing:-.02em}
+.eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.sheet .blurb{margin:8px 0 0;max-width:62ch}
+.sheet h3{font-size:1.05rem;font-weight:700;margin-bottom:10px;display:flex;align-items:baseline;gap:10px}
+.sheet h3 small{font-family:var(--mono);font-size:.72rem;color:var(--muted);font-weight:400;letter-spacing:.05em}
+.statrow{display:flex;gap:10px;flex-wrap:wrap}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 12px;min-width:0}
+.stat .k{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.stat .v{font-weight:600;font-variant-numeric:tabular-nums}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:transparent;padding:6px 14px;cursor:pointer;font-weight:600;font-size:.9rem}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg)}
+.ing{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.ing li{display:grid;grid-template-columns:7.5em 1fr;gap:12px;padding:8px 0;border-bottom:1px solid var(--line);min-width:0}
+.ing .q{font-family:var(--mono);font-size:.9rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ing .n small{display:block;color:var(--muted);font-size:.85rem}
+.steps{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px}
+.steps li::marker{font-family:var(--mono);color:var(--muted)}
+.tips{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;color:var(--fg)}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 16px;cursor:pointer;font-weight:600;font-size:.92rem;display:inline-flex;align-items:center;gap:8px}
+.btn.primary{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.btn.danger{color:var(--danger)}
+.btn[disabled]{opacity:.55;cursor:default}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.hint{color:var(--muted);font-size:.88rem;margin:0}
+textarea{width:100%;min-height:90px;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px 12px;resize:vertical}
+.note-view{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;white-space:pre-wrap}
+.status{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.status.ok{color:var(--ok)}.status.err{color:var(--danger)}
+footer{margin-top:40px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:520px){.ing li{grid-template-columns:6em 1fr}.sheet .inner{padding:16px 16px 40px}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <div>
+        <h1>Creami Cookbook</h1>
+        <p class="sub">Healthy Ninja Creami pints we actually make. Photos get added as each one comes out of the freezer.</p>
+      </div>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filter recipes"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <div class="lead">
+      <p>Every recipe here is written for the standard 16 oz pint and filled to the MAX line. Open a recipe and switch it to 2 or 3 pints when you're prepping a batch of containers at once.</p>
+      <p>Macros are estimates per pint, before mix-ins, and shift with the milk and sweetener you use.</p>
+    </div>
+    <aside class="rules">
+      <h2>House rules</h2>
+      <ol>
+        <li>Freeze 24 hours on a flat, level shelf.</li>
+        <li>Let the pint sit 5 to 10 minutes before spinning.</li>
+        <li>Crumbly after the first spin is normal. Add 1 tbsp milk, Re-spin.</li>
+        <li>Mix-ins go in after the first spin, never before.</li>
+      </ol>
+    </aside>
+  </section>
+
+  <section class="grid" id="grid" aria-live="polite"></section>
+  <p class="empty" id="empty" hidden>No recipes in this category yet.</p>
+
+  <footer>Illustrations are placeholders until a real pint photo is added. Editors see an "Add photo" button on each recipe.</footer>
+</main>
+
+<dialog class="sheet" id="sheet" aria-label="Recipe">
+  <div class="panel" id="panel"></div>
+</dialog>
+
+<script>
+(function(){
+"use strict";
+
+/* ---------- Recipes ---------- */
+// q = quantity per single pint. Units scale linearly with the pint count.
+const RECIPES = [
+  {
+    id:"pumpkin-pie-protein", name:"Pumpkin Pie Protein", cat:"protein", isNew:true,
+    blurb:"Pumpkin purée, vanilla whey and Fairlife. The pumpkin gives it body, so no pudding mix needed.",
+    color:{tint:"#f6e3cf", base:"#e2893a", hi:"#f3b06a", swirl:"#b85f1c", dots:"#6b3a14"}, dotStyle:"dust",
+    setting:"Lite Ice Cream", respin:"Add 1 tbsp milk, Re-spin. Repeat once if still crumbly.",
+    macros:{cal:310, protein:41, note:"2% Fairlife, no added sweetener"},
+    ingredients:[
+      {q:1.25,u:"cup",n:"Fairlife milk",note:"plus a splash to top off to the MAX line"},
+      {q:0.5,u:"cup",n:"pumpkin purée",note:"not pie filling"},
+      {q:1,u:"scoop",n:"vanilla whey protein",note:"about 30 g"},
+      {q:1,u:"tsp",n:"pumpkin pie spice"},
+      {q:1,u:"tsp",n:"vanilla extract"},
+      {q:1,u:"pinch",n:"salt"},
+      {q:1.5,u:"tbsp",n:"sweetener",note:"maple syrup, honey or zero-calorie, to taste"}
+    ],
+    steps:[
+      "Blend everything in a blender until completely smooth. Whey and pumpkin both clump if only whisked.",
+      "Taste it. Make it slightly sweeter and spicier than you want, since freezing dulls flavor.",
+      "Divide among pints, filling each to the MAX line. Top off with milk if a pint is short.",
+      "Freeze 24 hours on a flat, level surface.",
+      "Let the pint sit 5 to 10 minutes, then spin on Lite Ice Cream.",
+      "Add 1 tbsp Fairlife and Re-spin. Repeat once more if needed."
+    ],
+    tips:[
+      "For an even creamier pint, blend in 1 tbsp sugar-free vanilla or cheesecake instant pudding mix.",
+      "Mix-in idea: crushed graham cracker or a few chopped pecans after the first spin."
+    ]
+  },
+  {
+    id:"protein-shake-pint", name:"Protein Shake Pint", cat:"protein",
+    blurb:"The everyday base. One bottle of protein shake, one tablespoon of pudding mix, and whatever flavor you want.",
+    color:{tint:"#dfe9f1", base:"#f1ead8", hi:"#fbf7ea", swirl:"#d9c89a", dots:"#5b3a2a"}, dotStyle:"chips",
+    setting:"Lite Ice Cream", respin:"Add 1 tbsp milk, Re-spin. Expect to Re-spin twice.",
+    macros:{cal:280, protein:42, note:"depends on the shake"},
+    ingredients:[
+      {q:1,u:"bottle",n:"ready-to-drink protein shake",note:"11 oz, any flavor"},
+      {q:1,u:"tbsp",n:"sugar-free instant pudding mix",note:"vanilla or cheesecake for most flavors, chocolate for chocolate"},
+      {q:1,u:"tbsp",n:"sweetener",note:"optional, to taste"},
+      {q:0.25,u:"cup",n:"milk or almond milk",note:"roughly, to reach the MAX line"}
+    ],
+    steps:[
+      "Pour the shake into the pint. Whisk in the pudding mix until no lumps remain.",
+      "Add milk to the MAX line, stir, and freeze 24 hours.",
+      "Spin on Lite Ice Cream.",
+      "Add 1 tbsp milk and Re-spin. Re-spin once more if still crumbly."
+    ],
+    tips:[
+      "Chocolate peanut butter: chocolate shake, chocolate pudding mix, 1 tbsp powdered peanut butter. Mix-in: chopped peanuts.",
+      "Cookies and cream: vanilla shake, cheesecake pudding mix. Mix-in: 2 crushed sandwich cookies.",
+      "Birthday cake: vanilla shake, vanilla pudding mix, 1/2 tsp butter extract. Mix-in: 1 tbsp sprinkles.",
+      "Salted caramel: caramel or vanilla shake, butterscotch pudding mix, pinch of flaky salt."
+    ]
+  },
+  {
+    id:"greek-yogurt-froyo", name:"Greek Yogurt Froyo", cat:"protein",
+    blurb:"Thick and tangy. The yogurt carries the texture, so no stabilizer required.",
+    color:{tint:"#e6eef0", base:"#f7f4ee", hi:"#ffffff", swirl:"#e9e1d2", dots:"#c23a5a"}, dotStyle:"berries",
+    setting:"Lite Ice Cream", respin:"Add 1 tbsp milk, Re-spin.",
+    macros:{cal:260, protein:34, note:"zero-calorie sweetener; about 430 kcal with honey"},
+    ingredients:[
+      {q:1.25,u:"cup",n:"plain nonfat Greek yogurt"},
+      {q:0.5,u:"cup",n:"milk"},
+      {q:3,u:"tbsp",n:"honey or sweetener of choice"},
+      {q:1,u:"tsp",n:"vanilla extract"},
+      {q:1,u:"pinch",n:"salt"}
+    ],
+    steps:[
+      "Whisk everything until smooth.",
+      "Freeze 24 hours.",
+      "Spin on Lite Ice Cream, then Re-spin with 1 tbsp milk.",
+      "Add fruit after the first spin with Mix-in."
+    ],
+    tips:["Swirl in 1/4 cup berries with Mix-in for a fruit-on-the-bottom feel."]
+  },
+  {
+    id:"cottage-cheese-chocolate", name:"Cottage Cheese Chocolate", cat:"protein",
+    blurb:"Sounds wrong, tastes like rich chocolate soft serve. Blending is mandatory.",
+    color:{tint:"#e9dfd8", base:"#5a3a2e", hi:"#7a5244", swirl:"#3b2419", dots:"#f3e9dd"}, dotStyle:"flecks",
+    setting:"Lite Ice Cream", respin:"Add 1 tbsp milk, Re-spin.",
+    macros:{cal:290, protein:32, note:"low-fat cottage cheese, zero-calorie sweetener"},
+    ingredients:[
+      {q:1,u:"cup",n:"low-fat cottage cheese"},
+      {q:0.5,u:"cup",n:"milk"},
+      {q:2,u:"tbsp",n:"unsweetened cocoa powder"},
+      {q:3,u:"tbsp",n:"sweetener of choice"},
+      {q:1,u:"tsp",n:"vanilla extract"},
+      {q:1,u:"tbsp",n:"sugar-free chocolate instant pudding mix"}
+    ],
+    steps:[
+      "Blend everything in a blender until completely smooth, with no cottage cheese curds left.",
+      "Freeze 24 hours.",
+      "Spin on Lite Ice Cream, then Re-spin."
+    ],
+    tips:["A tablespoon of peanut butter in the blender turns this into a chocolate peanut butter cup."]
+  },
+  {
+    id:"whey-protein-base", name:"Protein Powder Base", cat:"protein",
+    blurb:"No shake on hand? A scoop of powder and milk does the same job. Casein blends spin creamier than pure whey.",
+    color:{tint:"#e3ebe4", base:"#f4efe3", hi:"#fdfaf2", swirl:"#e3d8bf", dots:"#9a7a4a"}, dotStyle:"dust",
+    setting:"Lite Ice Cream", respin:"Add 1 tbsp milk, Re-spin.",
+    macros:{cal:325, protein:44, note:"2% Fairlife; less with skim"},
+    ingredients:[
+      {q:1,u:"scoop",n:"whey or whey-casein blend protein powder",note:"about 30 g"},
+      {q:1.5,u:"cup",n:"milk of choice"},
+      {q:1,u:"tbsp",n:"sugar-free instant pudding mix"},
+      {q:1,u:"tbsp",n:"sweetener",note:"to taste"}
+    ],
+    steps:[
+      "Whisk or blend until smooth.",
+      "Freeze 24 hours.",
+      "Spin on Lite Ice Cream and Re-spin."
+    ],
+    tips:["Flavor it the same way as the shake pint: cocoa, powdered peanut butter, extracts, or a spoon of instant espresso."]
+  },
+  {
+    id:"mango-sorbet", name:"Mango Sorbet", cat:"sorbet",
+    blurb:"Bright and smooth. Frozen mango chunks make this a five-minute prep.",
+    color:{tint:"#fbe9cf", base:"#f5a623", hi:"#fbc96a", swirl:"#e0871a", dots:"#d9c13a"}, dotStyle:"none",
+    setting:"Sorbet", respin:"Re-spin if needed.",
+    macros:{cal:390, protein:3, note:"with sugar; about 200 kcal with allulose"},
+    ingredients:[
+      {q:2,u:"cup",n:"frozen mango chunks",note:"thawed"},
+      {q:0.25,u:"cup",n:"sugar or allulose"},
+      {q:2,u:"tbsp",n:"lime juice"},
+      {q:0.5,u:"cup",n:"water"}
+    ],
+    steps:["Blend until smooth.","Freeze 24 hours.","Spin on Sorbet. Re-spin if needed."],
+    tips:["A pinch of chili and salt on top makes it taste like a mango-on-a-stick from a street cart."]
+  },
+  {
+    id:"strawberry-lemonade-sorbet", name:"Strawberry Lemonade Sorbet", cat:"sorbet",
+    blurb:"Sweet-tart and very pink.",
+    color:{tint:"#fbe1e4", base:"#ef5f7a", hi:"#f78fa3", swirl:"#d13d5c", dots:"#f6e58a"}, dotStyle:"seeds",
+    setting:"Sorbet", respin:"Re-spin if needed.",
+    macros:{cal:350, protein:2, note:"with sugar; about 110 kcal with allulose"},
+    ingredients:[
+      {q:2,u:"cup",n:"strawberries",note:"hulled"},
+      {q:0.33,u:"cup",n:"sugar or allulose"},
+      {q:3,u:"tbsp",n:"lemon juice"},
+      {q:0.5,u:"cup",n:"water"}
+    ],
+    steps:["Blend until smooth.","Freeze 24 hours.","Spin on Sorbet."],
+    tips:[]
+  },
+  {
+    id:"raspberry-sorbet", name:"Raspberry Sorbet", cat:"sorbet",
+    blurb:"Deep berry flavor. Strain the seeds for a smooth spin.",
+    color:{tint:"#f4dfe8", base:"#c52c63", hi:"#df5f8e", swirl:"#941a46", dots:"#ffffff"}, dotStyle:"none",
+    setting:"Sorbet", respin:"Re-spin if needed.",
+    macros:{cal:380, protein:3, note:"with sugar; about 130 kcal with allulose"},
+    ingredients:[
+      {q:2,u:"cup",n:"raspberries"},
+      {q:0.33,u:"cup",n:"sugar or allulose"},
+      {q:1,u:"tbsp",n:"lemon juice"},
+      {q:0.5,u:"cup",n:"water"}
+    ],
+    steps:["Blend, then push through a fine mesh strainer to remove the seeds.","Freeze 24 hours.","Spin on Sorbet."],
+    tips:[]
+  },
+  {
+    id:"watermelon-sorbet", name:"Watermelon Sorbet", cat:"sorbet",
+    blurb:"Light, icy and barely sweetened. The lowest-calorie pint in the book.",
+    color:{tint:"#e3f1e6", base:"#f26b7a", hi:"#f99aa5", swirl:"#d94d5f", dots:"#2d2d2d"}, dotStyle:"seeds",
+    setting:"Sorbet", respin:"Loose and slushy is correct for watermelon.",
+    macros:{cal:210, protein:2, note:"with sugar; about 115 kcal with allulose"},
+    ingredients:[
+      {q:2.5,u:"cup",n:"seedless watermelon",note:"cubed"},
+      {q:2,u:"tbsp",n:"sugar or allulose"},
+      {q:1,u:"tbsp",n:"lime juice"},
+      {q:1,u:"pinch",n:"salt"}
+    ],
+    steps:["Blend until smooth.","Freeze 24 hours.","Spin on Sorbet."],
+    tips:["Very icy by nature. Serve right away; it does not hold well after spinning."]
+  },
+  {
+    id:"banana-nice-cream", name:"Banana Nice Cream", cat:"fruit",
+    blurb:"Three bananas and a splash of almond milk. Naturally sweet, no sugar added.",
+    color:{tint:"#f7efd6", base:"#f3e6b4", hi:"#fbf3d2", swirl:"#e2cf8a", dots:"#7a4a2a"}, dotStyle:"flecks",
+    setting:"Lite Ice Cream", respin:"Re-spin if needed.",
+    macros:{cal:430, protein:7, note:"with peanut butter; about 335 kcal without"},
+    ingredients:[
+      {q:3,u:"",n:"ripe banana",pl:"ripe bananas"},
+      {q:0.5,u:"cup",n:"almond milk"},
+      {q:1,u:"tbsp",n:"peanut butter",note:"optional"},
+      {q:1,u:"tsp",n:"vanilla extract"}
+    ],
+    steps:["Blend until smooth.","Freeze 24 hours.","Spin on Lite Ice Cream."],
+    tips:["Add 1 tbsp cocoa powder to the blender for chocolate banana.","A scoop of vanilla whey turns this into a protein pint; add a splash more milk."]
+  },
+  {
+    id:"fruit-yogurt-pops", name:"Berry Yogurt Soft Serve", cat:"fruit",
+    blurb:"Vanilla Greek yogurt and a cup of berries. Serve as soft serve or freeze into popsicle molds.",
+    color:{tint:"#e8e3f1", base:"#c98bc9", hi:"#dfb0df", swirl:"#a35ea3", dots:"#4b2d6b"}, dotStyle:"berries",
+    setting:"Lite Ice Cream", respin:"Re-spin if needed.",
+    macros:{cal:410, protein:21, note:"with honey; about 280 kcal with zero-calorie sweetener"},
+    ingredients:[
+      {q:1,u:"cup",n:"vanilla Greek yogurt"},
+      {q:1,u:"cup",n:"mixed berries",note:"fresh or frozen"},
+      {q:2,u:"tbsp",n:"honey or sweetener of choice"}
+    ],
+    steps:["Blend until smooth.","Freeze 24 hours.","Spin on Lite Ice Cream.","Serve right away, or scoop into popsicle molds and refreeze."],
+    tips:[]
+  }
+];
+
+const CATS = [
+  {id:"all", label:"All"},
+  {id:"protein", label:"High protein"},
+  {id:"sorbet", label:"Sorbet"},
+  {id:"fruit", label:"Fruit & dairy-free"}
+];
+const CAT_LABEL = {protein:"High protein", sorbet:"Sorbet", fruit:"Fruit & dairy-free"};
+
+/* ---------- Quantity formatting ---------- */
+const FRACS = [[0,""],[0.125,"⅛"],[0.25,"¼"],[0.333,"⅓"],[0.375,"⅜"],[0.5,"½"],[0.625,"⅝"],[0.666,"⅔"],[0.75,"¾"],[0.875,"⅞"],[1,""]];
+function fmtQty(x){
+  if(x<=0) return "";
+  let whole = Math.floor(x), frac = x - whole;
+  let best = FRACS[0], bd = 1;
+  for(const f of FRACS){ const d = Math.abs(f[0]-frac); if(d<bd){bd=d;best=f;} }
+  if(best[0]===1){ whole += 1; best = FRACS[0]; }
+  if(whole===0 && !best[1]) return String(Math.round(x*100)/100);
+  return (whole?String(whole):"") + (whole && best[1] ? " " : "") + best[1];
+}
+function fmtUnit(u, q){
+  if(!u) return "";
+  const plural = q > 1;
+  const map = {cup:["cup","cups"], tbsp:["tbsp","tbsp"], tsp:["tsp","tsp"], scoop:["scoop","scoops"], pinch:["pinch","pinches"], bottle:["bottle","bottles"], can:["can","cans"]};
+  const pair = map[u] || [u,u];
+  return plural ? pair[1] : pair[0];
+}
+function ingLine(ing, pints){
+  const q = ing.q * pints;
+  const name = (!ing.u && q>1 && ing.pl) ? ing.pl : ing.n;
+  return {qty:(fmtQty(q) + " " + fmtUnit(ing.u,q)).trim(), name, note:ing.note||""};
+}
+
+/* ---------- Illustration ---------- */
+const DOT_SPOTS = [[96,72],[132,66],[112,90],[146,92],[84,98],[124,112],[156,112],[100,124],[140,130],[118,50]];
+function dots(r){
+  const c = r.color.dots, style = r.dotStyle || "none";
+  if(style==="none") return "";
+  let out = "";
+  DOT_SPOTS.forEach((p,i)=>{
+    const [x,y] = p;
+    if(style==="dust"){ if(i%2===0) out += `<circle cx="${x}" cy="${y}" r="1.6" fill="${c}" opacity=".8"/>`; }
+    else if(style==="chips"){ if(i<7) out += `<rect x="${x-4}" y="${y-2.5}" width="8" height="5" rx="1.5" fill="${c}" transform="rotate(${(i*37)%90-45} ${x} ${y})"/>`; }
+    else if(style==="berries"){ if(i<5) out += `<circle cx="${x}" cy="${y}" r="4.2" fill="${c}"/><circle cx="${x-1.3}" cy="${y-1.3}" r="1.2" fill="#fff" opacity=".7"/>`; }
+    else if(style==="flecks"){ if(i<8) out += `<ellipse cx="${x}" cy="${y}" rx="2.6" ry="1.4" fill="${c}" opacity=".85" transform="rotate(${(i*53)%180} ${x} ${y})"/>`; }
+    else if(style==="seeds"){ if(i<6) out += `<ellipse cx="${x}" cy="${y}" rx="1.4" ry="2.4" fill="${c}" transform="rotate(${(i*41)%60-30} ${x} ${y})"/>`; }
+  });
+  return out;
+}
+function pintSVG(r, big){
+  const c = r.color;
+  const ink = "#1b2630";
+  return `<svg viewBox="0 0 240 200" role="img" aria-label="${esc(r.name)} illustration" preserveAspectRatio="xMidYMid ${big?"slice":"meet"}">
+  <rect width="240" height="200" fill="${c.tint}"/>
+  <ellipse cx="120" cy="186" rx="78" ry="7" fill="${ink}" opacity=".08"/>
+  <path d="M74 118 L82 182 Q120 192 158 182 L166 118 Z" fill="#ffffff" stroke="${ink}" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M78 138 L83 166 Q120 175 157 166 L162 138 Z" fill="${c.base}" opacity=".35"/>
+  <path d="M80 146 L158 146" stroke="${c.swirl}" stroke-width="2.5" opacity=".6"/>
+  <path d="M83 156 L155 156" stroke="${c.swirl}" stroke-width="2.5" opacity=".35"/>
+  <ellipse cx="120" cy="118" rx="52" ry="11" fill="${c.base}"/>
+  <ellipse cx="120" cy="104" rx="48" ry="19" fill="${c.base}"/>
+  <ellipse cx="118" cy="84" rx="38" ry="17" fill="${c.base}"/>
+  <ellipse cx="122" cy="66" rx="26" ry="14" fill="${c.base}"/>
+  <path d="M118 56 C124 40 140 44 136 58 C128 60 122 60 118 56 Z" fill="${c.base}"/>
+  <ellipse cx="104" cy="98" rx="20" ry="7" fill="${c.hi}" opacity=".9"/>
+  <ellipse cx="104" cy="80" rx="15" ry="6" fill="${c.hi}" opacity=".9"/>
+  <ellipse cx="112" cy="63" rx="10" ry="4.5" fill="${c.hi}" opacity=".9"/>
+  <path d="M86 108 Q120 122 154 108" stroke="${c.swirl}" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+  <path d="M92 90 Q118 100 146 88" stroke="${c.swirl}" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+  <path d="M102 72 Q122 80 140 70" stroke="${c.swirl}" stroke-width="2.6" fill="none" stroke-linecap="round" opacity=".8"/>
+  ${dots(r)}
+  <ellipse cx="120" cy="118" rx="52" ry="11" fill="none" stroke="${ink}" stroke-width="2.2"/>
+  <ellipse cx="120" cy="116" rx="46" ry="7" fill="none" stroke="${ink}" stroke-width="1.2" opacity=".35"/>
+</svg>`;
+}
+function esc(s){ return String(s).replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m])); }
+
+/* ---------- State ---------- */
+const state = { filter:"all", photos:{}, notes:{}, db:null, assets:null, canEdit:false, open:null, pints:1 };
+const $ = s => document.querySelector(s);
+const grid = $("#grid"), chips = $("#chips"), sheet = $("#sheet"), panel = $("#panel");
+
+function photoUrl(id){ const p = state.photos[id]; return p && p.assetId ? "/_blob/" + p.assetId : null; }
+
+/* ---------- Grid ---------- */
+function renderChips(){
+  chips.innerHTML = CATS.map(c => `<button class="chip" type="button" data-cat="${c.id}" aria-pressed="${state.filter===c.id}">${c.label}</button>`).join("");
+}
+function renderGrid(){
+  const list = RECIPES.filter(r => state.filter==="all" || r.cat===state.filter);
+  $("#count").textContent = RECIPES.length + (RECIPES.length===1?" recipe":" recipes");
+  $("#empty").hidden = list.length>0;
+  grid.innerHTML = list.map(r => {
+    const url = photoUrl(r.id);
+    return `<button class="card" type="button" data-id="${r.id}" style="--tint:${r.color.tint}">
+      <div class="art">
+        ${url ? `<img src="${esc(url)}" alt="${esc(r.name)}" loading="lazy">` : pintSVG(r,false)}
+        ${r.isNew ? `<span class="badge">New</span>` : ""}
+        ${url ? `<span class="photo-tag">our pint</span>` : ""}
+      </div>
+      <div class="body">
+        <h3>${esc(r.name)}</h3>
+        <p class="blurb">${esc(r.blurb)}</p>
+        <div class="macros"><span><b>${r.macros.cal}</b> kcal</span><span><b>${r.macros.protein} g</b> protein</span><span>${esc(CAT_LABEL[r.cat])}</span></div>
+      </div>
+    </button>`;
+  }).join("");
+}
+
+/* ---------- Sheet ---------- */
+function renderSheet(){
+  const r = state.open; if(!r) return;
+  const url = photoUrl(r.id);
+  const p = state.pints;
+  const note = state.notes[r.id];
+  panel.style.setProperty("--tint", r.color.tint);
+  panel.innerHTML = `
+    <div class="hero">
+      ${url ? `<img src="${esc(url)}" alt="${esc(r.name)}">` : pintSVG(r,true)}
+      <button class="close" type="button" id="close" aria-label="Close">&times;</button>
+    </div>
+    <div class="inner">
+      <div>
+        <p class="eyebrow">${esc(CAT_LABEL[r.cat])} &middot; ${esc(r.setting)}</p>
+        <h2>${esc(r.name)}</h2>
+        <p class="blurb">${esc(r.blurb)}</p>
+      </div>
+      <div class="statrow">
+        <div class="stat"><div class="k">Per pint</div><div class="v">${r.macros.cal} kcal &middot; ${r.macros.protein} g protein</div></div>
+        <div class="stat"><div class="k">Spin on</div><div class="v">${esc(r.setting)}</div></div>
+        <div class="stat"><div class="k">Basis</div><div class="v" style="font-weight:400">${esc(r.macros.note)}</div></div>
+      </div>
+      <section>
+        <h3>Ingredients <small>for ${p} ${p===1?"pint":"pints"}</small></h3>
+        <div class="row" style="margin-bottom:10px">
+          <span class="hint">Making a batch?</span>
+          <div class="seg" role="group" aria-label="Number of pints">
+            ${[1,2,3].map(n => `<button type="button" data-pints="${n}" aria-pressed="${p===n}">${n} ${n===1?"pint":"pints"}</button>`).join("")}
+          </div>
+        </div>
+        <ul class="ing">
+          ${r.ingredients.map(i => { const l = ingLine(i,p); return `<li><span class="q">${esc(l.qty)}</span><span class="n">${esc(l.name)}${l.note?`<small>${esc(l.note)}</small>`:""}</span></li>`; }).join("")}
+        </ul>
+      </section>
+      <section>
+        <h3>Method</h3>
+        <ol class="steps">${r.steps.map(s => `<li>${esc(s)}</li>`).join("")}</ol>
+        <p class="hint" style="margin-top:10px"><strong>Re-spin:</strong> ${esc(r.respin)}</p>
+      </section>
+      ${r.tips.length ? `<section><h3>Variations &amp; tips</h3><ul class="tips">${r.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></section>` : ""}
+      <section>
+        <h3>Our photo</h3>
+        <div class="row" id="photo-row">
+          ${state.assets ? `
+            <button class="btn primary" type="button" id="add-photo">${url ? "Replace photo" : "Add photo"}</button>
+            ${url ? `<button class="btn danger" type="button" id="remove-photo">Remove photo</button>` : ""}
+            <input type="file" id="photo-file" accept="image/*" hidden>
+            <span class="status" id="photo-status"></span>` :
+            (url ? `<p class="hint">Photo of a pint we made.</p>` : `<p class="hint">No photo yet. The illustration stands in until one is added.</p>`)}
+        </div>
+      </section>
+      <section>
+        <h3>Notes</h3>
+        ${state.canEdit ? `
+          <textarea id="note-text" placeholder="How did it come out? Tweaks for next time?">${esc(note && note.text ? note.text : "")}</textarea>
+          <div class="row" style="margin-top:8px"><button class="btn" type="button" id="save-note">Save note</button><span class="status" id="note-status"></span></div>` :
+          (note && note.text ? `<div class="note-view">${esc(note.text)}</div>` : `<p class="hint">No notes yet.</p>`)}
+      </section>
+    </div>`;
+  const dlg = $("#close"); dlg.addEventListener("click", closeSheet);
+  panel.querySelectorAll("[data-pints]").forEach(b => b.addEventListener("click", () => { state.pints = Number(b.dataset.pints); renderSheet(); }));
+  const add = $("#add-photo"), file = $("#photo-file"), rm = $("#remove-photo"), save = $("#save-note");
+  if(add) add.addEventListener("click", () => file.click());
+  if(file) file.addEventListener("change", () => { if(file.files && file.files[0]) uploadPhoto(r, file.files[0]); });
+  if(rm) rm.addEventListener("click", () => removePhoto(r, rm));
+  if(save) save.addEventListener("click", () => saveNote(r));
+}
+function openSheet(id, fromHash){
+  const r = RECIPES.find(x => x.id===id); if(!r) return;
+  state.open = r; state.pints = 1;
+  renderSheet();
+  if(!sheet.open) sheet.showModal();
+  panel.scrollTop = 0;
+  if(!fromHash && location.hash !== "#"+id) history.replaceState(null, "", "#"+id);
+}
+function closeSheet(){
+  if(sheet.open) sheet.close();
+  state.open = null;
+  if(location.hash) history.replaceState(null, "", location.pathname + location.search);
+}
+sheet.addEventListener("click", e => { if(e.target === sheet) closeSheet(); });
+sheet.addEventListener("close", () => { state.open = null; });
+
+/* ---------- Photos & notes ---------- */
+function setStatus(id, msg, cls){ const el = document.getElementById(id); if(!el) return; el.textContent = msg; el.className = "status" + (cls ? " "+cls : ""); }
+
+async function shrink(file){
+  try{
+    const bmp = await createImageBitmap(file);
+    const max = 1600, scale = Math.min(1, max / Math.max(bmp.width, bmp.height));
+    if(scale === 1 && file.size < 2500000) return file;
+    const cv = document.createElement("canvas");
+    cv.width = Math.round(bmp.width*scale); cv.height = Math.round(bmp.height*scale);
+    cv.getContext("2d").drawImage(bmp, 0, 0, cv.width, cv.height);
+    const blob = await new Promise(res => cv.toBlob(res, "image/jpeg", 0.86));
+    return blob || file;
+  }catch(e){ return file; }
+}
+async function uploadPhoto(r, file){
+  if(!state.assets || !state.db) return;
+  const btn = $("#add-photo"); if(btn) btn.disabled = true;
+  setStatus("photo-status", "Uploading…");
+  try{
+    const blob = await shrink(file);
+    const res = await state.assets.upload(blob, blob.type ? undefined : {type:"image/jpeg"});
+    const old = state.photos[r.id] && state.photos[r.id].assetId;
+    await state.db.doc("photos/"+r.id).set({assetId:res.id, addedAt:new Date().toISOString()});
+    state.photos[r.id] = {assetId:res.id};
+    if(old && old !== res.id){ try{ await state.assets.delete(old); }catch(e){} }
+    setStatus("photo-status", "Photo saved", "ok");
+    renderGrid();
+    if(state.open && state.open.id===r.id) renderSheet();
+  }catch(e){
+    const code = e && e.code;
+    const msg = code==="too_large" ? "That file is over the size limit. Try a smaller photo." :
+                code==="quota_or_state" ? "Photo storage is full. Remove an old photo first." :
+                code==="unsupported_type" ? "That file type isn't supported. Use a JPG or PNG." :
+                "Upload didn't go through. Try again.";
+    setStatus("photo-status", msg, "err");
+    if(btn) btn.disabled = false;
+  }
+}
+async function removePhoto(r, btn){
+  if(!state.db) return;
+  if(btn.dataset.armed !== "1"){ btn.dataset.armed = "1"; btn.textContent = "Tap again to confirm"; return; }
+  btn.disabled = true;
+  try{
+    const old = state.photos[r.id] && state.photos[r.id].assetId;
+    await state.db.doc("photos/"+r.id).delete();
+    delete state.photos[r.id];
+    if(old && state.assets){ try{ await state.assets.delete(old); }catch(e){} }
+    renderGrid(); renderSheet();
+  }catch(e){ setStatus("photo-status", "Couldn't remove the photo. Try again.", "err"); btn.disabled = false; }
+}
+async function saveNote(r){
+  if(!state.db) return;
+  const ta = $("#note-text"), btn = $("#save-note"); if(!ta) return;
+  const text = ta.value.trim();
+  btn.disabled = true; setStatus("note-status", "Saving…");
+  try{
+    if(text) await state.db.doc("notes/"+r.id).set({text, updatedAt:new Date().toISOString()});
+    else await state.db.doc("notes/"+r.id).delete();
+    state.notes[r.id] = text ? {text} : null;
+    setStatus("note-status", "Saved", "ok");
+  }catch(e){ setStatus("note-status", "Couldn't save. Try again.", "err"); }
+  btn.disabled = false;
+}
+
+/* ---------- Capabilities ---------- */
+async function connect(){
+  const use = window.claude && typeof window.claude.use === "function" ? n => window.claude.use(n) : () => Promise.resolve(null);
+  const [db, assets, user] = await Promise.all([use("db"), use("assets"), use("user")]);
+  state.db = db; state.assets = assets;
+  let canEdit = !!assets;
+  if(user){ try{ const w = await user.can("data.write"); if(w===true) canEdit = true; }catch(e){} }
+  state.canEdit = canEdit && !!db;
+  if(db){
+    db.collection("photos").onSnapshot(snap => {
+      const next = {};
+      snap.docs.forEach(d => { const v = d.data(); if(v && v.assetId) next[d.id] = {assetId:String(v.assetId)}; });
+      state.photos = next; renderGrid(); if(state.open) renderSheet();
+    }, () => {});
+    db.collection("notes").onSnapshot(snap => {
+      const next = {};
+      snap.docs.forEach(d => { const v = d.data(); if(v && typeof v.text === "string") next[d.id] = {text:v.text}; });
+      state.notes = next; if(state.open && !document.activeElement.matches("#note-text")) renderSheet();
+    }, () => {});
+  }
+  if(state.open) renderSheet();
+}
+
+/* ---------- Wire up ---------- */
+chips.addEventListener("click", e => {
+  const b = e.target.closest("[data-cat]"); if(!b) return;
+  state.filter = b.dataset.cat; renderChips(); renderGrid();
+  try{ localStorage.setItem("creami-filter", state.filter); }catch(err){}
+});
+grid.addEventListener("click", e => {
+  const c = e.target.closest("[data-id]"); if(c) openSheet(c.dataset.id, false);
+});
+try{ const f = localStorage.getItem("creami-filter"); if(f && CATS.some(c => c.id===f)) state.filter = f; }catch(e){}
+renderChips(); renderGrid();
+const h = (location.hash||"").slice(1);
+if(h && RECIPES.some(r => r.id===h)) openSheet(h, true);
+connect();
+})();
+</script>
