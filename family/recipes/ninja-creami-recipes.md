@@ -115,6 +115,38 @@ Flavor builds on this base:
 - **Birthday cake:** vanilla shake, vanilla pudding mix, 1/2 tsp butter extract. Mix-in: 1 tbsp sprinkles.
 - **Salted caramel:** caramel or vanilla shake, butterscotch pudding mix, pinch of flaky salt.
 
+### Pumpkin pie protein
+
+Built from pantry staples: pumpkin purée, vanilla whey, Fairlife milk. The pumpkin adds enough body that no pudding mix is required, though 1 tbsp per pint makes it creamier. About 310 calories and 41 g protein per pint with 2% Fairlife and no added sweetener.
+
+Per pint:
+
+- 1 1/4 cups Fairlife milk, plus a splash to top off to the MAX line
+- 1/2 cup pumpkin purée (not pie filling)
+- 1 scoop (about 30 g) vanilla whey protein
+- 1 tsp pumpkin pie spice
+- 1 tsp vanilla extract
+- Pinch of salt
+- 1 to 2 tbsp sweetener to taste (maple syrup, honey, or zero-calorie)
+
+Batch for three pints:
+
+| Ingredient | Amount |
+|---|---|
+| Fairlife milk | 3 3/4 cups, plus a little to top off |
+| Pumpkin purée | 1 1/2 cups (most of one 15 oz can) |
+| Vanilla whey protein | 3 scoops |
+| Pumpkin pie spice | 1 tbsp |
+| Vanilla extract | 1 tbsp |
+| Salt | 1/4 tsp |
+| Sweetener | 3 to 6 tbsp, to taste |
+
+1. Blend everything in a blender until completely smooth. Whey and pumpkin both clump if only whisked. Make it slightly sweeter and spicier than you want, since freezing dulls flavor.
+2. Divide evenly among pints, filling each to the MAX line. Top off with milk if short.
+3. Freeze 24 hours on a flat, level surface.
+4. Let the pint sit 5 to 10 minutes, then spin on **Lite Ice Cream**.
+5. Add 1 tbsp milk and **Re-spin**. Repeat once more if still crumbly.
+
 ### Greek yogurt frozen yogurt
 
 Thick, tangy, and about 30 g protein. Needs no stabilizer because the yogurt carries it.
