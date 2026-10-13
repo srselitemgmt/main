@@ -115,6 +115,39 @@ Flavor builds on this base:
 - **Birthday cake:** vanilla shake, vanilla pudding mix, 1/2 tsp butter extract. Mix-in: 1 tbsp sprinkles.
 - **Salted caramel:** caramel or vanilla shake, butterscotch pudding mix, pinch of flaky salt.
 
+### Vanilla protein base
+
+Fairlife, vanilla protein powder, maple syrup and a level quarter teaspoon of xanthan gum. The base everything else builds on. About 380 calories and 44 g protein per pint with 2% Fairlife, around 320 with fat-free.
+
+Per pint:
+
+- 1 1/2 cups Fairlife milk, plus a splash to top off to the MAX line
+- 1 scoop (about 30 g) vanilla protein powder
+- 1 1/2 tbsp maple syrup
+- 1 tsp vanilla extract
+- 1/4 tsp xanthan gum, level
+- Pinch of salt, optional
+
+Batch for three pints:
+
+| Ingredient | Amount |
+|---|---|
+| Fairlife milk | 4 1/2 cups, plus a little to top off |
+| Vanilla protein powder | 3 scoops |
+| Maple syrup | 4 1/2 tbsp (1/4 cup plus 1/2 tbsp) |
+| Vanilla extract | 1 tbsp |
+| Xanthan gum | 3/4 tsp, level |
+| Salt | 1/4 tsp, optional |
+
+1. Blend the milk, protein powder, maple syrup, vanilla and salt until smooth.
+2. With the blender running on low, sprinkle the xanthan gum in slowly. Blend 20 to 30 seconds more. It should thicken slightly.
+3. Rest 5 minutes so the foam settles, then divide among pints to the MAX line.
+4. Freeze 24 hours on a flat, level surface.
+5. Let the pint sit 5 to 10 minutes, then spin on **Lite Ice Cream**.
+6. Add 1 tbsp milk and **Re-spin**. Xanthan bases usually need only one.
+
+Don't go above 1/4 tsp xanthan per pint; more turns creamy into gummy. No blender: whisk the xanthan into the dry protein powder first, then whisk that into the milk. Flavor the blender with cocoa, instant espresso, powdered peanut butter or extracts; chunky mix-ins go in after the first spin.
+
 ### Pumpkin pie protein
 
 Built from pantry staples: pumpkin purée, vanilla whey, Fairlife milk. The pumpkin adds enough body that no pudding mix is required, though 1 tbsp per pint makes it creamier. About 310 calories and 41 g protein per pint with 2% Fairlife and no added sweetener.

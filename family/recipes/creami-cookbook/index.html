@@ -166,6 +166,34 @@ footer{margin-top:40px;color:var(--muted);font-size:.85rem;border-top:1px solid 
 // q = quantity per single pint. Units scale linearly with the pint count.
 const RECIPES = [
   {
+    id:"vanilla-protein-base", name:"Vanilla Protein Base", cat:"protein", isNew:true,
+    blurb:"Fairlife, vanilla protein, maple syrup and a level quarter teaspoon of xanthan gum. The base everything else builds on.",
+    color:{tint:"#e6edf1", base:"#f6efdc", hi:"#fffaf0", swirl:"#e0d2ad", dots:"#4a3a28"}, dotStyle:"seeds",
+    setting:"Lite Ice Cream", respin:"Add 1 tbsp milk, Re-spin. Xanthan bases usually need only one.",
+    macros:{cal:380, protein:44, note:"2% Fairlife; about 320 kcal with fat-free"},
+    ingredients:[
+      {q:1.5,u:"cup",n:"Fairlife milk",note:"plus a splash to top off to the MAX line"},
+      {q:1,u:"scoop",n:"vanilla protein powder",note:"about 30 g"},
+      {q:1.5,u:"tbsp",n:"maple syrup"},
+      {q:1,u:"tsp",n:"vanilla extract"},
+      {q:0.25,u:"tsp",n:"xanthan gum",note:"level, never heaping"},
+      {q:1,u:"pinch",n:"salt",note:"optional, makes the vanilla pop"}
+    ],
+    steps:[
+      "Blend the milk, protein powder, maple syrup, vanilla and salt until smooth.",
+      "With the blender running on low, sprinkle the xanthan gum in slowly. Blend 20 to 30 seconds more. It should thicken slightly, like a thin milkshake.",
+      "Rest 5 minutes so the foam settles, then divide among pints to the MAX line. Top off with milk if short.",
+      "Freeze 24 hours on a flat, level surface.",
+      "Let the pint sit 5 to 10 minutes, then spin on Lite Ice Cream.",
+      "Add 1 tbsp Fairlife and Re-spin."
+    ],
+    tips:[
+      "Don't go above 1/4 tsp xanthan per pint. More turns creamy into gummy.",
+      "No blender? Whisk the xanthan into the dry protein powder first, then whisk that into the milk. It won't clump that way.",
+      "Flavor the blender: 2 tbsp cocoa, 1 tbsp instant espresso, 2 tbsp powdered peanut butter, or 1/2 tsp almond or mint extract. Chunky mix-ins go in after the first spin."
+    ]
+  },
+  {
     id:"pumpkin-pie-protein", name:"Pumpkin Pie Protein", cat:"protein", isNew:true,
     blurb:"Pumpkin purée, vanilla whey and Fairlife. The pumpkin gives it body, so no pudding mix needed.",
     color:{tint:"#f6e3cf", base:"#e2893a", hi:"#f3b06a", swirl:"#b85f1c", dots:"#6b3a14"}, dotStyle:"dust",
