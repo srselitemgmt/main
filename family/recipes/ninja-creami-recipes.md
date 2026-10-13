@@ -115,6 +115,73 @@ Flavor builds on this base:
 - **Birthday cake:** vanilla shake, vanilla pudding mix, 1/2 tsp butter extract. Mix-in: 1 tbsp sprinkles.
 - **Salted caramel:** caramel or vanilla shake, butterscotch pudding mix, pinch of flaky salt.
 
+### Vanilla protein base
+
+Fairlife, vanilla protein powder, maple syrup and a level quarter teaspoon of xanthan gum. The base everything else builds on. About 380 calories and 44 g protein per pint with 2% Fairlife, around 320 with fat-free.
+
+Per pint:
+
+- 1 1/2 cups Fairlife milk, plus a splash to top off to the MAX line
+- 1 scoop (about 30 g) vanilla protein powder
+- 1 1/2 tbsp maple syrup
+- 1 tsp vanilla extract
+- 1/4 tsp xanthan gum, level
+- Pinch of salt, optional
+
+Batch for three pints:
+
+| Ingredient | Amount |
+|---|---|
+| Fairlife milk | 4 1/2 cups, plus a little to top off |
+| Vanilla protein powder | 3 scoops |
+| Maple syrup | 4 1/2 tbsp (1/4 cup plus 1/2 tbsp) |
+| Vanilla extract | 1 tbsp |
+| Xanthan gum | 3/4 tsp, level |
+| Salt | 1/4 tsp, optional |
+
+1. Blend the milk, protein powder, maple syrup, vanilla and salt until smooth.
+2. With the blender running on low, sprinkle the xanthan gum in slowly. Blend 20 to 30 seconds more. It should thicken slightly.
+3. Rest 5 minutes so the foam settles, then divide among pints to the MAX line.
+4. Freeze 24 hours on a flat, level surface.
+5. Let the pint sit 5 to 10 minutes, then spin on **Lite Ice Cream**.
+6. Add 1 tbsp milk and **Re-spin**. Xanthan bases usually need only one.
+
+Don't go above 1/4 tsp xanthan per pint; more turns creamy into gummy. No blender: whisk the xanthan into the dry protein powder first, then whisk that into the milk. Flavor the blender with cocoa, instant espresso, powdered peanut butter or extracts; chunky mix-ins go in after the first spin.
+
+### Pumpkin pie protein
+
+Built from pantry staples: pumpkin purée, vanilla whey, Fairlife milk. The pumpkin adds enough body that no pudding mix is required, though 1 tbsp per pint makes it creamier. About 310 calories and 41 g protein per pint with 2% Fairlife and no added sweetener.
+
+Per pint:
+
+- 1 1/4 cups Fairlife milk, plus a splash to top off to the MAX line
+- 1/2 cup pumpkin purée (not pie filling)
+- 1 scoop (about 30 g) vanilla whey protein
+- 1 tsp pumpkin pie spice
+- 1 tsp vanilla extract
+- Pinch of salt
+- 1 to 2 tbsp sweetener to taste (maple syrup, honey, or zero-calorie)
+
+Batch for three pints:
+
+| Ingredient | Amount |
+|---|---|
+| Fairlife milk | 3 3/4 cups, plus a little to top off |
+| Pumpkin purée | 1 1/2 cups (most of one 15 oz can) |
+| Vanilla whey protein | 3 scoops |
+| Pumpkin pie spice | 1 tbsp |
+| Vanilla extract | 1 tbsp |
+| Salt | 1/4 tsp |
+| Sweetener | 3 to 6 tbsp, to taste |
+
+1. Blend everything in a blender until completely smooth. Whey and pumpkin both clump if only whisked. Make it slightly sweeter and spicier than you want, since freezing dulls flavor.
+2. Divide evenly among pints, filling each to the MAX line. Top off with milk if short.
+3. Freeze 24 hours on a flat, level surface.
+4. Let the pint sit 5 to 10 minutes, then spin on **Lite Ice Cream**.
+5. Add 1 tbsp milk and **Re-spin**. Repeat once more if still crumbly.
+
+**With pumpkin pie filling instead of purée:** keep the 1/2 cup, drop the sweetener, salt and pumpkin spice (the filling already has them), and cut the vanilla to 1/2 tsp. It spins creamier and sweeter, about 400 calories per pint. Use 1/3 cup filling for closer to 360.
+
 ### Greek yogurt frozen yogurt
 
 Thick, tangy, and about 30 g protein. Needs no stabilizer because the yogurt carries it.
