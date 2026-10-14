@@ -10,6 +10,9 @@ updated: 2026-08-13
 **Sources**: [[key-figures-2026]] · [[household-timeline]] · [[tax-mitigation-master-plan]]
 **All figures in 2026 dollars.** Brackets and IRMAA tiers index with inflation, so real comparisons hold; nominal amounts in 2042 will be materially larger.
 
+> [!important] Update 2026-10-14: the window is no longer the only place to convert
+> Modelling in [[roth-conversion-annual-protocol]] found that **a post-relocation working year carrying a full §461(l) cost-segregation loss converts ~$155K at a flat 24%** — cheaper than this window's fast lane (28.4%), with **no IRMAA cost at all** (neither spouse is on Medicare before 2041, and IRMAA looks back two years). Since Ryan's projected $6–7M balance **cannot** be cleared by 2042–2050 alone, those earlier years are now part of the plan rather than an afterthought. This note still governs the retirement years; **[[roth-conversion-annual-protocol]] governs how much to convert in any given year.**
+
 ## Why the window exists
 
 | Factor | Effect |
@@ -83,7 +86,7 @@ Ten years → **~$7.1M converted for ~$2.0M of tax.**
 
 The comparison that decides it is not "23.0% vs. 28.4%." It is **either of those against the rate the surviving spouse pays alone at 85** — filing single, on RMDs from an unconverted balance, with single-filer IRMAA thresholds at half the joint levels. That is 32–35% federal plus top-tier IRMAA. **Both lanes win. The fast lane wins by more if the balance is large.**
 
-→ This is the calculation that needs actual balances. See [[tax-mitigation-master-plan#Open items to resolve]] item 8.
+→ Sizing for any specific year now runs through **[[roth-conversion-annual-protocol]]** and its calculator. Key refinement from that work: **target the blended rate, not the marginal rate.** IRMAA tiers are one-year spikes, so stopping at the first cliff strands cheap bracket space behind it — in the 2042–45 case, blended-rate targeting converts **$250K at 23.0%** where marginal-rate stopping converts only $125K. Pair the same year with a cost-seg acquisition and it rises to **$550K at 23.9%**.
 
 ## The two-year IRMAA lag
 

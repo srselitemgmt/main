@@ -17,7 +17,8 @@ updated: 2026-08-13
 | **[[tax-mitigation-master-plan]]** | The plan. Six phases from 2026 through 2051+, the four-bucket framework, risks, open items. | **Start here** |
 | [[household-timeline]] | Exact dates for both spouses; two of the three age-gap problems now settled. | Any sequencing question |
 | [[reps-real-estate-professional-status]] | Stacy's REPS: the two tests, the aggregation election, documentation, what it does and doesn't fix. | Before this year's log setup, and annually |
-| [[roth-conversion-window]] | 2042–2050 conversion sizing — nine years, all Ryan's; fast lane; IRMAA-vs-bracket math; execution. | Phase 4–5 planning, and every October from 2042 |
+| **[[roth-conversion-annual-protocol]]** | **The yearly decision engine** — how much to convert this year, with a runnable calculator. | **Every October** |
+| [[roth-conversion-window]] | The retirement-years window: 2042–2050, nine years, all Ryan's; IRMAA-vs-bracket math. | Phase 4–5 planning |
 | [[str-cost-segregation-playbook]] | The deduction engine: cost seg, bonus depreciation, the four loss limitations, the STR fallback door. | Before any acquisition |
 | [[stacy-rep-tracking-audit-2026]] | **Deep-dive audit of the REP hour tracking system** — what's broken, what's at risk, the fix list. | **Now — active findings** |
 | [[rha-retiree-health-account]] | Ryan's RHA ($260,893 → $350K+ by end 2027) — retirement healthcare pre-funding and the HSA-eligibility question. | Benefits questions this month |
@@ -31,7 +32,7 @@ updated: 2026-08-13
 1. **Fill every tax-advantaged channel now** — Ryan's voluntary dollars go Roth (catch-up, backdoor, after-tax sweep); **Stacy gets a spousal backdoor Roth**; and from 2027–28 the **MBCBP** captures ~$65K/yr that is currently taxed as PRAP Cash.
 2. **Run the real estate portfolio through Stacy's REPS** — her full-time real estate work makes *every* rental's cost-seg losses (MHPs and RV parks included) deductible against Ryan's W-2 income, up to the $512K/year excess-business-loss cap.
 3. **Relocate to a no-income-tax state before 2041** — federal law then bars the former state from ever taxing the retirement distributions.
-4. **Convert Ryan's pre-tax balance hard across 2042–2050** — heaviest in 2042–2045 (the cheapest years), on the fast lane, sheltered by cost-seg losses — because his ~$5–6M projected balance is the entire conversion problem.
+4. **Convert Ryan's pre-tax balance at every 24%-or-better opportunity** — not just 2042–2050. Post-relocation working years carrying a full cost-seg loss convert ~$155K at a flat 24%; the 2042–45 years paired with an acquisition convert ~$550K at 23.9%. Sized annually by [[roth-conversion-annual-protocol]].
 5. **Each spouse claims Social Security at 70** — Stacy 2/2041, Ryan 8/2046 — maximizing the survivor benefit.
 6. **Never sell what gets a basis step-up** — convert the IRAs (no step-up), hold the brokerage and real estate (step-up erases all depreciation recapture).
 

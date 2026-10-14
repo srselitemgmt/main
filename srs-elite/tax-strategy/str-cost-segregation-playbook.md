@@ -222,6 +222,14 @@ Revised acquisition priority:
 
 The practical rule for terms deals is now: **cost-seg study + recourse-guaranteed seller note + Stacy's REPS documented + annual loss under $512K = a six-figure W-2 offset. Nonrecourse seller carry = no year-one benefit at all**, regardless of REPS.
 
+## A cost-seg year is also a Roth conversion year
+
+A cost-seg loss does two jobs at once: it shelters W-2 income at ~45%, **and** it drops MAGI far enough to open cheap Roth conversion room on top. In a post-relocation working year a full §461(l) loss converts **~$155K at a flat 24%**; in a 2042–45 retirement year the same pairing converts **~$550K at 23.9%** — the single best combination in the plan.
+
+Two operational consequences:
+- **Re-run [[roth-conversion-annual-protocol]] the moment an acquisition's placed-in-service date is confirmed.** The conversion room the loss creates expires 12/31 with it.
+- **Half-sized losses are a trap.** A loss big enough to lower MAGI but not to clear the **SALT phase-down band ($505K–$606K)** leaves conversions at 39.4%. Size the deal so MAGI lands below ~$290K, or plan no conversion that year.
+
 ## State selection
 
 Real property income and gain are **always taxable by the state where the property sits** — 4 U.S.C. §114's protection for retirement income does not extend to real estate. A property in a high-tax state creates a permanent filing obligation and a permanent tax leak, even after we relocate.

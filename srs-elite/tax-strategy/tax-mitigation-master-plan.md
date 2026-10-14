@@ -8,7 +8,7 @@ updated: 2026-08-13
 
 **Summary**: A phased plan to minimize lifetime (not annual) tax across the W-2 accumulation years and retirement. The engine is a single arbitrage: **defer income now at ~35–45% and recognize it later at ~24% federal-only**, funded by a relocation to a no-income-tax state before retirement. Real estate is the deduction engine — and because **[[reps-real-estate-professional-status|Stacy qualifies as a real estate professional]]**, *every* rental's cost-seg losses offset Ryan's W-2 income, not just short-term rentals. Everything else is sequencing, and the sequencing is driven by the couple's **5½-year age gap** — see [[household-timeline]].
 **Profile**: MFJ · Ryan b. 8/3/1976 (50), United Airlines Flight Evaluator (B737), W-2 **~$800K gross** (verified from pay advice 8/2026), **mandatory retirement 8/3/2041** · Stacy b. 2/17/1971 (55), **full-time real estate professional** · **Colorado** (Erie), relocating to a no-tax state before retirement · balances: [[schwab-portfolio-review-2026-07]]
-**Sources**: [[key-figures-2026]] · [[household-timeline]] · [[reps-real-estate-professional-status]] · [[str-cost-segregation-playbook]] · [[roth-conversion-window]]
+**Sources**: [[key-figures-2026]] · [[household-timeline]] · [[reps-real-estate-professional-status]] · [[str-cost-segregation-playbook]] · [[roth-conversion-window]] · [[roth-conversion-annual-protocol]]
 **Status**: framework for review with CPA — see [[#Open items to resolve]]
 
 > [!warning] This is a planning framework, not tax advice
@@ -36,6 +36,9 @@ Three things make the spread unusually large for us:
 4. **Stacy's REPS.** Real estate losses that would be suspended for any normal W-2 household are **fully deductible against Ryan's wages** — up to $512K/year — for as long as she keeps qualifying.
 
 The plan below is essentially: *maximize what goes into the left column, engineer the emptiest possible income years in the right column, and move as much as possible across.*
+
+> [!important] Refinement 2026-10-14 — conversions start before retirement
+> The original framing ("defer now, convert after 2041") is too blunt. **Cost-segregation losses manufacture low-tax years on demand**: a post-relocation working year with a full §461(l) loss converts ~$155K at a flat 24% with zero IRMAA cost. Because the 2042–2050 window cannot absorb a $6–7M balance by itself, those manufactured years are now load-bearing. **How much to convert in any given year is decided by [[roth-conversion-annual-protocol]] and re-run every October.**
 
 ## The four buckets
 
