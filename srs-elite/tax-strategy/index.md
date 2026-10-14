@@ -18,6 +18,7 @@ updated: 2026-08-13
 | [[household-timeline]] | Exact dates for both spouses; two of the three age-gap problems now settled. | Any sequencing question |
 | [[reps-real-estate-professional-status]] | Stacy's REPS: the two tests, the aggregation election, documentation, what it does and doesn't fix. | Before this year's log setup, and annually |
 | **[[roth-conversion-annual-protocol]]** | **The yearly decision engine** — how much to convert this year, with a runnable calculator. | **Every October** |
+| **[[2026-acquisitions-analysis]]** | **The 3 properties (~$1.8M), the §461(l) cap, and why 2027 may convert at ~9%.** Four verifications outstanding. | **Now — blocking** |
 | [[roth-conversion-window]] | The retirement-years window: 2042–2050, nine years, all Ryan's; IRMAA-vs-bracket math. | Phase 4–5 planning |
 | [[str-cost-segregation-playbook]] | The deduction engine: cost seg, bonus depreciation, the four loss limitations, the STR fallback door. | Before any acquisition |
 | [[stacy-rep-tracking-audit-2026]] | **Deep-dive audit of the REP hour tracking system** — what's broken, what's at risk, the fix list. | **Now — active findings** |
@@ -56,7 +57,8 @@ Full list in [[tax-mitigation-master-plan#Open items to resolve]].
 
 ## Immediate actions
 
-- [ ] **Execute the REP tracking fix list** — rebuild the 7/11–8/13 gap, purge non-qualifying entries, restart weekly tracking with alerts, Toggl on non-calendar work. See [[stacy-rep-tracking-audit-2026#Fix list (ordered)]]
+- [ ] **🔴 Rebuild the REP hour log (July 11 → today) from primary sources** — the three 2026 acquisitions make REPS worth **~$200–215K of 2026 tax**. ~250 defensible hours needed in 11 weeks. See [[2026-acquisitions-analysis]] and [[stacy-rep-tracking-audit-2026#Fix list (ordered)]]
+- [ ] **Get the three cost-seg studies**; confirm the 70% reclass is property-appropriate, financing is **recourse**, and each property was **placed in service by 12/31**
 - [x] ~~Get the Schwab positions~~ **Done** → [[schwab-portfolio-review-2026-07]]. #6686 confirmed as the after-tax sleeve; Stacy confirmed to have no accounts. Top remaining actions from the review: **turn on the $8,000 Roth catch-up**, **set up the recurring after-tax → Roth sweep**, and **ask whether after-tax contributions increase PRAP Cash** ([[united-comp-waterfall#An open question worth asking benefits]])
 - [ ] **Ask benefits about the active HRA** (general-purpose vs. limited) — it may be blocking HSA eligibility right now — and confirm the RHA reimburses Medicare premiums + IRMAA with survivor access
 - [x] ~~Ryan's Roth channels~~ **Backdoor running and pro-rata clean** (trad IRA holds $0.04; 8606s with the CPA)

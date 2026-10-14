@@ -86,7 +86,8 @@ python3 conversion_calculator.py --wages <YTD-projected W-2> \
 
 | Year | Projected income | RE loss | Converted | All-in rate | Notes |
 |---|---|---|---|---|---|
-| 2026 | ~$800K | TBD | — | — | No cost-seg deal closed yet; **in Colorado, so even a full-loss year costs 28.4%**. Likely $0 unless a deal lands and is placed in service by 12/31. |
+| 2026 | ~$800K | **~$1.0–1.26M** (3 properties, ~$1.8M, est. 70% reclass) | **pending** | 28.4% if taken | §461(l) caps 2026 use at $512K → AGI ~$288K; **$496–748K becomes an NOL carryforward**. Capacity $155K at 28.4%. **Decision held** pending the four verifications in [[2026-acquisitions-analysis]] — chiefly whether REPS holds. |
+| 2027 | ~$800K | NOL carryforward | **plan ~$200K** | **~8.8%** ⚠️ | **Potentially the cheapest year in the plan** — the 80% NOL limit means each converted dollar unlocks ~$0.80 more NOL. Depends on carryforward size and on §461(l) carrying forward as an NOL. See [[2026-acquisitions-analysis]]. |
 
 ## Maintenance
 
