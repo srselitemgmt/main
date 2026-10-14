@@ -6,7 +6,7 @@ updated: 2026-10-14
 
 # 2026 Acquisitions — Cost Seg, the §461(l) Cap, and the 2027 Opportunity
 
-**Summary**: Three properties, **~$1.8M total**, with cost segregation estimated at **70% reclassified to short-life property**. That produces roughly **$1.0–1.26M of year-one bonus depreciation** — about **double** what §461(l) allows against non-business income in a single year ($512,000 MFJ). The excess carries forward, and that carryforward turns **2027 into the cheapest conversion year in the entire plan — roughly $200K convertible at ~9% all-in**, far better than anything in the 2042–2050 window. Before any of that is real, four things must hold: REPS, at-risk basis, placed-in-service dates, and a 70% reclass rate that survives scrutiny.
+**Summary**: Three properties, **~$1.8M total**, with cost segregation estimated at **70% reclassified to short-life property**. That produces roughly **$1.0–1.26M of year-one bonus depreciation** — about **double** what §461(l) allows against non-business income in a single year ($512,000 MFJ). The excess carries forward as an NOL. ⚠️ **An earlier version of this note claimed the carryforward made 2027 a ~9% conversion year. That was wrong and has been corrected below — the true cost is ~35%.** Before any of this is real, four things must hold: REPS, at-risk basis, placed-in-service dates, and a 70% reclass rate that survives scrutiny.
 **Status**: estimates from Ryan 2026-10-14 — **nothing here is actionable until the four verifications below are complete**
 **Related**: [[roth-conversion-annual-protocol]] · [[str-cost-segregation-playbook]] · [[reps-real-estate-professional-status]] · [[stacy-rep-tracking-audit-2026]]
 
@@ -24,11 +24,19 @@ Either way 2026 AGI lands at **~$288,000**, and **~$500–750K of deduction is p
 
 **What the 2026 deduction is worth**: $512,000 of loss shelters W-2 income from ~$800K down to ~$288K — spanning the 37% bracket, the **SALT torpedo band at ~45.5%**, then 35/32/24% plus Colorado's 4.4%. That is roughly **$200,000–215,000 of 2026 tax**.
 
-## The 2027 finding — the cheapest conversion year in the plan
+## ❌ CORRECTED — 2027 is NOT a cheap conversion year
 
-Post-2017 NOLs are usable against **80% of taxable income**. That cap creates an unusual effect: **each dollar converted in 2027 raises taxable income, which raises the 80% ceiling, which unlocks ~$0.80 more NOL.** Only ~$0.20 of each converted dollar is actually exposed to tax, until the NOL runs out.
+**The original analysis here was an artifact of single-year modelling.** Post-2017 NOLs are capped at **80% of taxable income**, so each converted dollar raises taxable income, raises the 80% ceiling, and unlocks ~$0.80 more NOL — making only ~$0.20 appear taxed *in that year*. But **the NOL consumed would otherwise shelter the following year's W-2 income at 35–37% plus Colorado.** Measured across 2027+2028 together, the true cost is **~35%**, not ~9%.
 
-With a **$748,000** carryforward (2026 tables as proxy):
+| Convert in 2027 | Single-year rate (**wrong**) | **True 2-year rate** |
+|---|---|---|
+| $100,000 | 5.3% | **36.8%** |
+| $200,000 | 8.8% | **35.2%** |
+| $300,000 | 15.4% | **32.9%** |
+
+**Corrected guidance: do not convert into an NOL-carryforward year.** Let the carryforward burn against high-rate W-2 income. See [[strategy-review-2026-10#Part 1 — Audit of tonight's analysis]].
+
+The superseded single-year table, for reference:
 
 | Convert in 2027 | NOL used | Taxable income | Cost | **All-in rate** |
 |---|---|---|---|---|
@@ -40,7 +48,7 @@ With a **$748,000** carryforward (2026 tables as proxy):
 
 With the smaller **$496,000** carryforward the NOL is fully consumed before any conversion, so the rate reverts to the normal **28.4%** — no bonus.
 
-→ **The size of the carryforward is the single most valuable unknown right now.** If it lands near $748K, 2027 offers ~$200K of conversion at **~9%** — roughly a third of the 2042–45 rate and a quarter of the normal working-year rate.
+→ The carryforward size still matters — but for **how fast it shelters 2027–28 wages at 35–37%**, not for conversions.
 
 > [!warning] One rule this depends on — verify with Zach Fox before relying on it
 > This math assumes the §461(l) disallowed amount carries forward **as an NOL** subject to the 80%-of-taxable-income limit. That was the pre-OBBBA treatment and appears to be current law, but OBBBA reworked §461(l) and a competing reading would carry it forward **as an excess business loss** instead — re-tested against the cap each year rather than against the 80% rule. **The two readings produce very different 2027 answers** (~9% vs ~28%). Confirm before sizing a 2027 conversion.
@@ -49,7 +57,7 @@ With the smaller **$496,000** carryforward the NOL is fully consumed before any 
 
 At ~$288K AGI, the capacity is **$155,000 at 28.4% all-in**, stopping at $443K MAGI — safely below the SALT phase-down band that starts at $505K. Converting past that runs 34–39%.
 
-**Recommendation: hold the 2026 conversion decision until the cost-seg studies are final**, for one reason — if the carryforward is large, **2027 converts the same dollars at ~9% instead of 28.4%**. A 2026 conversion does not reduce the carryforward (the §461(l) cap is fixed at $512K regardless of income), so the two years are independent and both can be used. But if conversion-tax cash is limited, **2027 has first claim on it.**
+**Recommendation: hold the 2026 conversion decision until the cost-seg studies are final** — not because 2027 is cheaper (it isn't), but because the whole deduction depends on REPS, at-risk basis and placed-in-service dates holding up. Importantly, **a 2026 conversion does not reduce the carryforward** — the §461(l) cap is fixed at $512K regardless of income — so the 28.4% rate here is genuine, unlike 2027's.
 
 The case for converting in 2026 anyway: the projected $6–7M pre-tax balance exceeds all identified cheap capacity even after counting 2027 and the post-relocation years, so dollars converted at 28.4% still beat the RMD-era rates and the widow's-penalty tail they would otherwise face.
 

@@ -14,6 +14,18 @@ updated: 2026-10-14
 
 Roughly **99% of Ryan's retirement money is pre-tax** ([[schwab-portfolio-review-2026-07]]), projecting to **$6–7M by 2041**. Left alone that becomes RMDs at 32–37% plus a widow's-penalty tail. The nine-year 2042–2050 window cannot absorb it on its own — so the job is to find **every** year between now and death whose marginal cost is below the rate those dollars would otherwise face, and convert into it deliberately.
 
+## Rule 0 — Only convert into space that would otherwise expire unused
+
+Before sizing anything, ask what the conversion *displaces*. A low single-year rate is only real if nothing else would have used that space.
+
+| Shelter | Consumed by converting? | Conversion genuinely cheap? |
+|---|---|---|
+| **§461(l) cost-seg allowance** (fixed at $512K regardless of income) | **No** | ✅ **Yes — rate is real** |
+| **NOL carryforward** (limited to 80% of *taxable income*) | **Yes** — converting accelerates it | ❌ **No — low rate is an illusion** |
+| **Empty retirement-year brackets** | Nothing to consume | ✅ **Yes** |
+
+This rule exists because the first version of this analysis got it wrong: a 2027 conversion appeared to cost 8.8% in a one-year view and **~35% once the following year was included**. Always test across at least two years when a carryforward is in play.
+
 ## Rule 1 — Target the blended rate, not the marginal rate
 
 Convert until the **all-in cost of the entire year's conversion** reaches **24%**. Then stop.
@@ -87,7 +99,7 @@ python3 conversion_calculator.py --wages <YTD-projected W-2> \
 | Year | Projected income | RE loss | Converted | All-in rate | Notes |
 |---|---|---|---|---|---|
 | 2026 | ~$800K | **~$1.0–1.26M** (3 properties, ~$1.8M, est. 70% reclass) | **pending** | 28.4% if taken | §461(l) caps 2026 use at $512K → AGI ~$288K; **$496–748K becomes an NOL carryforward**. Capacity $155K at 28.4%. **Decision held** pending the four verifications in [[2026-acquisitions-analysis]] — chiefly whether REPS holds. |
-| 2027 | ~$800K | NOL carryforward | **plan ~$200K** | **~8.8%** ⚠️ | **Potentially the cheapest year in the plan** — the 80% NOL limit means each converted dollar unlocks ~$0.80 more NOL. Depends on carryforward size and on §461(l) carrying forward as an NOL. See [[2026-acquisitions-analysis]]. |
+| 2027 | ~$800K | NOL carryforward | **$0** | ~35% true | ❌ **Corrected** — an earlier ~8.8% estimate was a single-year artifact. Converting consumes NOL that would otherwise shelter 2028 wages at 35–37%. **Do not convert into an NOL year.** See [[strategy-review-2026-10]]. |
 
 ## Maintenance
 

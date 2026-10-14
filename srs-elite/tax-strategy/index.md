@@ -7,7 +7,7 @@ updated: 2026-08-13
 # Tax Strategy — Hub
 
 **Summary**: Map of content for the tax mitigation vault. Start with the master plan; the other notes are the depth behind its phases.
-**Profile**: MFJ · **Ryan** b. 8/3/1976 (50), United Flight Evaluator, W-2 **~$800K**, mandatory retirement 8/3/2041 · **Stacy** b. 2/17/1971 (55), **full-time real estate professional** (seller leads, acquisitions, tenant management), **no retirement accounts yet** · **Colorado**, relocating to a no-tax state before retirement · RMD age 75 for both
+**Profile**: MFJ · **Ryan** b. 8/3/1976 (50), United Flight Evaluator, W-2 **~$800K**, mandatory retirement 8/3/2041 · **Stacy** b. 2/17/1971 (55), **full-time real estate professional**, no earned income, no retirement accounts yet · **Colorado → Florida ~2030** · RMD age 75 for both
 **Updated**: 2026-08-13
 
 ## Notes
@@ -18,7 +18,8 @@ updated: 2026-08-13
 | [[household-timeline]] | Exact dates for both spouses; two of the three age-gap problems now settled. | Any sequencing question |
 | [[reps-real-estate-professional-status]] | Stacy's REPS: the two tests, the aggregation election, documentation, what it does and doesn't fix. | Before this year's log setup, and annually |
 | **[[roth-conversion-annual-protocol]]** | **The yearly decision engine** — how much to convert this year, with a runnable calculator. | **Every October** |
-| **[[2026-acquisitions-analysis]]** | **The 3 properties (~$1.8M), the §461(l) cap, and why 2027 may convert at ~9%.** Four verifications outstanding. | **Now — blocking** |
+| **[[strategy-review-2026-10]]** | **Full CPA/CFP-level audit** — lifetime projection, the FL-move math, structural gaps, corrected errors. | **Start here for the big picture** |
+| **[[2026-acquisitions-analysis]]** | The 3 properties (~$1.8M), the §461(l) cap, four outstanding verifications. | **Now — blocking** |
 | [[roth-conversion-window]] | The retirement-years window: 2042–2050, nine years, all Ryan's; IRMAA-vs-bracket math. | Phase 4–5 planning |
 | [[str-cost-segregation-playbook]] | The deduction engine: cost seg, bonus depreciation, the four loss limitations, the STR fallback door. | Before any acquisition |
 | [[stacy-rep-tracking-audit-2026]] | **Deep-dive audit of the REP hour tracking system** — what's broken, what's at risk, the fix list. | **Now — active findings** |
@@ -32,7 +33,7 @@ updated: 2026-08-13
 
 1. **Fill every tax-advantaged channel now** — Ryan's voluntary dollars go Roth (catch-up, backdoor, after-tax sweep); **Stacy gets a spousal backdoor Roth**; and from 2027–28 the **MBCBP** captures ~$65K/yr that is currently taxed as PRAP Cash.
 2. **Run the real estate portfolio through Stacy's REPS** — her full-time real estate work makes *every* rental's cost-seg losses (MHPs and RV parks included) deductible against Ryan's W-2 income, up to the $512K/year excess-business-loss cap.
-3. **Relocate to a no-income-tax state before 2041** — federal law then bars the former state from ever taxing the retirement distributions.
+3. **Move to Florida ~2030** — conversions are sourced to the residence state, so from 2030 they cost federal tax only (24% vs 28.4%), unlocking ~$1.86M of cheap conversion capacity across the remaining working years.
 4. **Convert Ryan's pre-tax balance at every 24%-or-better opportunity** — not just 2042–2050. Post-relocation working years carrying a full cost-seg loss convert ~$155K at a flat 24%; the 2042–45 years paired with an acquisition convert ~$550K at 23.9%. Sized annually by [[roth-conversion-annual-protocol]].
 5. **Each spouse claims Social Security at 70** — Stacy 2/2041, Ryan 8/2046 — maximizing the survivor benefit.
 6. **Never sell what gets a basis step-up** — convert the IRAs (no step-up), hold the brokerage and real estate (step-up erases all depreciation recapture).
